@@ -5,8 +5,10 @@ import { Services } from "@/components/site/Services";
 import { WhyMe } from "@/components/site/WhyMe";
 import { Portfolio } from "@/components/site/Portfolio";
 import { Reviews } from "@/components/site/Reviews";
+import { FAQ } from "@/components/site/FAQ";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
+import { FloatingCTA } from "@/components/site/FloatingCTA";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -89,8 +91,10 @@ function Index() {
       <WhyMe />
       <Portfolio />
       <Reviews />
+      <FAQ />
       <Contact />
       <Footer />
+      <FloatingCTA />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { LikeButton } from "@/components/site/LikeButton";
@@ -68,8 +69,28 @@ function BlogPostPage() {
   const lp = localize(post, lang);
   const others = posts.filter((p) => p.slug !== post.slug).slice(0, 2).map((p) => localize(p, lang));
 
+  const url = `https://vladislavbdev.com/blog/${lp.slug}`;
   return (
     <main className="relative min-h-screen bg-background text-foreground">
+      <Helmet>
+        <title>{lp.title} — Блог Vladislav</title>
+        <meta name="description" content={lp.excerpt} />
+        <meta property="og:title" content={lp.title} />
+        <meta property="og:description" content={lp.excerpt} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={url} />
+        <link rel="canonical" href={url} />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: lp.title,
+          description: lp.excerpt,
+          datePublished: lp.date,
+          author: { "@type": "Person", name: "Vladislav Bairactar" },
+          inLanguage: lang,
+          url,
+        })}</script>
+      </Helmet>
       <Navbar />
       <article className="relative pt-32 pb-20 px-6 overflow-hidden">
         <div className="absolute inset-0 grid-bg opacity-50" />
