@@ -374,7 +374,7 @@ const translations: Record<Lang, Dict> = {
     "payment.kicker": "Transparent și corect",
     "payment.title1": "Cum",
     "payment.title2": "funcționează plata",
-    "payment.subtitle": "Niciun avans „în gol". Condiții clare, acord scris și plată etapizată — tu controlezi mereu banii tăi.",
+    "payment.subtitle": "Niciun avans în gol. Condiții clare, acord scris și plată etapizată — tu controlezi mereu banii tăi.",
     "payment.step": "Pas",
     "payment.step1.title": "Discutăm sarcina",
     "payment.step1.desc": "Ne scriem sau vorbim — clarificăm ce anume trebuie, ce rezultat aștepți, termenele. Totul se fixează în scris în caietul de sarcini. Abia după aceea trecem la plată.",
