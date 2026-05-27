@@ -17,6 +17,7 @@ export function Navbar() {
     { href: "/#why", label: t("nav.why") },
     { href: "/#portfolio", label: t("nav.portfolio") },
     { href: "/#reviews", label: t("nav.reviews") },
+    { href: "/#payment", label: t("nav.payment") },
   ];
   return (
     <motion.header

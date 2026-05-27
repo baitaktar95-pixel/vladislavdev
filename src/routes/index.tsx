@@ -6,6 +6,7 @@ import { WhyMe } from "@/components/site/WhyMe";
 import { Portfolio } from "@/components/site/Portfolio";
 import { Reviews } from "@/components/site/Reviews";
 import { FAQ } from "@/components/site/FAQ";
+import { Payment } from "@/components/site/Payment";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { FloatingCTA } from "@/components/site/FloatingCTA";
@@ -92,6 +93,7 @@ function Index() {
       <Portfolio />
       <Reviews />
       <FAQ />
+      <Payment />
       <Contact />
       <Footer />
       <FloatingCTA />
