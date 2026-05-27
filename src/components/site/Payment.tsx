@@ -10,6 +10,7 @@ const steps = [
 
 const methods = [
   { emoji: "💳", key: "card" },
+  { emoji: "🏦", key: "apb" },
   { emoji: "🌐", key: "paypal" },
   { emoji: "₿",  key: "crypto" },
   { emoji: "💵", key: "cash" },
