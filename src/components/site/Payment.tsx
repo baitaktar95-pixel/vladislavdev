@@ -8,12 +8,22 @@ const steps = [
   { key: "deliver", icon: ShieldCheck },
 ];
 
+function ApbLogo() {
+  return (
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="16" cy="16" r="15" fill="#0054A6" />
+      <path d="M16 5 L24 10 L24 22 L16 27 L8 22 L8 10 Z" fill="#003D8F" stroke="#4A90D9" strokeWidth="0.5" />
+      <text x="16" y="20" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold" fontFamily="Arial">АПБ</text>
+    </svg>
+  );
+}
+
 const methods = [
-  { emoji: "💳", key: "card" },
-  { emoji: "🏦", key: "apb" },
-  { emoji: "🌐", key: "paypal" },
-  { emoji: "₿",  key: "crypto" },
-  { emoji: "💵", key: "cash" },
+  { emoji: "💳", key: "card",   logo: null },
+  { emoji: null,  key: "apb",   logo: <ApbLogo /> },
+  { emoji: "🌐", key: "paypal", logo: null },
+  { emoji: "₿",  key: "crypto", logo: null },
+  { emoji: "💵", key: "cash",   logo: null },
 ];
 
 const guarantees = ["guarantee1", "guarantee2", "guarantee3", "guarantee4"];
@@ -86,9 +96,13 @@ export function Payment() {
               <h3 className="font-semibold">{t("payment.methods.title")}</h3>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              {methods.map(({ emoji, key }) => (
+              {methods.map(({ emoji, key, logo }) => (
                 <div key={key} className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3">
-                  <span className="text-xl">{emoji}</span>
+                  {logo ? (
+                    <span className="flex-shrink-0">{logo}</span>
+                  ) : (
+                    <span className="text-xl flex-shrink-0">{emoji}</span>
+                  )}
                   <div>
                     <div className="text-sm font-medium">{t(`payment.method.${key}.name`)}</div>
                     <div className="text-xs text-muted-foreground">{t(`payment.method.${key}.desc`)}</div>
