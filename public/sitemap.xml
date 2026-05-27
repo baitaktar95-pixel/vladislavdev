@@ -4,19 +4,19 @@
     <loc>https://vladislavbdev.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
     <loc>https://vladislavbdev.com/reviews</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
     <loc>https://vladislavbdev.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
     <loc>https://vladislavbdev.com/blog/telegram-bot-dlya-biznesa-moldova</loc>
@@ -35,5 +35,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-05-14</lastmod>
+  </url>
+  <url>
+    <loc>https://vladislavbdev.com/blog/lending-dlya-biznesa-moldova</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-27</lastmod>
   </url>
 </urlset>
