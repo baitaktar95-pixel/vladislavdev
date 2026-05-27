@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { createFileRoute, useNavigate, Link } from "@tanstack/react-router";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/hooks/use-auth";
-import { Star, Check, Trash2, Loader2, LogOut } from "lucide-react";
+import { Star, Check, Trash2, Loader2, LogOut, Save } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/admin/reviews")({
@@ -22,6 +22,8 @@ type AdminReview = {
   contact: string;
   rating: number;
   text: string;
+  text_en: string | null;
+  text_ro: string | null;
   approved: boolean;
   created_at: string;
 };
@@ -137,7 +139,7 @@ function AdminReviewsPage() {
             <p className="text-muted-foreground">Нет новых отзывов</p>
           ) : (
             pending.map((r) => (
-              <ReviewRow key={r.id} review={r} busy={busyId === r.id} onApprove={approve} onDelete={remove} />
+              <ReviewRow key={r.id} review={r} busy={busyId === r.id} onApprove={approve} onDelete={remove} onSaved={load} />
             ))
           )}
         </Section>
@@ -147,7 +149,7 @@ function AdminReviewsPage() {
             <p className="text-muted-foreground">Пока ничего не опубликовано</p>
           ) : (
             approved.map((r) => (
-              <ReviewRow key={r.id} review={r} busy={busyId === r.id} onDelete={remove} />
+              <ReviewRow key={r.id} review={r} busy={busyId === r.id} onDelete={remove} onSaved={load} />
             ))
           )}
         </Section>
@@ -170,12 +172,26 @@ function ReviewRow({
   busy,
   onApprove,
   onDelete,
+  onSaved,
 }: {
   review: AdminReview;
   busy: boolean;
   onApprove?: (id: string) => void;
   onDelete: (id: string) => void;
+  onSaved: () => void;
 }) {
+  const [en, setEn] = useState(review.text_en ?? "");
+  const [ro, setRo] = useState(review.text_ro ?? "");
+  const [saving, setSaving] = useState(false);
+
+  async function saveTranslations() {
+    setSaving(true);
+    const { error } = await supabase.from("reviews").update({ text_en: en || null, text_ro: ro || null }).eq("id", review.id);
+    setSaving(false);
+    if (error) toast.error(error.message);
+    else { toast.success("Переводы сохранены"); onSaved(); }
+  }
+
   return (
     <div className="rounded-2xl border border-border bg-card/50 p-5">
       <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
@@ -190,11 +206,37 @@ function ReviewRow({
         </div>
       </div>
       <p className="text-foreground/90 mb-4">{review.text}</p>
+
+      {/* Translations */}
+      <div className="space-y-2 mb-4">
+        <textarea
+          value={en}
+          onChange={(e) => setEn(e.target.value)}
+          placeholder="Перевод EN (оставьте пустым — будет показан оригинал)"
+          rows={2}
+          className="w-full rounded-xl border border-border bg-background/50 px-3 py-2 text-sm placeholder:text-muted-foreground resize-none focus:outline-none focus:border-neon/50"
+        />
+        <textarea
+          value={ro}
+          onChange={(e) => setRo(e.target.value)}
+          placeholder="Traducere RO (lăsați gol — se va afișa originalul)"
+          rows={2}
+          className="w-full rounded-xl border border-border bg-background/50 px-3 py-2 text-sm placeholder:text-muted-foreground resize-none focus:outline-none focus:border-neon/50"
+        />
+      </div>
+
       <div className="flex items-center justify-between text-xs">
         <span className="text-muted-foreground">
           {new Date(review.created_at).toLocaleString("ru-RU")}
         </span>
         <div className="flex gap-2">
+          <button
+            disabled={saving}
+            onClick={saveTranslations}
+            className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full border border-neon/40 text-neon hover:bg-neon/10 transition-colors disabled:opacity-50"
+          >
+            <Save className="w-3.5 h-3.5" /> Сохранить переводы
+          </button>
           {onApprove && (
             <button
               disabled={busy}

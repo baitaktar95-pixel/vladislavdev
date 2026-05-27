@@ -37,7 +37,7 @@ function ReviewsPage() {
     setLoading(true);
     const { data } = await supabase
       .from("reviews_public")
-      .select("id, name, city, rating, text, created_at")
+      .select("id, name, city, rating, text, text_en, text_ro, created_at")
       .order("created_at", { ascending: false });
     setReviews((data ?? []) as Review[]);
     setLoading(false);

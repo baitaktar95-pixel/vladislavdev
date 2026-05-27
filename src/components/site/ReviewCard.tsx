@@ -8,6 +8,8 @@ export type Review = {
   city: string;
   rating: number;
   text: string;
+  text_en?: string | null;
+  text_ro?: string | null;
   created_at: string;
 };
 
