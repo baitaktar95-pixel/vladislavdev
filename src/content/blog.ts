@@ -318,6 +318,101 @@ export const posts: BlogPost[] = [
       },
     },
   },
+  {
+    slug: "lending-dlya-biznesa-moldova",
+    emoji: "🚀",
+    date: "2026-05-27",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Лендинг для бизнеса: что это и почему он лучше обычного сайта",
+        excerpt:
+          "Как одностраничный лендинг приводит клиентов в Кишинёве, Тирасполе и ПМР лучше, чем многостраничный сайт — и когда именно он нужен.",
+        readTime: "5 мин",
+        ctaLabel: "Заказать лендинг",
+        intro:
+          "Лендинг — это не 'дешёвый сайт'. Это целевая страница с одной задачей: превратить посетителя в клиента. Пока многостраничный сайт рассказывает обо всём, лендинг бьёт в одну точку — и конвертирует в 2–3 раза лучше. Для бизнеса в Молдове и ПМР это часто самый быстрый способ начать получать заявки из интернета.",
+        sections: [
+          {
+            heading: "Что такое лендинг и чем он отличается от сайта",
+            body: "Обычный сайт — это несколько страниц: главная, о нас, услуги, контакты. Клиент блуждает между ними и часто уходит, так ничего и не сделав. Лендинг — одна страница, один оффер, одна кнопка. Всё на нём выстроено так, чтобы посетитель либо оставил заявку, либо позвонил, либо купил. Никаких лишних ссылок, никаких отвлечений. Именно поэтому лендинги показывают конверсию 5–15% против 1–3% у обычных сайтов.",
+          },
+          {
+            heading: "Когда лендинг нужен бизнесу в Молдове и ПМР",
+            body: "Лендинг — правильный выбор в четырёх случаях. 1) Вы запускаете рекламу в Google или Instagram и хотите максимум заявок с каждого вложенного евро — лендинг конвертирует трафик лучше любого сайта. 2) У вас одна ключевая услуга: доставка, маникюр, юридическая консультация, курс — одна страница описывает её лучше, чем целый сайт. 3) Нужно проверить нишу за неделю, не тратя деньги на полноценный сайт. 4) Акция или сезонное предложение — лендинг делается быстро и под конкретный повод.",
+          },
+          {
+            heading: "Из чего состоит лендинг, который продаёт",
+            body: "Первый экран: цепляющий заголовок с конкретной выгодой ('Сайт под ключ за 7 дней — или возврат денег'), подзаголовок с уточнением и кнопка 'Заказать'. Блок с болью: 3–5 проблем, которые решает ваш продукт. Блок с решением: что конкретно получает клиент. Социальные доказательства: отзывы с фото, цифры, кейсы. Цена или диапазон цен — без цены 60% посетителей уходят. Форма заявки: имя + телефон, не больше. Гарантия или оффер снижения риска. Каждый блок работает на одно: убрать возражение и двинуть вниз к кнопке.",
+          },
+          {
+            heading: "Сколько стоит лендинг и когда он окупается",
+            body: "Лендинг для бизнеса в Молдове и ПМР — от 150 €, срок 3–5 рабочих дней. В цену входит дизайн, разработка, подключение формы в Telegram и базовая SEO-оптимизация. При запуске рекламы с бюджетом 50–100 € в месяц лендинг приносит 10–30 заявок. Одна закрытая сделка у мастера маникюра, юриста или доставки покрывает стоимость страницы целиком. Правильно сделанный лендинг окупается за первые 2–3 недели работы.",
+          },
+        ],
+        outro:
+          "Если у вас есть услуга, которую вы хотите продавать через интернет — лендинг это самый быстрый путь от нуля до первой заявки. Напишите мне, и за 15 минут разберём, что именно нужно именно вашему бизнесу в Молдове или ПМР.",
+      },
+      en: {
+        title: "Landing page for business: what it is and why it beats a regular website",
+        excerpt:
+          "How a single-page landing brings in customers in Chișinău, Tiraspol and Transnistria better than a multi-page website — and when exactly you need one.",
+        readTime: "5 min",
+        ctaLabel: "Order a landing page",
+        intro:
+          "A landing page is not a 'cheap website'. It's a targeted page with one job: turn a visitor into a customer. While a multi-page site talks about everything, a landing page hits one point — and converts 2–3× better. For businesses in Moldova and Transnistria it's often the fastest way to start getting leads from the internet.",
+        sections: [
+          {
+            heading: "What a landing page is and how it differs from a website",
+            body: "A regular website has multiple pages: home, about, services, contacts. The visitor wanders between them and often leaves without doing anything. A landing page is one page, one offer, one button. Everything on it is set up so the visitor either submits a request, calls, or buys. No extra links, no distractions. That's why landing pages show 5–15% conversion versus 1–3% for regular websites.",
+          },
+          {
+            heading: "When a business in Moldova and Transnistria needs a landing page",
+            body: "A landing page is the right choice in four cases. 1) You're running ads on Google or Instagram and want maximum leads from every euro — a landing converts traffic better than any website. 2) You have one key service: delivery, nail art, legal consultation, a course — one page describes it better than a whole site. 3) You want to test a niche in a week without spending money on a full website. 4) A promotion or seasonal offer — a landing is built quickly and for a specific occasion.",
+          },
+          {
+            heading: "What a selling landing page is made of",
+            body: "First screen: a hooky headline with a concrete benefit ('Website ready in 7 days — or your money back'), a sub-headline with details and a 'Order' button. Pain block: 3–5 problems your product solves. Solution block: what the customer gets specifically. Social proof: reviews with photos, numbers, case studies. Price or price range — without a price 60% of visitors leave. Lead form: name + phone, nothing more. A guarantee or risk-reduction offer. Every block has one job: remove an objection and move the visitor down to the button.",
+          },
+          {
+            heading: "How much a landing page costs and when it pays back",
+            body: "A landing page for a business in Moldova and Transnistria starts from €150, ready in 3–5 working days. The price includes design, development, form connected to Telegram and basic SEO. With ads running at a budget of €50–100 a month, a landing brings in 10–30 leads. One closed deal for a nail master, lawyer or delivery service covers the cost of the page in full. A well-built landing pays for itself within the first 2–3 weeks.",
+          },
+        ],
+        outro:
+          "If you have a service you want to sell online — a landing page is the fastest path from zero to your first lead. Drop me a message and in 15 minutes we'll figure out exactly what your business in Moldova or Transnistria needs.",
+      },
+      ro: {
+        title: "Landing page pentru afaceri: ce este și de ce e mai bun decât un site obișnuit",
+        excerpt:
+          "Cum o pagină de destinație aduce clienți în Chișinău, Tiraspol și Transnistria mai bine decât un site cu mai multe pagini — și când ai nevoie de una.",
+        readTime: "5 min",
+        ctaLabel: "Comandă un landing",
+        intro:
+          "Un landing page nu este un 'site ieftin'. Este o pagină țintă cu un singur scop: să transforme vizitatorul în client. În timp ce un site cu mai multe pagini vorbește despre toate, landing-ul lovește într-un singur punct — și convertește de 2–3× mai bine. Pentru afacerile din Moldova și Transnistria, acesta este adesea cel mai rapid mod de a începe să primești cereri de pe internet.",
+        sections: [
+          {
+            heading: "Ce este un landing page și cum diferă de un site",
+            body: "Un site obișnuit are mai multe pagini: acasă, despre noi, servicii, contacte. Vizitatorul rătăcește între ele și pleacă adesea fără să facă nimic. Un landing page este o singură pagină, o singură ofertă, un singur buton. Totul este construit astfel încât vizitatorul fie lasă o cerere, fie sună, fie cumpără. Niciun link în plus, nicio distragere. De aceea landing-urile arată o conversie de 5–15% față de 1–3% la site-urile obișnuite.",
+          },
+          {
+            heading: "Când are nevoie o afacere din Moldova de un landing page",
+            body: "Un landing page este alegerea corectă în patru cazuri. 1) Rulezi reclame pe Google sau Instagram și vrei maximum de cereri la fiecare euro investit — un landing convertește traficul mai bine decât orice site. 2) Ai un serviciu-cheie: livrare, unghii, consultanță juridică, un curs — o pagină îl descrie mai bine decât un întreg site. 3) Vrei să testezi o nișă într-o săptămână fără să cheltui pe un site complet. 4) O promoție sau ofertă sezonieră — un landing se face rapid și pentru o ocazie specifică.",
+          },
+          {
+            heading: "Din ce este format un landing page care vinde",
+            body: "Primul ecran: titlu atrăgător cu un avantaj concret ('Site la cheie în 7 zile — sau banii înapoi'), subtitlu cu detalii și buton 'Comandă'. Bloc de durere: 3–5 probleme pe care le rezolvă produsul tău. Bloc de soluție: ce primește clientul concret. Dovezi sociale: recenzii cu poze, cifre, studii de caz. Prețul sau intervalul de prețuri — fără preț, 60% din vizitatori pleacă. Formular de cerere: nume + telefon, nimic mai mult. O garanție sau ofertă de reducere a riscului. Fiecare bloc are un singur scop: elimină o obiecție și mișcă vizitatorul spre buton.",
+          },
+          {
+            heading: "Cât costă un landing și când se amortizează",
+            body: "Un landing page pentru o afacere din Moldova și Transnistria pornește de la 150 €, gata în 3–5 zile lucrătoare. Prețul include design, dezvoltare, formular conectat la Telegram și optimizare SEO de bază. Cu reclame la un buget de 50–100 € pe lună, un landing aduce 10–30 de cereri. O singură afacere încheiată — manichiuristă, avocat sau livrare — acoperă costul paginii în totalitate. Un landing bine construit se amortizează în primele 2–3 săptămâni.",
+          },
+        ],
+        outro:
+          "Dacă ai un serviciu pe care vrei să-l vinzi online — un landing page este calea cea mai rapidă de la zero la prima cerere. Scrie-mi și în 15 minute vedem exact ce are nevoie afacerea ta din Moldova sau Transnistria.",
+      },
+    },
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
