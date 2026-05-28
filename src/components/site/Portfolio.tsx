@@ -71,6 +71,7 @@ const projects: Array<{
     gradient: "from-blue-700/50 via-blue-500/30 to-cyan-400/50",
     glow: "shadow-[0_0_60px_-10px_rgba(76,201,255,0.7)]",
     url: "@test_haircut_bot",
+    href: "https://t.me/test_haircut_bot",
     mockup: "phone",
     Render: MassageBot,
   },

@@ -164,15 +164,6 @@ export function MassageBot() {
         alt="Telegram бот Студия массажа Баланс"
         className="absolute inset-0 w-full h-full object-cover object-top"
       />
-      {/* Живая кнопка попробовать */}
-      <a
-        href="https://t.me/test_haircut_bot"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-blue-500 hover:bg-blue-400 transition-colors text-white text-[8px] font-bold px-3 py-1.5 rounded-full shadow-lg whitespace-nowrap z-10"
-      >
-        ▶ Попробовать бота
-      </a>
     </div>
   );
 }
