@@ -150,37 +150,29 @@ export function ChemistryShop() {
   );
 }
 
-/* 🤖 BotHelper — Telegram bot */
+/* 🤖 BotHelper — kept for backward compat */
 export function BotHelper() {
+  return <MassageBot />;
+}
+
+/* 💆 Студия массажа «Баланс» — реальный скриншот бота */
+export function MassageBot() {
   return (
-    <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-600 to-cyan-400 p-3 flex flex-col">
-      <div className="flex items-center gap-2 mb-2">
-        <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-sm">
-          🤖
-        </div>
-        <div>
-          <div className="text-[8px] font-bold text-white">BotHelper</div>
-          <div className="text-[6px] text-cyan-200">online · CRM подключён</div>
-        </div>
-      </div>
-      <div className="flex-1 space-y-1.5 overflow-hidden">
-        <div className="bg-white/15 backdrop-blur rounded-lg rounded-tl-none p-1.5 max-w-[80%] text-[7px] text-white">
-          Здравствуйте! Хотите записаться?
-        </div>
-        <div className="bg-cyan-400 rounded-lg rounded-tr-none p-1.5 max-w-[60%] ml-auto text-[7px] text-blue-900 font-medium">
-          Да, на завтра в 15:00
-        </div>
-        <div className="bg-white/15 backdrop-blur rounded-lg rounded-tl-none p-1.5 text-[7px] text-white">
-          ✅ Записал! Напомню за час.
-          <div className="mt-1 flex gap-1">
-            <span className="px-1.5 py-0.5 bg-white/20 rounded text-[6px]">📅 Календарь</span>
-            <span className="px-1.5 py-0.5 bg-white/20 rounded text-[6px]">📞 Звонок</span>
-          </div>
-        </div>
-      </div>
-      <div className="bg-white/10 rounded-full px-2 py-1 mt-1 text-[6px] text-white/60">
-        Сообщение...
-      </div>
+    <div className="absolute inset-0 overflow-hidden bg-[#1a2635]">
+      <img
+        src="/massage_bot_demo.png"
+        alt="Telegram бот Студия массажа Баланс"
+        className="absolute inset-0 w-full h-full object-cover object-top"
+      />
+      {/* Живая кнопка попробовать */}
+      <a
+        href="https://t.me/test_haircut_bot"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-blue-500 hover:bg-blue-400 transition-colors text-white text-[8px] font-bold px-3 py-1.5 rounded-full shadow-lg whitespace-nowrap z-10"
+      >
+        ▶ Попробовать бота
+      </a>
     </div>
   );
 }
