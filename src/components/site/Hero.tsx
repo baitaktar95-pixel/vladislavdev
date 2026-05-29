@@ -73,7 +73,7 @@ export function Hero() {
           className="mt-20 grid grid-cols-3 gap-8 max-w-md mx-auto"
         >
           {[
-            { v: "50+", l: t("hero.stat.projects") },
+            { v: "20+", l: t("hero.stat.projects") },
             { v: "3+", l: t("hero.stat.years") },
             { v: "24/7", l: t("hero.stat.support") },
           ].map((s) => (
