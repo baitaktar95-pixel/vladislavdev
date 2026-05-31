@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Globe, Bot, BrainCircuit, Sparkles, TrendingUp, Clock } from "lucide-react";
+import { Globe, Bot, BrainCircuit, Workflow, Sparkles, TrendingUp, Clock } from "lucide-react";
 import { useT } from "@/i18n";
 
 export function Services() {
@@ -8,6 +8,7 @@ export function Services() {
     { icon: Globe, emoji: "🌐", title: t("services.web.title"), price: "от $150", desc: t("services.web.desc") },
     { icon: Bot, emoji: "🤖", title: t("services.bot.title"), price: "от $120", desc: t("services.bot.desc") },
     { icon: BrainCircuit, emoji: "🧠", title: t("services.ai.title"), price: "от $200", desc: t("services.ai.desc") },
+    { icon: Workflow, emoji: "🦾", title: t("services.agent.title"), price: "от $250", desc: t("services.agent.desc") },
   ];
   return (
     <section id="services" className="relative py-32 px-6">
@@ -25,7 +26,7 @@ export function Services() {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((s, i) => {
             const Icon = s.icon;
             return (
