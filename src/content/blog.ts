@@ -413,6 +413,291 @@ export const posts: BlogPost[] = [
       },
     },
   },
+  {
+    slug: "skolko-stoit-sayt-v-tiraspole-2026",
+    emoji: "💰",
+    date: "2026-06-03",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Сколько стоит сайт в Тирасполе и Молдове в 2026 году",
+        excerpt:
+          "Честные цены на создание сайта в Тирасполе, Кишинёве и по всей Молдове и ПМР: от лендинга до интернет-магазина. Без скрытых платежей.",
+        readTime: "5 мин",
+        ctaLabel: "Узнать цену",
+        intro:
+          "Первый вопрос, который задаёт каждый предприниматель в Тирасполе, Бендерах или Кишинёве: «Сколько будет стоить сайт?» Честный ответ — зависит от задач. Ниже разберу реальные цены 2026 года по типам сайтов, без воды и скрытых доплат, чтобы вы понимали за что платите.",
+        sections: [
+          {
+            heading: "Лендинг (одностраничный сайт) — от 150 €",
+            body: "Лендинг — это одна страница, которая продаёт один товар или услугу. Идеален для мастера маникюра, частного юриста, фитнес-тренера или запуска акции. Включает: цепляющий первый экран, блок выгод, отзывы, форму заявки и кнопку WhatsApp/Telegram. Срок — 3–5 дней. Это самый быстрый способ начать получать заявки из интернета в Тирасполе или Кишинёве.",
+          },
+          {
+            heading: "Сайт-визитка и корпоративный сайт — от 250 €",
+            body: "Многостраничный сайт для компании: главная, услуги, о нас, портфолио, контакты. Подходит салонам красоты, стоматологиям, строительным фирмам, автосервисам. Сюда входит адаптивность под телефон (большинство клиентов в ПМР заходят с мобильного), базовое SEO под локальные запросы и подключение домена. Срок — 5–10 дней.",
+          },
+          {
+            heading: "Интернет-магазин — от 400 €",
+            body: "Полноценный магазин с каталогом, корзиной, оформлением заказа, оплатой и админ-панелью для управления товарами. Реальный пример — магазин бытовой химии с доставкой по ПМР, который я сделал под ключ: более 1000 товаров, заказы падают менеджеру автоматически. Срок — от 2 недель. Цена зависит от количества товаров и нужной автоматизации.",
+          },
+          {
+            heading: "Что входит в цену и от чего она зависит",
+            body: "В стоимость всегда входят: дизайн, вёрстка, адаптив под мобильные, подключение домена и первый месяц поддержки. Цена растёт, если нужны: интеграция с CRM, онлайн-оплата, многоязычность (RU/RO/EN), AI-бот для заявок. Я работаю без скрытых платежей — фиксируем объём письменно, и итог не меняется. Поддержка и хостинг — от 15 €/мес, чтобы сайт всегда был онлайн и обновлялся.",
+          },
+        ],
+        outro:
+          "Цена сайта — это не расход, а инструмент, который приводит клиентов 24/7. Напишите мне, опишите свой бизнес в Тирасполе, Кишинёве или любом городе Молдовы — и я назову точную цену и срок за 15 минут, бесплатно.",
+      },
+      en: {
+        title: "How much does a website cost in Tiraspol and Moldova in 2026",
+        excerpt:
+          "Honest pricing for website development in Tiraspol, Chișinău and across Moldova and Transnistria: from a landing page to an online store. No hidden fees.",
+        readTime: "5 min",
+        ctaLabel: "Get a quote",
+        intro:
+          "The first question every business owner in Tiraspol, Bender or Chișinău asks is: 'How much will a website cost?' The honest answer — it depends on the goals. Below are real 2026 prices by website type, with no fluff and no hidden charges, so you know exactly what you pay for.",
+        sections: [
+          {
+            heading: "Landing page (one-page site) — from €150",
+            body: "A landing page is a single page that sells one product or service. Perfect for a nail tech, a private lawyer, a fitness trainer or a promo launch. It includes a strong hero screen, a benefits block, reviews, a lead form and a WhatsApp/Telegram button. Timeline — 3–5 days. It's the fastest way to start getting leads online in Tiraspol or Chișinău.",
+          },
+          {
+            heading: "Business card & corporate site — from €250",
+            body: "A multi-page company site: home, services, about, portfolio, contacts. Great for beauty salons, dental clinics, construction firms, car services. Includes mobile responsiveness (most clients in Transnistria browse on phones), basic local SEO and domain setup. Timeline — 5–10 days.",
+          },
+          {
+            heading: "Online store — from €400",
+            body: "A full store with catalog, cart, checkout, payments and an admin panel to manage products. A real example — a household chemicals store with delivery across Transnistria that I built turnkey: 1000+ products, orders flow to the manager automatically. Timeline — from 2 weeks. Price depends on product count and required automation.",
+          },
+          {
+            heading: "What's included and what affects the price",
+            body: "The price always includes: design, build, mobile responsiveness, domain setup and the first month of support. It grows if you need CRM integration, online payments, multilingual (RU/RO/EN) or an AI lead bot. I work with no hidden fees — we fix the scope in writing and the total doesn't change. Support and hosting — from €15/mo to keep the site online and updated.",
+          },
+        ],
+        outro:
+          "A website's price isn't an expense — it's a tool that brings clients 24/7. Message me, describe your business in Tiraspol, Chișinău or any city in Moldova, and I'll give you an exact price and timeline in 15 minutes, free.",
+      },
+      ro: {
+        title: "Cât costă un site în Tiraspol și Moldova în 2026",
+        excerpt:
+          "Prețuri corecte pentru crearea unui site în Tiraspol, Chișinău și în toată Moldova și Transnistria: de la landing page la magazin online. Fără costuri ascunse.",
+        readTime: "5 min",
+        ctaLabel: "Află prețul",
+        intro:
+          "Prima întrebare pe care o pune orice antreprenor din Tiraspol, Bender sau Chișinău este: «Cât va costa un site?» Răspunsul sincer — depinde de obiective. Mai jos sunt prețurile reale pentru 2026 pe tipuri de site, fără vorbe goale și fără costuri ascunse, ca să știi exact pentru ce plătești.",
+        sections: [
+          {
+            heading: "Landing page (site de o pagină) — de la 150 €",
+            body: "Un landing page este o singură pagină care vinde un produs sau serviciu. Ideal pentru un maestru de manichiură, un avocat privat, un antrenor de fitness sau lansarea unei promoții. Include un prim ecran atractiv, blocul de beneficii, recenzii, formular de contact și buton WhatsApp/Telegram. Termen — 3–5 zile. Este cel mai rapid mod de a primi cereri online în Tiraspol sau Chișinău.",
+          },
+          {
+            heading: "Site de prezentare și corporativ — de la 250 €",
+            body: "Un site cu mai multe pagini pentru companie: acasă, servicii, despre noi, portofoliu, contacte. Potrivit pentru saloane de înfrumusețare, clinici stomatologice, firme de construcții, service-uri auto. Include adaptare pentru telefon (majoritatea clienților din Transnistria intră de pe mobil), SEO local de bază și conectarea domeniului. Termen — 5–10 zile.",
+          },
+          {
+            heading: "Magazin online — de la 400 €",
+            body: "Un magazin complet cu catalog, coș, finalizarea comenzii, plăți și panou de administrare a produselor. Un exemplu real — un magazin de produse chimice de uz casnic cu livrare în toată Transnistria, realizat la cheie: peste 1000 de produse, comenzile ajung automat la manager. Termen — de la 2 săptămâni. Prețul depinde de numărul de produse și automatizarea necesară.",
+          },
+          {
+            heading: "Ce este inclus și de ce depinde prețul",
+            body: "În preț sunt mereu incluse: design, dezvoltare, adaptare mobilă, conectarea domeniului și prima lună de suport. Crește dacă ai nevoie de integrare CRM, plăți online, multilingv (RU/RO/EN) sau bot AI pentru cereri. Lucrez fără costuri ascunse — fixăm volumul în scris, iar totalul nu se schimbă. Suport și găzduire — de la 15 €/lună.",
+          },
+        ],
+        outro:
+          "Prețul unui site nu este o cheltuială, ci un instrument care aduce clienți 24/7. Scrie-mi, descrie afacerea ta din Tiraspol, Chișinău sau orice oraș din Moldova, și îți spun prețul și termenul exact în 15 minute, gratuit.",
+      },
+    },
+  },
+  {
+    slug: "gde-zakazat-sayt-v-tiraspole-pmr",
+    emoji: "📍",
+    date: "2026-06-03",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Где заказать сайт в Тирасполе и ПМР: как выбрать разработчика",
+        excerpt:
+          "Студия, фрилансер или конструктор — где выгоднее заказать сайт в Тирасполе, Бендерах и Кишинёве и как не переплатить.",
+        readTime: "5 мин",
+        ctaLabel: "Обсудить проект",
+        intro:
+          "Решили сделать сайт для бизнеса в ПМР — и сразу вопрос: к кому обращаться? Веб-студия, частный разработчик или собрать самому на конструкторе? Разберу плюсы и минусы каждого варианта честно, чтобы вы выбрали то, что подходит именно вам и не выкинули деньги.",
+        sections: [
+          {
+            heading: "Конструкторы (Tilda, Wix) — дёшево, но есть нюансы",
+            body: "Собрать сайт самому на конструкторе можно за пару вечеров и почти бесплатно. Минусы: шаблонный вид «как у всех», ежемесячная плата за тариф, ограничения в дизайне и SEO, и вы сами тратите время вместо бизнеса. Подходит, если нужна простая визитка и совсем нет бюджета. Для магазина или серьёзного проекта конструктор быстро упирается в потолок.",
+          },
+          {
+            heading: "Веб-студия — дорого и долго",
+            body: "Студия даёт команду (дизайнер, разработчик, менеджер), но за это платите втридорога — наценка за офис и штат. В ПМР и Молдове студийный сайт часто стоит в 2–3 раза больше, чем у частного специалиста, а сроки растягиваются из-за согласований. Оправдано для крупной компании с большим бюджетом, для малого бизнеса — переплата.",
+          },
+          {
+            heading: "Частный разработчик — баланс цены и качества",
+            body: "Частный специалист делает то же самое, что студия, но дешевле и быстрее — вы общаетесь напрямую, без менеджеров-посредников. Главное — выбрать того, у кого есть реальные работы. Просите портфолио и контакты прошлых клиентов. Я, например, сделал калькулятор окон, интернет-магазин химии и другие проекты в ПМР — их можно посмотреть и позвонить владельцам.",
+          },
+          {
+            heading: "На что смотреть при выборе",
+            body: "1) Реальное портфолио — не картинки из интернета, а живые работающие сайты. 2) Отзывы и рекомендации — в маленьком городе репутация решает всё. 3) Прозрачная цена — фиксация объёма письменно, без «потом доплатите». 4) Поддержка после запуска — сайт нужно обновлять, важно чтобы было к кому обратиться. 5) Адаптив под телефон — обязательно, ведь большинство клиентов в ПМР с мобильных.",
+          },
+        ],
+        outro:
+          "Если хотите заказать сайт в Тирасполе, Бендерах или Кишинёве без переплат и с реальным результатом — напишите мне. Покажу работающие проекты, назову честную цену и срок. Работаю напрямую, поддерживаю после запуска.",
+      },
+      en: {
+        title: "Where to order a website in Tiraspol and Transnistria: choosing a developer",
+        excerpt:
+          "Agency, freelancer or website builder — where it's smarter to order a website in Tiraspol, Bender and Chișinău without overpaying.",
+        readTime: "5 min",
+        ctaLabel: "Discuss a project",
+        intro:
+          "You've decided to build a website for your business in Transnistria — and instantly: who do you turn to? A web agency, a private developer, or build it yourself on a website builder? Here's an honest breakdown of each option so you pick what fits you and don't waste money.",
+        sections: [
+          {
+            heading: "Website builders (Tilda, Wix) — cheap, but with caveats",
+            body: "You can build a site yourself on a builder in a couple of evenings, almost for free. Downsides: a template look 'like everyone else', a monthly subscription fee, limits in design and SEO, and you spend your own time instead of running the business. Fine for a simple business card with zero budget. For a store or a serious project a builder hits its ceiling fast.",
+          },
+          {
+            heading: "Web agency — expensive and slow",
+            body: "An agency gives you a team (designer, developer, manager), but you pay a premium for the office and staff. In Transnistria and Moldova an agency site often costs 2–3× more than a private specialist, and timelines stretch due to approvals. Justified for a large company with a big budget; for small business it's overpaying.",
+          },
+          {
+            heading: "Private developer — the price-quality balance",
+            body: "A private specialist does the same as an agency, but cheaper and faster — you talk directly, with no middle managers. The key is choosing someone with real work. Ask for a portfolio and past clients' contacts. For example, I built a windows calculator, a household chemicals store and other projects in Transnistria — you can view them and call the owners.",
+          },
+          {
+            heading: "What to look at when choosing",
+            body: "1) Real portfolio — not internet pictures, but live working sites. 2) Reviews and referrals — in a small town reputation is everything. 3) Transparent price — scope fixed in writing, no 'pay extra later'. 4) Post-launch support — a site needs updates, so you want someone to turn to. 5) Mobile responsiveness — a must, since most clients in Transnistria are on phones.",
+          },
+        ],
+        outro:
+          "If you want to order a website in Tiraspol, Bender or Chișinău without overpaying and with a real result — message me. I'll show working projects, quote an honest price and timeline. I work directly and support after launch.",
+      },
+      ro: {
+        title: "Unde să comanzi un site în Tiraspol și Transnistria: cum alegi un dezvoltator",
+        excerpt:
+          "Agenție, freelancer sau constructor de site-uri — unde e mai avantajos să comanzi un site în Tiraspol, Bender și Chișinău fără să plătești în plus.",
+        readTime: "5 min",
+        ctaLabel: "Discută un proiect",
+        intro:
+          "Ai decis să faci un site pentru afacerea ta din Transnistria — și imediat apare întrebarea: la cine apelezi? O agenție web, un dezvoltator privat sau îl faci singur pe un constructor? Iată o analiză sinceră a fiecărei opțiuni, ca să alegi ce ți se potrivește și să nu arunci banii.",
+        sections: [
+          {
+            heading: "Constructoarele (Tilda, Wix) — ieftin, dar cu nuanțe",
+            body: "Poți face singur un site pe un constructor în câteva seri, aproape gratuit. Minusuri: aspect de șablon «ca la toți», abonament lunar, limitări în design și SEO, și îți consumi timpul în loc să faci afaceri. Bun pentru o carte de vizită simplă, fără buget. Pentru un magazin sau un proiect serios, constructorul atinge rapid limita.",
+          },
+          {
+            heading: "Agenția web — scump și lent",
+            body: "O agenție îți oferă o echipă (designer, dezvoltator, manager), dar plătești scump — adaosul pentru birou și personal. În Transnistria și Moldova un site de agenție costă adesea de 2–3 ori mai mult decât la un specialist privat, iar termenele se prelungesc din cauza aprobărilor. Justificat pentru o companie mare cu buget; pentru afaceri mici e o supraplată.",
+          },
+          {
+            heading: "Dezvoltatorul privat — echilibrul preț-calitate",
+            body: "Un specialist privat face același lucru ca o agenție, dar mai ieftin și mai rapid — comunici direct, fără manageri intermediari. Important e să alegi pe cineva cu lucrări reale. Cere portofoliu și contactele clienților anteriori. De exemplu, am făcut un calculator de ferestre, un magazin de produse chimice și alte proiecte în Transnistria — le poți vedea și suna proprietarii.",
+          },
+          {
+            heading: "La ce să te uiți când alegi",
+            body: "1) Portofoliu real — nu poze de pe internet, ci site-uri vii care funcționează. 2) Recenzii și recomandări — într-un oraș mic reputația contează enorm. 3) Preț transparent — volum fixat în scris, fără «plătești în plus mai târziu». 4) Suport după lansare — un site are nevoie de actualizări. 5) Adaptare mobilă — obligatoriu, majoritatea clienților din Transnistria sunt pe telefon.",
+          },
+        ],
+        outro:
+          "Dacă vrei să comanzi un site în Tiraspol, Bender sau Chișinău fără supraplată și cu rezultat real — scrie-mi. Îți arăt proiecte care funcționează, îți spun un preț și un termen corect. Lucrez direct și ofer suport după lansare.",
+      },
+    },
+  },
+  {
+    slug: "sayt-ili-instagram-dlya-biznesa",
+    emoji: "⚖️",
+    date: "2026-06-03",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Сайт или Instagram для бизнеса: что выбрать в 2026",
+        excerpt:
+          "Нужен ли сайт, если есть Instagram? Разбираем для малого бизнеса в Тирасполе, Кишинёве и по Молдове — что приводит больше клиентов.",
+        readTime: "5 мин",
+        ctaLabel: "Получить консультацию",
+        intro:
+          "«У меня есть Instagram, зачем мне сайт?» — частый вопрос предпринимателей в ПМР и Молдове. Соцсети и сайт решают разные задачи, и лучший результат даёт связка. Разберу честно, когда хватит Instagram, а когда без сайта вы теряете клиентов и деньги.",
+        sections: [
+          {
+            heading: "Что Instagram делает хорошо",
+            body: "Instagram отлично подходит для визуального контента и тёплой аудитории: показать товар, выложить процесс работы, собрать подписчиков, которые уже вас знают. Это витрина и способ напоминать о себе. Для мастера маникюра, кондитера или фотографа на старте этого может хватать, чтобы получать первые заказы от знакомых и их друзей.",
+          },
+          {
+            heading: "Где Instagram проигрывает сайту",
+            body: "1) Поиск — когда человек гуглит «купить окна Тирасполь» или «стоматолог Кишинёв», он находит сайты, а не Instagram. 2) Доверие — у компании с сайтом солиднее имидж, особенно для дорогих услуг. 3) Вы не владеете аккаунтом — Instagram может заблокировать профиль, и вся база подписчиков исчезнет за секунду. Сайт принадлежит вам навсегда. 4) Каталог и оплата — продавать 1000 товаров в ленте неудобно, а на сайте это каталог с корзиной.",
+          },
+          {
+            heading: "Идеальная связка: сайт + соцсети",
+            body: "Сильнее всего работает связка: сайт — это база (каталог, цены, заявки, оплата, SEO для Google), а Instagram — канал привлечения тёплой аудитории и витрина. В постах вы ведёте людей на сайт, где они спокойно изучают и заказывают. Так вы и собираете аудиторию в соцсети, и не теряете тех, кто ищет вас через поиск.",
+          },
+          {
+            heading: "Что выбрать малому бизнесу в Молдове и ПМР",
+            body: "Если только начинаете и бюджет нулевой — стартуйте с Instagram. Но как только пошли первые продажи и вы хотите расти — сайт обязателен: он ловит клиентов из Google круглосуточно, повышает доверие и не зависит от блокировок. Минимум — лендинг за 150 €, который окупится с первых заявок. Это не «или-или», а «сначала Instagram, потом обязательно сайт».",
+          },
+        ],
+        outro:
+          "Не уверены, что нужно именно вашему бизнесу в Тирасполе или Кишинёве — сайт, лендинг или связка с Instagram? Напишите мне, расскажу честно, без впаривания, и предложу решение под ваш бюджет.",
+      },
+      en: {
+        title: "Website or Instagram for business: what to choose in 2026",
+        excerpt:
+          "Do you need a website if you have Instagram? A breakdown for small business in Tiraspol, Chișinău and across Moldova — what brings more clients.",
+        readTime: "5 min",
+        ctaLabel: "Get a consultation",
+        intro:
+          "'I have Instagram, why would I need a website?' — a common question among entrepreneurs in Transnistria and Moldova. Social media and a website solve different tasks, and the best result comes from combining them. Here's an honest take on when Instagram is enough and when, without a website, you lose clients and money.",
+        sections: [
+          {
+            heading: "What Instagram does well",
+            body: "Instagram is great for visual content and a warm audience: showing your product, posting your work process, building followers who already know you. It's a showcase and a way to stay top of mind. For a nail tech, a pastry chef or a photographer starting out, this can be enough to get first orders from friends and their friends.",
+          },
+          {
+            heading: "Where Instagram loses to a website",
+            body: "1) Search — when someone googles 'buy windows Tiraspol' or 'dentist Chișinău', they find websites, not Instagram. 2) Trust — a company with a website has a more solid image, especially for premium services. 3) You don't own the account — Instagram can block your profile and your whole follower base vanishes in a second. A website is yours forever. 4) Catalog and payment — selling 1000 products in a feed is awkward; on a website it's a catalog with a cart.",
+          },
+          {
+            heading: "The perfect combo: website + social media",
+            body: "The strongest setup is a combo: the website is the base (catalog, prices, leads, payments, Google SEO), and Instagram is the channel for attracting a warm audience and a showcase. In posts you drive people to the website, where they calmly explore and order. That way you build an audience on social and don't lose those searching for you on Google.",
+          },
+          {
+            heading: "What small business in Moldova and Transnistria should choose",
+            body: "If you're just starting with zero budget — begin with Instagram. But once first sales come in and you want to grow, a website is a must: it captures Google clients 24/7, builds trust and doesn't depend on blocks. Minimum — a €150 landing page that pays off from the first leads. It's not 'either-or', it's 'Instagram first, then a website for sure'.",
+          },
+        ],
+        outro:
+          "Not sure what your business in Tiraspol or Chișinău needs — a website, a landing page or a combo with Instagram? Message me, I'll be honest, no hard selling, and suggest a solution for your budget.",
+      },
+      ro: {
+        title: "Site sau Instagram pentru afaceri: ce să alegi în 2026",
+        excerpt:
+          "Ai nevoie de un site dacă ai Instagram? O analiză pentru afaceri mici din Tiraspol, Chișinău și din toată Moldova — ce aduce mai mulți clienți.",
+        readTime: "5 min",
+        ctaLabel: "Primește o consultație",
+        intro:
+          "«Am Instagram, de ce aș avea nevoie de un site?» — o întrebare frecventă a antreprenorilor din Transnistria și Moldova. Rețelele sociale și un site rezolvă sarcini diferite, iar cel mai bun rezultat vine din combinarea lor. Iată o părere sinceră despre când e suficient Instagram și când, fără un site, pierzi clienți și bani.",
+        sections: [
+          {
+            heading: "Ce face bine Instagram",
+            body: "Instagram e excelent pentru conținut vizual și un public cald: să arăți produsul, să postezi procesul de lucru, să aduni urmăritori care deja te cunosc. Este o vitrină și un mod de a-ți aminti de tine. Pentru un maestru de manichiură, un cofetar sau un fotograf la început, poate fi suficient pentru primele comenzi de la cunoscuți și prietenii lor.",
+          },
+          {
+            heading: "Unde Instagram pierde în fața unui site",
+            body: "1) Căutarea — când cineva caută pe Google «cumpără ferestre Tiraspol» sau «stomatolog Chișinău», găsește site-uri, nu Instagram. 2) Încrederea — o companie cu site are o imagine mai solidă, mai ales pentru servicii scumpe. 3) Nu deții contul — Instagram îți poate bloca profilul și toată baza de urmăritori dispare într-o secundă. Un site este al tău pentru totdeauna. 4) Catalog și plată — a vinde 1000 de produse într-un feed este incomod; pe un site este un catalog cu coș.",
+          },
+          {
+            heading: "Combinația ideală: site + rețele sociale",
+            body: "Cel mai puternic funcționează combinația: site-ul este baza (catalog, prețuri, cereri, plăți, SEO pentru Google), iar Instagram este canalul de atragere a unui public cald și o vitrină. În postări duci oamenii pe site, unde studiază și comandă liniștiți. Astfel aduni public pe rețele și nu pierzi pe cei care te caută prin Google.",
+          },
+          {
+            heading: "Ce să aleagă o afacere mică din Moldova și Transnistria",
+            body: "Dacă abia începi și bugetul e zero — pornește cu Instagram. Dar imediat ce apar primele vânzări și vrei să crești, un site este obligatoriu: prinde clienți din Google non-stop, crește încrederea și nu depinde de blocări. Minim — un landing page de 150 € care se amortizează din primele cereri. Nu e «ori-ori», ci «mai întâi Instagram, apoi neapărat un site».",
+          },
+        ],
+        outro:
+          "Nu ești sigur de ce are nevoie afacerea ta din Tiraspol sau Chișinău — un site, un landing page sau o combinație cu Instagram? Scrie-mi, îți spun sincer, fără să-ți vând ceva forțat, și îți propun o soluție pentru bugetul tău.",
+      },
+    },
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
