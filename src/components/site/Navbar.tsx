@@ -1,5 +1,7 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "@tanstack/react-router";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useT } from "@/i18n";
@@ -12,6 +14,7 @@ import {
 
 export function Navbar() {
   const { t } = useT();
+  const [menuOpen, setMenuOpen] = useState(false);
   const hashLinks = [
     { href: "/#services", label: t("nav.services") },
     { href: "/#why", label: t("nav.why") },
@@ -112,8 +115,64 @@ export function Navbar() {
           >
             {t("nav.cta")}
           </a>
+          {/* Бургер — только на мобильных (десктоп использует nav выше) */}
+          <button
+            type="button"
+            onClick={() => setMenuOpen((v) => !v)}
+            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-border text-foreground"
+            aria-label="Меню"
+          >
+            {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
         </div>
       </div>
+
+      {/* Мобильное выпадающее меню */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.nav
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            className="md:hidden overflow-hidden border-t border-border bg-background/95 backdrop-blur-xl"
+          >
+            <div className="px-6 py-4 flex flex-col gap-1">
+              {hashLinks.map((l) => (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="py-3 text-base text-foreground hover:text-neon transition-colors border-b border-border/50"
+                >
+                  {l.label}
+                </a>
+              ))}
+              <Link
+                to="/blog"
+                onClick={() => setMenuOpen(false)}
+                className="py-3 text-base text-foreground hover:text-neon transition-colors border-b border-border/50"
+              >
+                {t("nav.blog")}
+              </Link>
+              <a
+                href="/#contact"
+                onClick={() => setMenuOpen(false)}
+                className="py-3 text-base text-foreground hover:text-neon transition-colors border-b border-border/50"
+              >
+                {t("nav.contact")}
+              </a>
+              <a
+                href="/#contact"
+                onClick={() => setMenuOpen(false)}
+                className="mt-3 inline-flex items-center justify-center text-base px-4 py-3 rounded-full bg-neon/10 border border-neon/40 text-neon font-semibold"
+              >
+                {t("nav.cta")}
+              </a>
+            </div>
+          </motion.nav>
+        )}
+      </AnimatePresence>
     </motion.header>
   );
 }
