@@ -698,6 +698,196 @@ export const posts: BlogPost[] = [
       },
     },
   },
+  {
+    slug: "prodvizhenie-sayta-v-google-moldova",
+    emoji: "🔍",
+    date: "2026-06-17",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Продвижение сайта в Google и Яндексе: как попасть в топ в Молдове и ПМР",
+        excerpt:
+          "Что реально влияет на позиции сайта в поиске и как вывести бизнес в топ Google по запросам в Кишинёве, Тирасполе и Бендерах.",
+        readTime: "6 мин",
+        ctaLabel: "Продвинуть сайт",
+        intro:
+          "Сделать сайт — это половина дела. Если его нет в Google и Яндексе по нужным запросам, клиенты вас просто не находят. Хорошая новость: вывести сайт в топ по локальным запросам в Молдове и ПМР реально и без больших бюджетов — нужно понимать, что важно поисковикам.",
+        sections: [
+          {
+            heading: "Почему новый сайт сначала не виден в поиске",
+            body: "Это нормально: свежий домен Google и Яндекс индексируют от нескольких дней до 2–3 недель. Но сначала поисковику нужно вообще узнать о сайте — для этого его добавляют в Google Search Console и Яндекс.Вебмастер и отправляют карту сайта (sitemap). Без этого шага сайт может месяцами оставаться невидимым. Это первое, что нужно сделать после запуска.",
+          },
+          {
+            heading: "Что влияет на позиции в Google и Яндексе",
+            body: "Поисковик оценивает сайт по десяткам факторов, но для малого бизнеса важнее всего базовые: релевантный текст с ключевыми словами, правильные title, H1 и мета-описания, скорость загрузки, адаптивность под телефон и понятная структура страниц. Для локального бизнеса критично указывать гео прямо в текстах — «окна в Тирасполе», «доставка по Бендерам», «услуги в Кишинёве». Так сайт отвечает на конкретные запросы людей.",
+          },
+          {
+            heading: "Локальное SEO: карты и бизнес-карточки",
+            body: "Половина успеха в локальном поиске — это карточка в Google Business Profile и Яндекс.Бизнес. Карточка с адресом, телефоном, часами работы, фото и отзывами выводит бизнес в блок с картой вверху выдачи — туда, куда смотрят первым делом. Для компаний в ПМР и Молдове по запросам «рядом» и «в Тирасполе» карта часто приводит больше клиентов, чем сам сайт.",
+          },
+          {
+            heading: "Контент и блог двигают сайт вверх",
+            body: "Чем больше полезных страниц под реальные запросы клиентов — тем выше трафик и доверие поисковика. Один товар или услуга = отдельная страница под свой запрос. Блог отвечает на вопросы, которые люди гуглят («сколько стоит», «как выбрать», «что лучше»), и приводит тёплых клиентов из поиска бесплатно. Регулярные статьи показывают Google, что сайт живой, и он поднимает его выше.",
+          },
+        ],
+        outro:
+          "Продвижение — это не разовая магия, а система: настройка индексации, контент и карты. Хотите, чтобы ваш сайт в Тирасполе, Бендерах или Кишинёве находили в Google и Яндексе? Напишите мне — проведу аудит и составлю понятный план продвижения.",
+      },
+      en: {
+        title: "Website promotion in Google and Yandex: how to reach the top in Moldova and Transnistria",
+        excerpt:
+          "What really affects your site's search rankings and how to get your business to the top of Google for queries in Chișinău, Tiraspol and Bender.",
+        readTime: "6 min",
+        ctaLabel: "Promote my site",
+        intro:
+          "Building a website is only half the job. If it's not in Google and Yandex for the right queries, customers simply don't find you. The good news: getting to the top for local queries in Moldova and Transnistria is realistic and without big budgets — you just need to understand what matters to search engines.",
+        sections: [
+          {
+            heading: "Why a new site isn't visible in search at first",
+            body: "It's normal: a fresh domain takes anywhere from a few days to 2–3 weeks for Google and Yandex to index. But first the search engine has to learn about the site at all — that's why you add it to Google Search Console and Yandex Webmaster and submit a sitemap. Without this step a site can stay invisible for months. It's the first thing to do after launch.",
+          },
+          {
+            heading: "What affects rankings in Google and Yandex",
+            body: "Search engines weigh dozens of factors, but for small business the basics matter most: relevant text with keywords, proper title, H1 and meta descriptions, load speed, mobile responsiveness and a clear page structure. For local business it's critical to put geo right in the text — 'windows in Tiraspol', 'delivery in Bender', 'services in Chișinău'. That way the site answers people's specific queries.",
+          },
+          {
+            heading: "Local SEO: maps and business profiles",
+            body: "Half of local search success is a Google Business Profile and a Yandex Business listing. A profile with address, phone, hours, photos and reviews puts the business into the map block at the top of results — the first place people look. For companies in Transnistria and Moldova, for 'near me' and 'in Tiraspol' queries the map often brings more clients than the website itself.",
+          },
+          {
+            heading: "Content and a blog push the site up",
+            body: "The more useful pages targeting real customer queries, the higher the traffic and search-engine trust. One product or service = its own page for its query. A blog answers the questions people google ('how much', 'how to choose', 'which is better') and brings warm leads from search for free. Regular articles show Google the site is alive, and it ranks it higher.",
+          },
+        ],
+        outro:
+          "Promotion isn't one-time magic, it's a system: indexing setup, content and maps. Want your site in Tiraspol, Bender or Chișinău to be found on Google and Yandex? Message me — I'll run an audit and lay out a clear promotion plan.",
+      },
+      ro: {
+        title: "Promovarea site-ului în Google și Yandex: cum ajungi în top în Moldova și Transnistria",
+        excerpt:
+          "Ce influențează cu adevărat pozițiile site-ului în căutări și cum îți duci afacerea în topul Google pentru căutări din Chișinău, Tiraspol și Bender.",
+        readTime: "6 min",
+        ctaLabel: "Promovează site-ul",
+        intro:
+          "Crearea unui site este doar jumătate din muncă. Dacă nu apare în Google și Yandex pentru căutările potrivite, clienții pur și simplu nu te găsesc. Vestea bună: să ajungi în top pentru căutări locale în Moldova și Transnistria este realist și fără bugete mari — trebuie doar să înțelegi ce contează pentru motoarele de căutare.",
+        sections: [
+          {
+            heading: "De ce un site nou nu e vizibil la început în căutări",
+            body: "Este normal: un domeniu nou este indexat de Google și Yandex în câteva zile până la 2–3 săptămâni. Dar mai întâi motorul de căutare trebuie să afle despre site — de aceea îl adaugi în Google Search Console și Yandex Webmaster și trimiți harta site-ului (sitemap). Fără acest pas, un site poate rămâne invizibil luni de zile. Este primul lucru de făcut după lansare.",
+          },
+          {
+            heading: "Ce influențează pozițiile în Google și Yandex",
+            body: "Motoarele evaluează zeci de factori, dar pentru afaceri mici contează cel mai mult cele de bază: text relevant cu cuvinte cheie, title, H1 și meta-descrieri corecte, viteza de încărcare, adaptarea pentru telefon și o structură clară a paginilor. Pentru afacerile locale e critic să pui geo direct în text — «ferestre în Tiraspol», «livrare în Bender», «servicii în Chișinău». Astfel site-ul răspunde la căutările concrete ale oamenilor.",
+          },
+          {
+            heading: "SEO local: hărți și profiluri de business",
+            body: "Jumătate din succesul în căutarea locală este o fișă Google Business Profile și Yandex Business. O fișă cu adresă, telefon, program, poze și recenzii duce afacerea în blocul cu harta din partea de sus a rezultatelor — primul loc unde se uită oamenii. Pentru companiile din Transnistria și Moldova, la căutări de tip «în apropiere» și «în Tiraspol», harta aduce adesea mai mulți clienți decât site-ul în sine.",
+          },
+          {
+            heading: "Conținutul și blogul ridică site-ul",
+            body: "Cu cât mai multe pagini utile pentru căutările reale ale clienților, cu atât mai mult trafic și încredere din partea motorului. Un produs sau serviciu = pagina lui pentru căutarea sa. Blogul răspunde la întrebările pe care oamenii le caută pe Google («cât costă», «cum aleg», «ce e mai bun») și aduce clienți calzi din căutări gratuit. Articolele regulate arată Google că site-ul e viu și îl clasează mai sus.",
+          },
+        ],
+        outro:
+          "Promovarea nu e magie de o singură dată, ci un sistem: configurarea indexării, conținut și hărți. Vrei ca site-ul tău din Tiraspol, Bender sau Chișinău să fie găsit în Google și Yandex? Scrie-mi — fac un audit și pregătesc un plan clar de promovare.",
+      },
+    },
+  },
+  {
+    slug: "internet-magazin-pod-klyuch-moldova",
+    emoji: "🛒",
+    date: "2026-06-17",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Интернет-магазин под ключ в Молдове: как запустить продажи онлайн",
+        excerpt:
+          "Что входит в интернет-магазин под ключ, сколько он стоит и как начать продавать онлайн в Кишинёве, Тирасполе и по всей Молдове и ПМР.",
+        readTime: "6 мин",
+        ctaLabel: "Заказать магазин",
+        intro:
+          "Продавать только офлайн или через директ в Instagram — значит терять клиентов, которые ищут товары в интернете. Интернет-магазин под ключ позволяет принимать заказы 24/7: с каталогом, корзиной и оплатой. Разберу, из чего он состоит и как запустить его для бизнеса в Молдове и ПМР.",
+        sections: [
+          {
+            heading: "Что значит «под ключ»",
+            body: "«Под ключ» — значит вы получаете готовый рабочий магазин, в котором ничего не нужно доделывать. Внутри: дизайн под ваш бренд, каталог с категориями, фото и описаниями, корзина, оформление заказа, админ-панель для управления товарами и приём заявок. Вы просто добавляете товары и принимаете заказы, а вся техническая часть уже настроена и работает.",
+          },
+          {
+            heading: "Каталог, корзина, оплата и доставка",
+            body: "Сердце магазина — удобный каталог: товары с фото, ценами и описаниями, фильтры и поиск, чтобы клиент быстро находил нужное. Дальше — корзина и оформление с адресом доставки, а заявка автоматически падает менеджеру в Telegram. Реальный пример из моих работ — магазин бытовой химии с доставкой по ПМР: более 1000 товаров, заказы обрабатываются без ручной возни.",
+          },
+          {
+            heading: "Сколько стоит и сроки запуска",
+            body: "Интернет-магазин под ключ в Молдове и ПМР — от 400 €, срок от 2 недель. Цена зависит от количества товаров и нужной автоматизации (онлайн-оплата, интеграция с CRM, многоязычность RU/RO/EN). В стоимость входят дизайн, разработка, подключение домена и первый месяц поддержки. Дальше — хостинг и поддержка от 15–25 €/мес.",
+          },
+          {
+            heading: "Как магазин приводит клиентов",
+            body: "Магазин — это не просто витрина, а инструмент привлечения. Каждый товар становится отдельной страницей в Google под свой запрос, карточка в Google Картах приводит клиентов «рядом», а связка с Instagram превращает подписчиков в покупателей. Магазин работает 24/7, без выходных, и легко масштабируется, когда ассортимент растёт.",
+          },
+        ],
+        outro:
+          "Хотите запустить интернет-магазин в Молдове или ПМР и начать продавать онлайн — напишите мне. За 15 минут обсудим ассортимент, нужную автоматизацию, сроки и точную цену. Покажу реальные работающие магазины из портфолио.",
+      },
+      en: {
+        title: "Turnkey online store in Moldova: how to launch online sales",
+        excerpt:
+          "What a turnkey online store includes, how much it costs and how to start selling online in Chișinău, Tiraspol and across Moldova and Transnistria.",
+        readTime: "6 min",
+        ctaLabel: "Order a store",
+        intro:
+          "Selling only offline or through Instagram DMs means losing customers who search for products online. A turnkey online store lets you take orders 24/7: with a catalog, cart and payments. Here's what it consists of and how to launch one for a business in Moldova and Transnistria.",
+        sections: [
+          {
+            heading: "What 'turnkey' means",
+            body: "'Turnkey' means you get a finished, working store with nothing left to build. Inside: a design matching your brand, a catalog with categories, photos and descriptions, a cart, checkout, an admin panel to manage products and lead capture. You just add products and take orders, while the entire technical side is already set up and running.",
+          },
+          {
+            heading: "Catalog, cart, payment and delivery",
+            body: "The heart of a store is a convenient catalog: products with photos, prices and descriptions, filters and search so the customer quickly finds what they need. Then a cart and checkout with a delivery address, and the order automatically lands with the manager in Telegram. A real example from my work — a household chemicals store with delivery across Transnistria: 1000+ products, orders processed with no manual hassle.",
+          },
+          {
+            heading: "Cost and launch timeline",
+            body: "A turnkey online store in Moldova and Transnistria starts from €400, ready in 2 weeks or more. The price depends on the number of products and the automation needed (online payments, CRM integration, multilingual RU/RO/EN). It includes design, development, domain setup and the first month of support. After that — hosting and support from €15–25/mo.",
+          },
+          {
+            heading: "How a store brings in customers",
+            body: "A store isn't just a showcase, it's an acquisition tool. Each product becomes its own page in Google for its query, a Google Maps profile brings 'near me' customers, and a combo with Instagram turns followers into buyers. The store works 24/7 with no days off and scales easily as your range grows.",
+          },
+        ],
+        outro:
+          "Want to launch an online store in Moldova or Transnistria and start selling online — message me. In 15 minutes we'll discuss your range, the automation you need, timeline and an exact price. I'll show real working stores from my portfolio.",
+      },
+      ro: {
+        title: "Magazin online la cheie în Moldova: cum lansezi vânzările online",
+        excerpt:
+          "Ce include un magazin online la cheie, cât costă și cum începi să vinzi online în Chișinău, Tiraspol și în toată Moldova și Transnistria.",
+        readTime: "6 min",
+        ctaLabel: "Comandă un magazin",
+        intro:
+          "Să vinzi doar offline sau prin mesaje pe Instagram înseamnă să pierzi clienții care caută produse online. Un magazin online la cheie îți permite să primești comenzi 24/7: cu catalog, coș și plăți. Iată din ce este format și cum îl lansezi pentru o afacere din Moldova și Transnistria.",
+        sections: [
+          {
+            heading: "Ce înseamnă «la cheie»",
+            body: "«La cheie» înseamnă că primești un magazin gata, funcțional, la care nu mai trebuie făcut nimic. Înăuntru: design pentru brandul tău, catalog cu categorii, poze și descrieri, coș, finalizarea comenzii, panou de administrare a produselor și preluarea cererilor. Tu doar adaugi produse și primești comenzi, iar toată partea tehnică este deja configurată și funcționează.",
+          },
+          {
+            heading: "Catalog, coș, plată și livrare",
+            body: "Inima magazinului este un catalog comod: produse cu poze, prețuri și descrieri, filtre și căutare, ca să găsească clientul repede ce-i trebuie. Apoi coș și finalizare cu adresa de livrare, iar comanda ajunge automat la manager în Telegram. Un exemplu real din lucrările mele — un magazin de produse chimice de uz casnic cu livrare în toată Transnistria: peste 1000 de produse, comenzi procesate fără bătăi de cap.",
+          },
+          {
+            heading: "Cât costă și termenul de lansare",
+            body: "Un magazin online la cheie în Moldova și Transnistria pornește de la 400 €, gata în 2 săptămâni sau mai mult. Prețul depinde de numărul de produse și de automatizarea necesară (plăți online, integrare CRM, multilingv RU/RO/EN). Include design, dezvoltare, conectarea domeniului și prima lună de suport. Apoi — găzduire și suport de la 15–25 €/lună.",
+          },
+          {
+            heading: "Cum aduce un magazin clienți",
+            body: "Un magazin nu e doar o vitrină, ci un instrument de atragere. Fiecare produs devine o pagină în Google pentru căutarea sa, o fișă Google Maps aduce clienți «din apropiere», iar combinația cu Instagram transformă urmăritorii în cumpărători. Magazinul lucrează 24/7, fără zile libere, și se scalează ușor pe măsură ce gama crește.",
+          },
+        ],
+        outro:
+          "Vrei să lansezi un magazin online în Moldova sau Transnistria și să începi să vinzi online — scrie-mi. În 15 minute discutăm gama, automatizarea necesară, termenul și prețul exact. Îți arăt magazine reale care funcționează din portofoliu.",
+      },
+    },
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
