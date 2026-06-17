@@ -74,6 +74,50 @@ export function LavenderShop() {
   );
 }
 
+/* 🪟 Decor City — decorcitymd.com (жалюзи, окна, двери ПМР) */
+export function DecorCity() {
+  return (
+    <div className="absolute inset-0 bg-gradient-to-br from-[#13201c] via-[#16241e] to-[#1d2d26] p-3 overflow-hidden">
+      {/* top bar */}
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-1">
+          <div className="w-3.5 h-3.5 rounded bg-[#d9a64a] text-[#14201b] text-[6px] font-black flex items-center justify-center">
+            DC
+          </div>
+          <div className="leading-none">
+            <div className="text-[7px] font-bold font-serif text-[#eef1e9]">
+              Decor <span className="text-[#d9a64a]">City</span>
+            </div>
+            <div className="text-[4px] tracking-widest text-[#a6b5ab]">СОЛНЦЕЗАЩИТНЫЕ СИСТЕМЫ</div>
+          </div>
+        </div>
+        <div className="text-[6px] font-bold px-1.5 py-0.5 rounded bg-[#d9a64a] text-[#14201b]">Замер</div>
+      </div>
+      <div className="text-[5px] tracking-widest text-[#d9a64a] mb-1">— НА РЫНКЕ ПМР С 2000 ГОДА</div>
+      <div className="text-[13px] font-bold font-serif text-[#eef1e9] leading-tight mb-1.5">
+        Свет в доме —<br />
+        <span className="italic text-[#e8c178]">под вашим контролем</span>
+      </div>
+      <div className="flex flex-wrap gap-1 mb-2">
+        {["Окна", "Двери", "Жалюзи", "Роллеты", "Шторы"].map((c) => (
+          <span
+            key={c}
+            className="text-[5px] text-[#cbd5cb] px-1.5 py-0.5 rounded-full border border-white/10 bg-white/5"
+          >
+            {c}
+          </span>
+        ))}
+      </div>
+      <div className="flex items-center gap-2">
+        <div className="text-[6px] font-bold px-2 py-1 rounded bg-[#d9a64a] text-[#14201b]">
+          Вызвать замер
+        </div>
+        <div className="text-[5px] text-[#a6b5ab]">★★★★★ 4.8 · 32 отзыва</div>
+      </div>
+    </div>
+  );
+}
+
 /* 🧱 СтройМаркет Pro */
 export function ConstructionShop() {
   return (
