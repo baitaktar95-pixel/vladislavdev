@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vladislavbdev.com/sitemap.xml
+Sitemap: https://www.vladislavbdev.com/sitemap.xml

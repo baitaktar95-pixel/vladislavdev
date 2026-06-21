@@ -21,9 +21,9 @@ export const Route = createFileRoute("/reviews")({
       { property: "og:title", content: "Отзывы клиентов — Vladislav" },
       { property: "og:description", content: "Что говорят клиенты из Молдовы и ПМР." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://vladislavbdev.com/reviews" },
+      { property: "og:url", content: "https://www.vladislavbdev.com/reviews" },
     ],
-    links: [{ rel: "canonical", href: "https://vladislavbdev.com/reviews" }],
+    links: [{ rel: "canonical", href: "https://www.vladislavbdev.com/reviews" }],
   }),
 });
 

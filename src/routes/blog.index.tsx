@@ -23,9 +23,9 @@ export const Route = createFileRoute("/blog/")({
           "Статьи о цифровых инструментах для бизнеса в Молдове и ПМР: сайты, Telegram-боты, AI-решения.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://vladislavbdev.com/blog" },
+      { property: "og:url", content: "https://www.vladislavbdev.com/blog" },
     ],
-    links: [{ rel: "canonical", href: "https://vladislavbdev.com/blog" }],
+    links: [{ rel: "canonical", href: "https://www.vladislavbdev.com/blog" }],
   }),
 });
 

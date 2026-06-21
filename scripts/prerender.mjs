@@ -9,7 +9,7 @@ import { transform } from "esbuild";
 
 const ROOT = process.cwd();
 const DIST = join(ROOT, "dist");
-const SITE = "https://vladislavbdev.com";
+const SITE = "https://www.vladislavbdev.com";
 
 const esc = (s) =>
   String(s)

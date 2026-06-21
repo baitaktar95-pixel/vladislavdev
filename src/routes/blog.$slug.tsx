@@ -19,7 +19,7 @@ export const Route = createFileRoute("/blog/$slug")({
     const post = loaderData?.post;
     if (!post) return { meta: [{ title: "Статья не найдена" }] };
     const ru = post.i18n.ru;
-    const url = `https://vladislavbdev.com/blog/${params.slug}`;
+    const url = `https://www.vladislavbdev.com/blog/${params.slug}`;
     return {
       meta: [
         { title: `${ru.title} — Блог Vladislav` },
@@ -69,7 +69,7 @@ function BlogPostPage() {
   const lp = localize(post, lang);
   const others = posts.filter((p) => p.slug !== post.slug).slice(0, 2).map((p) => localize(p, lang));
 
-  const url = `https://vladislavbdev.com/blog/${lp.slug}`;
+  const url = `https://www.vladislavbdev.com/blog/${lp.slug}`;
   return (
     <main className="relative min-h-screen bg-background text-foreground">
       <Helmet>
