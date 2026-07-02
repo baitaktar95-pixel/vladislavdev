@@ -34,6 +34,242 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "sayt-vizitka-tiraspol",
+    emoji: "🪪",
+    date: "2026-07-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Заказать сайт-визитку в Тирасполе: зачем нужен и что внутри",
+        excerpt:
+          "Что такое сайт-визитка, кому он нужен и сколько стоит заказать его в Тирасполе, Бендерах и по всей ПМР. Простой сайт, который работает как ваша витрина 24/7.",
+        readTime: "5 мин",
+        ctaLabel: "Заказать сайт",
+        intro:
+          "Сайт-визитка — это небольшой сайт на 1-5 страниц, который коротко и понятно рассказывает о вас: что вы делаете, сколько стоит, как связаться. Это первое, что видит клиент, когда гуглит вашу компанию или мастера. В ПМР, где многие ищут услуги через Google и мессенджеры, аккуратная визитка часто решает, позвонят вам или конкуренту.",
+        sections: [
+          { heading: "Чем визитка отличается от лендинга", body: "Визитка — это спокойная презентация бизнеса: главная, услуги, о нас, контакты с картой и формой заявки. Лендинг — одна длинная страница, заточенная под одно действие. Визитка отвечает на вопрос «кто вы и можно ли вам доверять», лендинг — «купите это сейчас». Часто начинают именно с визитки, а лендинги добавляют под отдельные услуги." },
+          { heading: "Кому нужна визитка в первую очередь", body: "Мастера и специалисты (ремонт, фотограф, юрист, репетитор) — чтобы клиент увидел работы, цены и написал. Небольшие компании — чтобы выглядеть солиднее «странички в Инстаграме» и попадать в поиск Google. Кафе, салоны, автосервисы — контакты, часы работы, карта и кнопка «позвонить». Если у вас пока только Instagram — визитка даёт свой адрес в интернете и место в поиске." },
+          { heading: "Что должно быть на хорошей визитке", body: "Понятный первый экран (кто вы + чем полезны + кнопка действия), блок услуг с ценами или «от», примеры работ или отзывы, контакты с кликабельным телефоном, картой и формой заявки в мессенджер. Обязательно — быстрая загрузка, удобство на телефоне и базовое SEO, чтобы сайт находился по названию и услуге в вашем городе." },
+          { heading: "Сколько стоит и сроки", body: "Простая визитка на 1-3 страницы — от 150 $, срок 3-5 дней. Расширенная (услуги, галерея, отзывы, форма в Telegram) — от 250 $. В стоимость входят адаптив под телефон, подключение домена, форма заявок и базовая SEO-настройка. Домен — отдельно, недорого (около 10-15 $/год). Обсудить и запустить можно быстро — я работаю в ПМР." },
+        ],
+        outro:
+          "Нужна аккуратная визитка, которая находится в Google и превращает посетителей в звонки? Напишите мне — за 15 минут разберём, что именно вам нужно, и предложу вариант под ваш бюджет.",
+      },
+      en: {
+        title: "Order a business-card website in Tiraspol: why and what's inside",
+        excerpt:
+          "What a business-card website is, who needs it and how much it costs to order one in Tiraspol, Bender and across Transnistria. A simple 24/7 storefront.",
+        readTime: "5 min",
+        ctaLabel: "Order a website",
+        intro:
+          "A business-card website is a small 1–5 page site that clearly explains who you are: what you do, what it costs, how to reach you. It's the first thing a customer sees when they google your company or your name. In Transnistria, where many look for services through Google and messengers, a neat business card often decides whether they call you or a competitor.",
+        sections: [
+          { heading: "How it differs from a landing page", body: "A business card is a calm presentation of your business: home, services, about, contacts with a map and a lead form. A landing page is one long page focused on a single action. The business card answers 'who are you and can you be trusted', the landing page — 'buy this now'. Many start with a business card and add landing pages for specific services later." },
+          { heading: "Who needs a business card first", body: "Independent pros (repair, photographer, lawyer, tutor) — so a client sees the work, prices and gets in touch. Small companies — to look more solid than 'an Instagram page' and appear in Google search. Cafes, salons, car services — contacts, hours, a map and a 'call' button. If you only have Instagram, a business card gives you your own address online and a place in search." },
+          { heading: "What a good business card should have", body: "A clear first screen (who you are + how you help + a call-to-action), a services block with prices or 'from', work samples or reviews, contacts with a clickable phone number, a map and a lead form to a messenger. A must — fast loading, comfort on a phone and basic SEO so the site is found by your name and service in your city." },
+          { heading: "Cost and timeline", body: "A simple 1–3 page business card — from $150, ready in 3–5 days. An extended one (services, gallery, reviews, a Telegram form) — from $250. The price includes mobile-responsive design, domain connection, a lead form and basic SEO. A domain is separate and cheap (about $10–15/year). We can discuss and launch quickly — I work in Transnistria." },
+        ],
+        outro:
+          "Need a neat business card that shows up in Google and turns visitors into calls? Message me — in 15 minutes we'll figure out what you need and I'll suggest an option within your budget.",
+      },
+      ro: {
+        title: "Comandă un site de vizită în Tiraspol: de ce și ce conține",
+        excerpt:
+          "Ce este un site de vizită, cui îi trebuie și cât costă în Tiraspol, Bender și în toată Transnistria. Un site simplu care lucrează ca vitrina ta 24/7.",
+        readTime: "5 min",
+        ctaLabel: "Comandă un site",
+        intro:
+          "Un site de vizită este un site mic, de 1–5 pagini, care spune clar cine ești: ce faci, cât costă, cum te contactează. Este primul lucru pe care îl vede clientul când îți caută compania sau numele pe Google. În Transnistria, unde mulți caută servicii prin Google și mesagerie, un site de vizită îngrijit decide adesea dacă te sună pe tine sau pe concurent.",
+        sections: [
+          { heading: "Cum diferă de un landing", body: "Site-ul de vizită este o prezentare calmă a afacerii: acasă, servicii, despre, contacte cu hartă și formular. Un landing este o singură pagină lungă, axată pe o acțiune. Vizita răspunde la «cine ești și ai încredere», landing-ul — «cumpără acum». Mulți încep cu site-ul de vizită și adaugă landing-uri pentru servicii aparte mai târziu." },
+          { heading: "Cui îi trebuie în primul rând", body: "Specialiști independenți (meșter, fotograf, avocat, meditator) — ca clientul să vadă lucrările, prețurile și să scrie. Companii mici — ca să arate mai serios decât «o pagină de Instagram» și să apară în Google. Cafenele, saloane, service auto — contacte, program, hartă și buton «sună». Dacă ai doar Instagram, un site de vizită îți dă propria adresă online și un loc în căutare." },
+          { heading: "Ce trebuie să aibă un site de vizită bun", body: "Un prim ecran clar (cine ești + cu ce ajuți + buton de acțiune), un bloc de servicii cu prețuri sau «de la», exemple de lucrări sau recenzii, contacte cu telefon apelabil, hartă și formular către un messenger. Obligatoriu — încărcare rapidă, confort pe telefon și SEO de bază, ca site-ul să fie găsit după nume și serviciu în orașul tău." },
+          { heading: "Cât costă și în cât timp", body: "Un site de vizită simplu de 1–3 pagini — de la 150 $, gata în 3–5 zile. Unul extins (servicii, galerie, recenzii, formular Telegram) — de la 250 $. Prețul include design adaptat pentru telefon, conectarea domeniului, formular și SEO de bază. Domeniul e separat și ieftin (circa 10–15 $/an). Putem discuta și lansa rapid — lucrez în Transnistria." },
+        ],
+        outro:
+          "Ai nevoie de un site de vizită îngrijit care apare în Google și transformă vizitatorii în apeluri? Scrie-mi — în 15 minute vedem ce îți trebuie și îți propun o variantă în bugetul tău.",
+      },
+    },
+  },
+  {
+    slug: "neyroseti-dlya-biznesa",
+    emoji: "🧠",
+    date: "2026-07-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Нейросети для бизнеса: как ИИ экономит время и деньги",
+        excerpt:
+          "Простыми словами о том, как нейросети помогают малому бизнесу в ПМР и Молдове: ответы клиентам, тексты, обработка заявок, аналитика. Примеры и цены на внедрение.",
+        readTime: "6 мин",
+        ctaLabel: "Внедрить ИИ",
+        intro:
+          "Нейросети (искусственный интеллект) — это уже не фантастика, а рабочий инструмент, который экономит бизнесу часы рутины. Не обязательно быть большой компанией: небольшой бизнес в Тирасполе или Кишинёве может подключить ИИ к переписке с клиентами, генерации текстов и обработке заявок — и разгрузить себя уже на этой неделе.",
+        sections: [
+          { heading: "Что нейросети реально умеют для бизнеса", body: "Отвечать клиентам в чате на типовые вопросы (цена, наличие, доставка) человеческим языком и в любое время. Писать тексты — описания товаров, посты, ответы на отзывы. Разбирать входящие заявки и сортировать по важности. Расшифровывать звонки и голосовые в текст. Подсказывать по данным: что продаётся, какие вопросы задают чаще. Всё это — без найма отдельного человека." },
+          { heading: "Где это даёт деньги, а не просто «модно»", body: "Меньше потерянных заявок — ИИ-бот отвечает мгновенно, пока менеджер занят или спит. Экономия времени — рутинные ответы и тексты уходят на ИИ. Больше повторных продаж — ИИ вовремя напоминает клиентам и подсказывает допродажи. Быстрее реакция на отзывы — важно для репутации в Google. Для малого бизнеса это часто эквивалент 1 сотрудника, но в разы дешевле." },
+          { heading: "Примеры внедрения в ПМР и Молдове", body: "Магазин — ИИ-консультант в Telegram отвечает на вопросы о товарах и помогает выбрать. Услуги — бот принимает заявку, уточняет детали и заносит в таблицу/CRM. Кафе/доставка — ИИ обрабатывает заказы и отвечает на «а что у вас есть». Любой бизнес с перепиской — ИИ пишет черновики ответов, а человек только проверяет. Начать можно с одной задачи, которая отнимает больше всего времени." },
+          { heading: "Сколько стоит внедрить ИИ", body: "Подключить ИИ-ответы к вашему чату или боту — от 300 $. ИИ-ассистент, обученный на вашей базе (прайс, услуги, частые вопросы) — от 600 $. Автоматизация под конкретный процесс — по задаче. В стоимость входят настройка, подключение и обучение вас пользоваться. Обычно окупается за 1-2 месяца сэкономленного времени." },
+        ],
+        outro:
+          "Хотите понять, где именно ИИ сэкономит время в вашем деле — а не внедрять «нейросети ради нейросетей»? Напишите мне, разберём ваш процесс и найдём 1-2 задачи, которые ИИ заберёт на себя уже сейчас.",
+      },
+      en: {
+        title: "Neural networks for business: how AI saves time and money",
+        excerpt:
+          "In plain words, how AI helps small business in Transnistria and Moldova: customer replies, texts, lead handling, analytics. Examples and prices for implementation.",
+        readTime: "6 min",
+        ctaLabel: "Add AI",
+        intro:
+          "Neural networks (artificial intelligence) are no longer science fiction but a working tool that saves businesses hours of routine. You don't have to be a big company: a small business in Tiraspol or Chișinău can connect AI to customer chats, text generation and lead handling — and offload itself this very week.",
+        sections: [
+          { heading: "What neural networks can actually do", body: "Answer customers in chat to common questions (price, availability, delivery) in natural language, any time. Write texts — product descriptions, posts, replies to reviews. Sort incoming leads by importance. Transcribe calls and voice messages into text. Give hints from your data: what sells, what questions come up most. All of this — without hiring a separate person." },
+          { heading: "Where it makes money, not just 'looks trendy'", body: "Fewer lost leads — an AI bot replies instantly while the manager is busy or asleep. Time savings — routine replies and texts go to AI. More repeat sales — AI reminds customers on time and suggests upsells. Faster reaction to reviews — important for your Google reputation. For a small business this is often the equivalent of one employee, but many times cheaper." },
+          { heading: "Examples in Transnistria and Moldova", body: "A shop — an AI consultant in Telegram answers product questions and helps choose. Services — a bot takes a request, clarifies details and adds it to a spreadsheet/CRM. Cafe/delivery — AI handles orders and answers 'what do you have'. Any business with messaging — AI drafts replies and a person just checks them. Start with the single task that eats the most time." },
+          { heading: "How much AI implementation costs", body: "Connecting AI replies to your chat or bot — from $300. An AI assistant trained on your data (prices, services, common questions) — from $600. Automation for a specific process — depends on the task. The price includes setup, connection and teaching you to use it. It usually pays off in 1–2 months of saved time." },
+        ],
+        outro:
+          "Want to see where exactly AI will save time in your business — instead of adding 'neural networks for the sake of it'? Message me, we'll look at your process and find 1–2 tasks AI can take over right now.",
+      },
+      ro: {
+        title: "Rețele neuronale pentru afaceri: cum AI economisește timp și bani",
+        excerpt:
+          "Pe înțelesul tuturor, cum AI ajută afacerile mici din Transnistria și Moldova: răspunsuri clienților, texte, procesarea cererilor, analiză. Exemple și prețuri.",
+        readTime: "6 min",
+        ctaLabel: "Adaugă AI",
+        intro:
+          "Rețelele neuronale (inteligența artificială) nu mai sunt science fiction, ci un instrument de lucru care economisește ore de rutină. Nu trebuie să fii o companie mare: o afacere mică din Tiraspol sau Chișinău poate conecta AI la conversațiile cu clienții, la generarea de texte și la procesarea cererilor — și se poate descărca chiar săptămâna asta.",
+        sections: [
+          { heading: "Ce pot face cu adevărat rețelele neuronale", body: "Să răspundă clienților în chat la întrebări uzuale (preț, stoc, livrare) natural, oricând. Să scrie texte — descrieri de produse, postări, răspunsuri la recenzii. Să sorteze cererile după importanță. Să transcrie apeluri și mesaje vocale. Să ofere sugestii din datele tale: ce se vinde, ce întrebări apar cel mai des. Totul — fără a angaja o persoană separată." },
+          { heading: "Unde aduce bani, nu doar «e la modă»", body: "Mai puține cereri pierdute — un bot AI răspunde instant cât managerul e ocupat sau doarme. Economie de timp — răspunsurile și textele de rutină merg la AI. Mai multe vânzări repetate — AI reamintește clienților la timp. Reacție mai rapidă la recenzii — important pentru reputația în Google. Pentru o afacere mică e adesea echivalentul unui angajat, dar de câteva ori mai ieftin." },
+          { heading: "Exemple în Transnistria și Moldova", body: "Un magazin — un consultant AI în Telegram răspunde la întrebări despre produse. Servicii — un bot preia cererea, clarifică detaliile și o adaugă într-un tabel/CRM. Cafenea/livrare — AI procesează comenzile și răspunde la «ce aveți». Orice afacere cu mesagerie — AI scrie ciorne de răspunsuri, iar omul doar verifică. Începe cu o singură sarcină care îți ia cel mai mult timp." },
+          { heading: "Cât costă implementarea AI", body: "Conectarea răspunsurilor AI la chatul sau botul tău — de la 300 $. Un asistent AI antrenat pe datele tale (prețuri, servicii, întrebări frecvente) — de la 600 $. Automatizarea pentru un proces anume — în funcție de sarcină. Prețul include configurarea, conectarea și instruirea ta. De obicei se amortizează în 1–2 luni de timp economisit." },
+        ],
+        outro:
+          "Vrei să vezi unde exact îți economisește AI timp în afacere — nu «rețele neuronale de dragul lor»? Scrie-mi, ne uităm la procesul tău și găsim 1–2 sarcini pe care AI le poate prelua acum.",
+      },
+    },
+  },
+  {
+    slug: "chat-bot-dlya-priyoma-zakazov",
+    emoji: "🛒",
+    date: "2026-07-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Чат-бот для приёма заказов: как перестать терять клиентов",
+        excerpt:
+          "Как чат-бот принимает заказы за вас в Telegram и на сайте: каталог, корзина, оформление и уведомления. Для магазинов, доставки и услуг в ПМР и Молдове.",
+        readTime: "5 мин",
+        ctaLabel: "Заказать бота",
+        intro:
+          "Когда заказы принимают вручную, часть их теряется: клиент написал ночью, менеджер не увидел; переспросили цену — человек передумал; заявка утонула в переписке. Чат-бот берёт приём заказов на себя: он работает круглосуточно, ведёт клиента по шагам и отдаёт вам готовый заказ. Ничего не теряется.",
+        sections: [
+          { heading: "Как бот принимает заказ по шагам", body: "Клиент открывает бота, видит каталог с фото и ценами, добавляет товары в корзину. Бот сам считает сумму и доставку, спрашивает адрес и телефон, предлагает способ оплаты. Готовый заказ мгновенно падает вам — в Telegram, таблицу или CRM — со всеми деталями. Клиент получает подтверждение и номер заказа. Всё это без единого сообщения вручную с вашей стороны." },
+          { heading: "Почему это лучше приёма «руками» и в директе", body: "Бот не спит и не уходит на обед — заказы принимаются 24/7. Нет ошибок в сумме — считает автоматически. Клиенту быстрее, чем описывать заказ словами в переписке. Вы видите все заказы в одном месте, а не ищете их по чатам. И главное — ни одна заявка не теряется, потому что бот отвечает сразу." },
+          { heading: "Для какого бизнеса подходит", body: "Доставка еды и продуктов — корзина и оформление прямо в чате. Магазины — каталог с наличием и заказ без звонка. Услуги — заявка с выбором услуги, даты и деталей. Аптеки, цветы, вода — быстрый повторный заказ в пару кликов. Если сейчас вы принимаете заказы через «напишите в Директ» — бот заменит это и заберёт рутину." },
+          { heading: "Сколько стоит и что входит", body: "Бот с приёмом заявок и уведомлениями — от 200 $. Бот с каталогом, корзиной и оформлением заказа — от 400 $, срок 1-2 недели. Оплата картой, связь с таблицей/CRM и админ-панель — по задаче. В стоимость входят разработка, размещение и первый месяц поддержки. Настрою так, чтобы вам приходили готовые заказы туда, где удобно." },
+        ],
+        outro:
+          "Устали, что заявки теряются в переписке и приходят не вовремя? Чат-бот примет заказ за вас — быстро, круглосуточно и без ошибок. Напишите мне, покажу, как это будет работать в вашем случае.",
+      },
+      en: {
+        title: "Order-taking chatbot: stop losing customers in chat threads",
+        excerpt:
+          "How a chatbot takes orders for you in Telegram and on your site: catalogue, cart, checkout and notifications. For shops, delivery and services in Transnistria and Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Order a bot",
+        intro:
+          "When orders are taken manually, some get lost: a customer wrote at night and the manager missed it; you asked about the price and the person changed their mind; the request drowned in a chat thread. A chatbot takes order-taking off your hands: it works around the clock, guides the customer step by step and hands you a finished order. Nothing gets lost.",
+        sections: [
+          { heading: "How the bot takes an order step by step", body: "The customer opens the bot, sees a catalogue with photos and prices, adds items to the cart. The bot calculates the total and delivery, asks for address and phone, offers a payment method. The finished order instantly lands with you — in Telegram, a spreadsheet or CRM — with all the details. The customer gets a confirmation and an order number. All without a single manual message on your side." },
+          { heading: "Why it beats taking orders 'by hand' and in DMs", body: "The bot doesn't sleep or take lunch — orders come in 24/7. No errors in the total — it's calculated automatically. It's faster for the customer than describing an order in words. You see all orders in one place instead of hunting through chats. And most importantly — no request is lost, because the bot replies instantly." },
+          { heading: "Which businesses it fits", body: "Food and grocery delivery — cart and checkout right in the chat. Shops — catalogue with stock and ordering without a call. Services — a request with a choice of service, date and details. Pharmacies, flowers, water — a quick repeat order in a couple of clicks. If you currently take orders via 'DM us' — a bot replaces that and takes over the routine." },
+          { heading: "Cost and what's included", body: "A bot with lead capture and notifications — from $200. A bot with catalogue, cart and checkout — from $400, 1–2 weeks. Card payments, spreadsheet/CRM integration and an admin panel — depending on the task. The price includes development, hosting and the first month of support. I'll set it up so finished orders reach you wherever is convenient." },
+        ],
+        outro:
+          "Tired of leads getting lost in chat threads and arriving too late? A chatbot will take the order for you — fast, around the clock and without errors. Message me and I'll show how it would work in your case.",
+      },
+      ro: {
+        title: "Chatbot pentru preluarea comenzilor: nu mai pierde clienți",
+        excerpt:
+          "Cum un chatbot preia comenzile pentru tine în Telegram și pe site: catalog, coș, finalizare și notificări. Pentru magazine, livrare și servicii în Transnistria și Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Comandă un bot",
+        intro:
+          "Când comenzile sunt preluate manual, o parte se pierd: clientul a scris noaptea și managerul nu a văzut; ai întrebat prețul și omul s-a răzgândit; cererea s-a pierdut în conversație. Un chatbot preia comenzile în locul tău: lucrează non-stop, ghidează clientul pas cu pas și îți predă o comandă gata. Nimic nu se pierde.",
+        sections: [
+          { heading: "Cum preia botul o comandă, pas cu pas", body: "Clientul deschide botul, vede catalogul cu poze și prețuri, adaugă produse în coș. Botul calculează suma și livrarea, cere adresa și telefonul, propune metoda de plată. Comanda gata ajunge instant la tine — în Telegram, un tabel sau CRM — cu toate detaliile. Clientul primește confirmarea și numărul comenzii. Totul fără niciun mesaj manual din partea ta." },
+          { heading: "De ce e mai bine decât preluarea «manuală» și în privat", body: "Botul nu doarme și nu iese în pauză — comenzile intră non-stop. Fără greșeli la sumă — se calculează automat. E mai rapid pentru client decât să descrie comanda în cuvinte. Vezi toate comenzile într-un singur loc, nu le cauți prin conversații. Și cel mai important — nicio cerere nu se pierde, pentru că botul răspunde imediat." },
+          { heading: "Pentru ce afaceri se potrivește", body: "Livrare de mâncare și alimente — coș și finalizare direct în chat. Magazine — catalog cu stoc și comandă fără apel. Servicii — cerere cu alegerea serviciului, datei și detaliilor. Farmacii, flori, apă — o comandă repetată rapid. Dacă acum preiei comenzi prin «scrieți-ne în privat» — un bot înlocuiește asta și preia rutina." },
+          { heading: "Cât costă și ce include", body: "Un bot cu preluare de cereri și notificări — de la 200 $. Un bot cu catalog, coș și finalizare — de la 400 $, 1–2 săptămâni. Plată cu cardul, integrare cu tabel/CRM și panou de administrare — în funcție de sarcină. Prețul include dezvoltarea, hostingul și prima lună de suport. Îl configurez ca să primești comenzile gata acolo unde îți convine." },
+        ],
+        outro:
+          "Te-ai săturat ca cererile să se piardă în conversații și să vină prea târziu? Un chatbot preia comanda în locul tău — rapid, non-stop și fără greșeli. Scrie-mi și îți arăt cum ar funcționa în cazul tău.",
+      },
+    },
+  },
+  {
+    slug: "skolko-delaetsya-sayt-etapy",
+    emoji: "⏱️",
+    date: "2026-07-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Сколько времени делается сайт и как проходит работа",
+        excerpt:
+          "Реальные сроки разработки сайта, лендинга и интернет-магазина, из каких этапов состоит работа и что нужно от вас. Прозрачно, на примере проектов в ПМР и Молдове.",
+        readTime: "5 мин",
+        ctaLabel: "Обсудить проект",
+        intro:
+          "«Сколько будет делаться сайт?» — первый вопрос почти каждого клиента. Честный ответ зависит от типа сайта, но сроки предсказуемы, если работать по этапам. Ниже — как проходит работа от заявки до запуска, реальные сроки и что понадобится от вас, чтобы не затягивать.",
+        sections: [
+          { heading: "Реальные сроки по типам", body: "Сайт-визитка (1-5 страниц) — 3-7 дней. Лендинг под одну услугу — 3-5 дней. Корпоративный сайт с каталогом — 1-2 недели. Интернет-магазин с корзиной и оплатой — 2-4 недели. Telegram-бот — от 3 дней до 2 недель по сложности. Сроки сдвигаются в основном из-за того, что ждём тексты, фото и правки от клиента — а не из-за самой разработки." },
+          { heading: "Из каких этапов состоит работа", body: "1) Бриф — 15-30 минут разбираем задачу, кто клиент, что должен делать сайт. 2) Структура и дизайн — согласуем, как всё будет выглядеть. 3) Разработка — собираю сайт, подключаю форму заявок, адаптирую под телефон. 4) Наполнение — тексты, фото, услуги, цены. 5) Тесты и запуск — проверяем на устройствах, подключаем домен. 6) SEO и поддержка — настраиваю поиск и остаюсь на связи для правок." },
+          { heading: "Что нужно от вас, чтобы не затягивать", body: "Коротко — что за бизнес и что должен делать сайт. Логотип (если есть) и пару фото работ/товаров. Тексты или хотя бы буллеты — я помогу оформить. Контакты, адрес, часы работы. Куда присылать заявки (Telegram/почта). Чем быстрее приходят материалы, тем быстрее запуск — обычно это и есть главный «тормоз», а не код." },
+          { heading: "Как я работаю и почему это удобно", body: "Держу вас в курсе на каждом этапе, показываю промежуточный результат — никаких «пропал на месяц». Правки в разумных пределах входят в работу. После запуска сайт не бросаю: домен, хостинг, безопасность и мелкие правки — на поддержке. Я в ПМР, на связи в Telegram, поэтому обсудить и подкрутить что-то можно быстро." },
+        ],
+        outro:
+          "Хотите понять сроки и цену под ваш проект? Напишите мне пару слов о бизнесе — за 15 минут скажу реальные сроки, этапы и стоимость, без сюрпризов.",
+      },
+      en: {
+        title: "How long a website takes and how the work goes",
+        excerpt:
+          "Realistic timelines for a website, landing page and online store, what stages the work includes and what's needed from you. Transparent, based on projects in Transnistria and Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Discuss a project",
+        intro:
+          "'How long will the website take?' is the first question almost every client asks. The honest answer depends on the type of site, but timelines are predictable when you work in stages. Below — how the work goes from request to launch, real timelines and what you'll need to provide so things don't drag.",
+        sections: [
+          { heading: "Real timelines by type", body: "A business-card site (1–5 pages) — 3–7 days. A landing page for one service — 3–5 days. A corporate site with a catalogue — 1–2 weeks. An online store with cart and payments — 2–4 weeks. A Telegram bot — from 3 days to 2 weeks depending on complexity. Timelines mostly shift because we're waiting on texts, photos and feedback — not because of the development itself." },
+          { heading: "What stages the work consists of", body: "1) Brief — 15–30 minutes to understand the task, who the customer is, what the site should do. 2) Structure and design — we agree on how it will look. 3) Development — I build the site, connect the lead form, make it mobile-responsive. 4) Content — texts, photos, services, prices. 5) Testing and launch — we check on devices, connect the domain. 6) SEO and support — I set up search and stay in touch for edits." },
+          { heading: "What's needed from you so it doesn't drag", body: "Briefly — what the business is and what the site should do. A logo (if you have one) and a few photos of work/products. Texts or at least bullet points — I'll help polish them. Contacts, address, hours. Where to send leads (Telegram/email). The faster the materials arrive, the faster the launch — that's usually the real bottleneck, not the code." },
+          { heading: "How I work and why it's convenient", body: "I keep you in the loop at every stage and show interim results — no 'disappearing for a month'. Reasonable edits are included. After launch I don't abandon the site: domain, hosting, security and small edits are on support. I'm in Transnistria, reachable on Telegram, so we can discuss and tweak things quickly." },
+        ],
+        outro:
+          "Want to understand the timeline and price for your project? Send me a few words about your business — in 15 minutes I'll give you real timelines, stages and cost, with no surprises.",
+      },
+      ro: {
+        title: "Cât durează un site și cum decurge lucrul",
+        excerpt:
+          "Termene realiste pentru un site, landing și magazin online, din ce etape constă lucrul și ce e nevoie de la tine. Transparent, pe exemplul proiectelor din Transnistria și Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Discută un proiect",
+        intro:
+          "«Cât durează site-ul?» este prima întrebare a aproape fiecărui client. Răspunsul sincer depinde de tipul site-ului, dar termenele sunt previzibile dacă lucrezi pe etape. Mai jos — cum decurge lucrul de la cerere la lansare, termene reale și ce vei avea nevoie să oferi ca să nu se tergiverseze.",
+        sections: [
+          { heading: "Termene reale pe tipuri", body: "Un site de vizită (1–5 pagini) — 3–7 zile. Un landing pentru un serviciu — 3–5 zile. Un site corporativ cu catalog — 1–2 săptămâni. Un magazin online cu coș și plăți — 2–4 săptămâni. Un bot Telegram — de la 3 zile la 2 săptămâni, în funcție de complexitate. Termenele se mută mai ales pentru că așteptăm texte, poze și feedback — nu din cauza dezvoltării." },
+          { heading: "Din ce etape constă lucrul", body: "1) Brief — 15–30 minute pentru a înțelege sarcina, cine e clientul, ce trebuie să facă site-ul. 2) Structură și design — stabilim cum va arăta. 3) Dezvoltare — construiesc site-ul, conectez formularul, îl adaptez la telefon. 4) Conținut — texte, poze, servicii, prețuri. 5) Testare și lansare — verificăm pe dispozitive, conectăm domeniul. 6) SEO și suport — configurez căutarea și rămân în legătură pentru modificări." },
+          { heading: "Ce e nevoie de la tine ca să nu se tergiverseze", body: "Pe scurt — ce afacere e și ce trebuie să facă site-ul. Un logo (dacă ai) și câteva poze cu lucrări/produse. Texte sau măcar idei pe puncte — te ajut să le finisez. Contacte, adresă, program. Unde să trimit cererile (Telegram/email). Cu cât vin mai repede materialele, cu atât mai rapidă lansarea — de obicei acolo e frâna, nu la cod." },
+          { heading: "Cum lucrez și de ce e convenabil", body: "Te țin la curent la fiecare etapă și îți arăt rezultate intermediare — fără «dispărut o lună». Modificările rezonabile sunt incluse. După lansare nu abandonez site-ul: domeniu, hosting, securitate și modificări mici — pe suport. Sunt în Transnistria, disponibil pe Telegram, așa că putem discuta și ajusta rapid." },
+        ],
+        outro:
+          "Vrei să afli termenul și prețul pentru proiectul tău? Trimite-mi câteva cuvinte despre afacere — în 15 minute îți dau termene reale, etape și cost, fără surprize.",
+      },
+    },
+  },
+  {
     slug: "telegram-bot-pmr-tiraspol",
     emoji: "🤖",
     date: "2026-07-02",
