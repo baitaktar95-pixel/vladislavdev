@@ -34,6 +34,101 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "telegram-bot-pmr-tiraspol",
+    emoji: "🤖",
+    date: "2026-07-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Telegram-бот для бизнеса в ПМР: Тирасполь, Бендеры, Рыбница",
+        excerpt:
+          "Зачем бизнесу в Приднестровье Telegram-бот, что он умеет и сколько стоит заказать бота в Тирасполе и Бендерах. Приём заказов, каталог, оплата и запись — прямо в чате.",
+        readTime: "6 мин",
+        ctaLabel: "Заказать бота",
+        intro:
+          "В ПМР Telegram — мессенджер номер один: в нём сидят клиенты в Тирасполе, Бендерах, Рыбнице и Дубоссарах. Большинство местного бизнеса принимает заказы вручную — «пишите в Директ» или «звоните на Viber», — и часть заявок теряется, особенно вечером и в выходные. Telegram-бот превращает этот канал в круглосуточного продавца, который отвечает мгновенно и не теряет ни одного клиента.",
+        sections: [
+          {
+            heading: "Почему в Приднестровье бот работает лучше «пишите в Директ»",
+            body: "Когда заказы принимаются вручную, клиент ждёт ответа, менеджер переспрашивает наличие и цену, считает сумму — и на каждом шаге часть людей отваливается. Ночью и в выходные не отвечает никто. Бот убирает эти «ступеньки»: клиент сам открывает каталог, выбирает товар, оставляет заказ и получает подтверждение — за минуту и в любое время. Для приднестровского бизнеса, где многие покупки идут именно через мессенджеры, это прямой рост заявок.",
+          },
+          {
+            heading: "Что умеет Telegram-бот для местного бизнеса",
+            body: "Бот показывает каталог с фото и ценами, принимает заказы и заявки, считает сумму и доставку, ведёт запись на услугу, отправляет напоминания и уведомления («заказ принят», «курьер выехал»), собирает отзывы и передаёт сложные вопросы живому менеджеру. Всё это — внутри Telegram, клиенту не нужно ставить приложения или заходить на сайт. Бот можно связать с сайтом, таблицей или CRM, чтобы заказы падали туда, где вам удобно.",
+          },
+          {
+            heading: "Кому в ПМР это особенно нужно",
+            body: "Доставка продуктов и еды — приём заказа и корзина прямо в чате вместо долгой переписки. Магазины и шоурумы — каталог с наличием и ценами 24/7. Салоны красоты и мастера — онлайн-запись и напоминание за час, меньше «неявок». Услуги (ремонт, автосервис, доставка воды) — заявка в два клика и уведомления о статусе. Даже небольшой бизнес на 1-2 человека бот разгружает, забирая рутину приёма заказов на себя.",
+          },
+          {
+            heading: "Сколько стоит и как заказать в Тирасполе",
+            body: "Простой бот с приёмом заявок и автоответами — от 200 $, готов за 3-5 дней. Бот с каталогом, корзиной и оформлением заказа — от 400 $, 1-2 недели. AI-бот на базе GPT, который отвечает на вопросы клиентов по вашей базе — от 600 $. В цену входят разработка, размещение на сервере и первый месяц поддержки. Я живу и работаю в ПМР, поэтому обсудить задачу и запустить бота можно быстро и на связи.",
+          },
+        ],
+        outro:
+          "Если вы ведёте бизнес в Тирасполе, Бендерах или где-то ещё в Приднестровье и устали терять заявки в переписке — Telegram-бот решит это за вас. Напишите мне, и за 15 минут разберём, какой бот подойдёт именно вашему делу.",
+      },
+      en: {
+        title: "Telegram bot for business in Transnistria: Tiraspol, Bender, Rîbnița",
+        excerpt:
+          "Why a business in Transnistria needs a Telegram bot, what it can do and how much it costs to order one in Tiraspol and Bender. Orders, catalogue, payments and booking — right in the chat.",
+        readTime: "6 min",
+        ctaLabel: "Order a bot",
+        intro:
+          "In Transnistria, Telegram is the number one messenger — customers in Tiraspol, Bender, Rîbnița and Dubăsari all use it. Most local businesses take orders manually — 'DM us' or 'call our Viber' — and part of the leads get lost, especially in the evening and on weekends. A Telegram bot turns this channel into a 24/7 salesperson that replies instantly and never loses a customer.",
+        sections: [
+          {
+            heading: "Why a bot beats 'send us a DM' in Transnistria",
+            body: "When orders are handled manually, the customer waits for a reply, the manager re-checks stock and price, adds it up — and at every step some people drop off. At night and on weekends nobody answers. A bot removes these steps: the customer opens the catalogue, picks a product, places an order and gets a confirmation — in a minute, any time. For Transnistrian businesses, where many purchases go through messengers, this is a direct increase in leads.",
+          },
+          {
+            heading: "What a Telegram bot can do for a local business",
+            body: "The bot shows a catalogue with photos and prices, takes orders and requests, calculates totals and delivery, handles appointment booking, sends reminders and notifications ('order accepted', 'courier is on the way'), collects reviews and hands complex questions to a live manager. All inside Telegram — no apps to install, no website to visit. The bot can connect to your website, spreadsheet or CRM so orders land wherever is convenient for you.",
+          },
+          {
+            heading: "Who in Transnistria needs it most",
+            body: "Grocery and food delivery — order intake and cart right in the chat instead of back-and-forth messages. Shops and showrooms — catalogue with stock and prices 24/7. Beauty salons and independent pros — online booking and an hour-ahead reminder, fewer no-shows. Services (repairs, car service, water delivery) — a two-click request and status notifications. Even a small one or two person business gets relief as the bot takes over the routine of order taking.",
+          },
+          {
+            heading: "How much it costs and how to order in Tiraspol",
+            body: "A simple bot with lead capture and auto-replies — from $200, ready in 3-5 days. A bot with catalogue, cart and checkout — from $400, 1-2 weeks. A GPT-based AI bot that answers customer questions from your knowledge base — from $600. The price includes development, hosting and the first month of support. I live and work in Transnistria, so we can discuss the task and launch the bot quickly and stay in touch.",
+          },
+        ],
+        outro:
+          "If you run a business in Tiraspol, Bender or anywhere in Transnistria and you're tired of losing leads in chat threads — a Telegram bot will fix that for you. Message me and in 15 minutes we'll figure out which bot fits your case.",
+      },
+      ro: {
+        title: "Bot Telegram pentru afaceri în Transnistria: Tiraspol, Bender, Rîbnița",
+        excerpt:
+          "De ce o afacere din Transnistria are nevoie de un bot Telegram, ce poate face și cât costă să comanzi unul în Tiraspol și Bender. Comenzi, catalog, plăți și programări — direct în chat.",
+        readTime: "6 min",
+        ctaLabel: "Comandă un bot",
+        intro:
+          "În Transnistria, Telegram este mesagerul numărul unu — îl folosesc clienții din Tiraspol, Bender, Rîbnița și Dubăsari. Majoritatea afacerilor locale preiau comenzile manual — «scrieți-ne în privat» sau «sunați pe Viber» — și o parte din cereri se pierd, mai ales seara și în weekend. Un bot Telegram transformă acest canal într-un vânzător 24/7 care răspunde instant și nu pierde niciun client.",
+        sections: [
+          {
+            heading: "De ce un bot funcționează mai bine decât «scrieți-ne în privat»",
+            body: "Când comenzile sunt preluate manual, clientul așteaptă răspunsul, managerul verifică din nou stocul și prețul, calculează suma — și la fiecare pas o parte din oameni renunță. Noaptea și în weekend nu răspunde nimeni. Botul elimină acești pași: clientul deschide catalogul, alege produsul, lasă comanda și primește confirmarea — într-un minut, oricând. Pentru afacerile din Transnistria, unde multe achiziții trec prin mesagerie, aceasta înseamnă mai multe cereri.",
+          },
+          {
+            heading: "Ce poate face un bot Telegram pentru o afacere locală",
+            body: "Botul afișează catalogul cu poze și prețuri, preia comenzi și cereri, calculează totalul și livrarea, gestionează programările, trimite remindere și notificări («comandă acceptată», «curierul a plecat»), colectează recenzii și transferă întrebările complexe către un manager real. Totul în Telegram — fără aplicații de instalat, fără site de vizitat. Botul se poate conecta la site, la un tabel sau la CRM, ca să primești comenzile unde îți convine.",
+          },
+          {
+            heading: "Cine din Transnistria are cea mai mare nevoie",
+            body: "Livrare de alimente și mâncare — preluarea comenzii și coșul direct în chat, în loc de mesaje înainte și înapoi. Magazine și showroom-uri — catalog cu stoc și prețuri 24/7. Saloane și specialiști independenți — programări online și reminder cu o oră înainte, mai puține neprezentări. Servicii (reparații, service auto, livrare apă) — cerere din două clickuri și notificări de status. Chiar și o afacere mică, de una-două persoane, este ușurată, botul preluând rutina comenzilor.",
+          },
+          {
+            heading: "Cât costă și cum comanzi în Tiraspol",
+            body: "Un bot simplu cu preluare de cereri și răspunsuri automate — de la 200 $, gata în 3-5 zile. Un bot cu catalog, coș și finalizarea comenzii — de la 400 $, 1-2 săptămâni. Un bot AI pe bază de GPT care răspunde la întrebările clienților din baza ta de cunoștințe — de la 600 $. Prețul include dezvoltarea, hostingul și prima lună de suport. Locuiesc și lucrez în Transnistria, așa că putem discuta rapid și lansa botul, rămânând în legătură.",
+          },
+        ],
+        outro:
+          "Dacă ai o afacere în Tiraspol, Bender sau oriunde în Transnistria și te-ai săturat să pierzi cereri în conversații — un bot Telegram rezolvă asta. Scrie-mi și în 15 minute vedem ce bot ți se potrivește.",
+      },
+    },
+  },
+  {
     slug: "telegram-bot-dlya-biznesa-moldova",
     emoji: "🤖",
     date: "2026-05-10",
