@@ -2,6 +2,7 @@ import type { ComponentType } from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { useT } from "@/i18n";
+import type { Lang } from "@/i18n";
 import {
   BrowserMockup,
   PhoneMockup,
@@ -16,11 +17,13 @@ import {
 
 type Mockup = "browser" | "phone";
 
+type L = Record<Lang, string>;
+
 const projects: Array<{
   emoji: string;
   title: string;
-  type: string;
-  desc: string;
+  type: L;
+  desc: L;
   gradient: string;
   glow: string;
   url: string;
@@ -31,8 +34,16 @@ const projects: Array<{
   {
     emoji: "🧴",
     title: "Химия & Посуда ПМР",
-    type: "Интернет-магазин + доставка по ПМР",
-    desc: "Бытовая химия, посуда, текстиль и косметика — 1000+ товаров с доставкой по Тирасполю и Бендерам.",
+    type: {
+      ru: "Интернет-магазин + доставка по ПМР",
+      en: "Online store + delivery in Transnistria",
+      ro: "Magazin online + livrare în Transnistria",
+    },
+    desc: {
+      ru: "Бытовая химия, посуда, текстиль и косметика — 1000+ товаров с доставкой по Тирасполю и Бендерам.",
+      en: "Household chemicals, kitchenware, textiles and cosmetics — 1000+ products with delivery across Tiraspol and Bender.",
+      ro: "Chimicale de uz casnic, veselă, textile și cosmetice — 1000+ produse cu livrare în Tiraspol și Bender.",
+    },
     gradient: "from-orange-500/40 via-amber-400/30 to-rose-300/40",
     glow: "shadow-[0_0_60px_-10px_rgba(249,115,22,0.6)]",
     url: "himiaposuda.com",
@@ -43,8 +54,16 @@ const projects: Array<{
   {
     emoji: "🪟",
     title: "Мастер Окон",
-    type: "Калькулятор окон и дверей",
-    desc: "Онлайн-конфигуратор окон и дверей RAMPLAST & Blanco Plast с расчётом цены для частных лиц и дилеров.",
+    type: {
+      ru: "Калькулятор окон и дверей",
+      en: "Windows & doors calculator",
+      ro: "Calculator de ferestre și uși",
+    },
+    desc: {
+      ru: "Онлайн-конфигуратор окон и дверей RAMPLAST & Blanco Plast с расчётом цены для частных лиц и дилеров.",
+      en: "Online configurator for RAMPLAST & Blanco Plast windows and doors with pricing for individuals and dealers.",
+      ro: "Configurator online pentru ferestre și uși RAMPLAST & Blanco Plast, cu preț pentru persoane fizice și dealeri.",
+    },
     gradient: "from-slate-800/60 via-stone-700/40 to-orange-600/40",
     glow: "shadow-[0_0_60px_-10px_rgba(234,88,12,0.6)]",
     url: "okna-dveri-pmr.lovable.app",
@@ -55,8 +74,16 @@ const projects: Array<{
   {
     emoji: "🪟",
     title: "Decor City",
-    type: "Сайт жалюзи, окон и дверей + заявки в Telegram",
-    desc: "Сайт солнцезащитных систем в Тирасполе: каталог из 12 категорий, SEO под топ Google, заявки прямо в Telegram. На рынке с 2000 года.",
+    type: {
+      ru: "Сайт жалюзи, окон и дверей + заявки в Telegram",
+      en: "Blinds, windows & doors site + Telegram leads",
+      ro: "Site jaluzele, ferestre și uși + cereri în Telegram",
+    },
+    desc: {
+      ru: "Сайт солнцезащитных систем в Тирасполе: каталог из 12 категорий, SEO под топ Google, заявки прямо в Telegram. На рынке с 2000 года.",
+      en: "A sun-protection systems site in Tiraspol: a catalogue of 12 categories, SEO for the Google top, leads straight to Telegram. On the market since 2000.",
+      ro: "Un site de sisteme de protecție solară în Tiraspol: catalog din 12 categorii, SEO pentru topul Google, cereri direct în Telegram. Pe piață din 2000.",
+    },
     gradient: "from-emerald-950/60 via-green-900/40 to-yellow-700/30",
     glow: "shadow-[0_0_60px_-10px_rgba(217,166,74,0.6)]",
     url: "decorcitymd.com",
@@ -67,8 +94,16 @@ const projects: Array<{
   {
     emoji: "🤖",
     title: "Студия массажа «Баланс»",
-    type: "Telegram бот + запись + меню услуг",
-    desc: "AI-бот для записи клиентов: отвечает 24/7, показывает услуги с ценами, принимает запись без участия администратора.",
+    type: {
+      ru: "Telegram бот + запись + меню услуг",
+      en: "Telegram bot + booking + service menu",
+      ro: "Bot Telegram + programări + meniu de servicii",
+    },
+    desc: {
+      ru: "AI-бот для записи клиентов: отвечает 24/7, показывает услуги с ценами, принимает запись без участия администратора.",
+      en: "An AI bot for client booking: replies 24/7, shows services with prices and takes bookings without an administrator.",
+      ro: "Un bot AI pentru programarea clienților: răspunde 24/7, arată serviciile cu prețuri și preia programări fără administrator.",
+    },
     gradient: "from-blue-700/50 via-blue-500/30 to-cyan-400/50",
     glow: "shadow-[0_0_60px_-10px_rgba(76,201,255,0.7)]",
     url: "@test_haircut_bot",
@@ -79,11 +114,19 @@ const projects: Array<{
   {
     emoji: "📱",
     title: "OrderApp",
-    type: "Mini App: меню + заказ + оплата",
-    desc: "Telegram Mini App для ресторана: меню, корзина и оплата прямо внутри Telegram.",
+    type: {
+      ru: "Mini App: меню + заказ + оплата",
+      en: "Mini App: menu + order + payment",
+      ro: "Mini App: meniu + comandă + plată",
+    },
+    desc: {
+      ru: "Telegram Mini App для ресторана: меню, корзина и оплата прямо внутри Telegram.",
+      en: "A Telegram Mini App for a restaurant: menu, cart and payment right inside Telegram.",
+      ro: "Un Telegram Mini App pentru un restaurant: meniu, coș și plată chiar în Telegram.",
+    },
     gradient: "from-red-900/50 via-rose-700/30 to-amber-700/40",
     glow: "shadow-[0_0_60px_-10px_rgba(225,29,72,0.5)]",
-    url: "Открыть в Telegram →",
+    url: "Telegram →",
     href: "https://t.me/anya_shop_bot/orderapp",
     mockup: "phone",
     Render: OrderApp,
@@ -91,8 +134,16 @@ const projects: Array<{
   {
     emoji: "🏠",
     title: "RentEase",
-    type: "Каталог + фильтры + заявки",
-    desc: "Сайт аренды недвижимости с умными фильтрами, картой объектов и онлайн-заявками.",
+    type: {
+      ru: "Каталог + фильтры + заявки",
+      en: "Catalogue + filters + leads",
+      ro: "Catalog + filtre + cereri",
+    },
+    desc: {
+      ru: "Сайт аренды недвижимости с умными фильтрами, картой объектов и онлайн-заявками.",
+      en: "A real-estate rental site with smart filters, a property map and online requests.",
+      ro: "Un site de închiriere imobiliară cu filtre inteligente, hartă a proprietăților și cereri online.",
+    },
     gradient: "from-amber-700/40 via-yellow-600/30 to-stone-900/60",
     glow: "shadow-[0_0_60px_-10px_rgba(217,119,6,0.5)]",
     url: "rentease.md",
@@ -102,7 +153,7 @@ const projects: Array<{
 ];
 
 export function Portfolio() {
-  const { t } = useT();
+  const { t, lang } = useT();
   return (
     <section id="portfolio" className="relative py-32 px-6">
       <div className="max-w-6xl mx-auto">
@@ -167,7 +218,7 @@ export function Portfolio() {
                   <div className="flex items-start justify-between mb-2">
                     <div>
                       <div className="text-xs text-white/70 uppercase tracking-wider mb-1">
-                        {p.type}
+                        {p.type[lang]}
                       </div>
                       <h3 className="font-display font-bold text-xl text-white">
                         <span className="mr-2">{p.emoji}</span>
@@ -178,7 +229,7 @@ export function Portfolio() {
                       <ArrowUpRight className="w-4 h-4" />
                     </div>
                   </div>
-                  <p className="text-sm text-white/80 leading-relaxed">{p.desc}</p>
+                  <p className="text-sm text-white/80 leading-relaxed">{p.desc[lang]}</p>
                 </div>
               </Wrapper>
             );

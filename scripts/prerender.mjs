@@ -61,7 +61,11 @@ function buildHtml({ title, description, canonical, ogType, bodyHtml, jsonLd }) 
       `<script type="application/ld+json">\n${JSON.stringify(jsonLd)}\n</script>`
     );
   }
-  html = html.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
+  // Пререндер-контент нужен поисковику, но НЕ должен мелькать у пользователя,
+  // пока грузится React. Прячем его off-screen (видно роботам/скринридерам,
+  // не видно глазу). React (createRoot) при монтировании заменит #root целиком.
+  const hidden = 'position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;';
+  html = html.replace('<div id="root"></div>', `<div id="root"><div style="${hidden}">${bodyHtml}</div></div>`);
   return html;
 }
 
