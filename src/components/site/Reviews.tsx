@@ -51,7 +51,7 @@ export function Reviews() {
             {t("reviews.empty")}
           </div>
         ) : (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 items-start">
             {localized.map((r, i) => (
               <ReviewCard key={r.id} review={r} index={i} />
             ))}
