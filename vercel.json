@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/portfolio", "destination": "/#portfolio", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
