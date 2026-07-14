@@ -34,6 +34,196 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "zakazat-sayt-v-benderah",
+    emoji: "🏙️",
+    date: "2026-07-14",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Заказать сайт в Бендерах: цена, сроки и что входит",
+        excerpt:
+          "Где и как заказать сайт в Бендерах — сколько стоит, за какой срок делается и что входит. Сайты-визитки, лендинги и интернет-магазины для бизнеса Бендер и всего Приднестровья.",
+        readTime: "5 мин",
+        ctaLabel: "Заказать сайт",
+        intro:
+          "Бендеры — второй по величине город ПМР, и здесь у бизнеса те же задачи, что и везде: чтобы клиент нашёл вас в Google, увидел цены и услуги и связался за минуту. Разберём, какой сайт нужен бизнесу в Бендерах, сколько это стоит в 2026 году и как заказать разработку, не тратя недели на переписку.",
+        sections: [
+          {
+            heading: "Зачем бизнесу в Бендерах свой сайт",
+            body: "Когда человек в Бендерах ищет «где заказать окна», «купить цветы с доставкой» или «мастер по ремонту», он открывает Google — и заходит к тому, у кого есть аккуратный сайт с ценами и контактами. Страница в Instagram этого не заменяет: её не находят в поиске, там неудобно смотреть каталог, а половина людей просто не хочет писать в Директ. Свой сайт работает как витрина 24/7 и вызывает больше доверия, чем профиль в соцсети.",
+          },
+          {
+            heading: "Какие сайты я делаю",
+            body: "Сайт-визитка (1-5 страниц) — коротко о вас, услугах, ценах и контактах, идеально для мастеров и небольших компаний. Лендинг — одна страница под конкретную услугу или акцию, заточенная на заявки. Интернет-магазин — каталог с корзиной, заказом и оплатой. Плюс подключаю приём заявок прямо в Telegram или Viber, чтобы вы получали обращения мгновенно. Все сайты адаптированы под телефон — с него заходит большинство клиентов в ПМР.",
+          },
+          {
+            heading: "Сколько стоит и за какой срок",
+            body: "Сайт-визитка — от 150 $, срок 3-7 дней. Лендинг — от 200 $, до недели. Интернет-магазин с каталогом — от 400 $, 2-4 недели. Telegram-бот для приёма заказов — от 200 $. В стоимость входит адаптация под телефон, базовая SEO-настройка (чтобы вас находил Google), размещение на хостинге и первый месяц поддержки. Точную цену называю после короткого разговора о задаче.",
+          },
+          {
+            heading: "Как заказать сайт в Бендерах",
+            body: "Я живу и работаю в Приднестровье, поэтому обсудить проект с бизнесом из Бендер можно быстро и на связи — в Telegram, WhatsApp или Viber, вся работа ведётся онлайн. Вы описываете задачу, я предлагаю решение и цену, дальше делаю сайт и показываю на каждом этапе. Никаких офисов и долгих встреч — только результат в оговорённый срок.",
+          },
+        ],
+        outro:
+          "Если у вас бизнес в Бендерах и нужен сайт, лендинг или интернет-магазин — напишите мне. За 15 минут разберём, что вам подойдёт, и я назову точную цену и срок.",
+      },
+      en: {
+        title: "Order a website in Bender: price, timeline and what's included",
+        excerpt:
+          "Where and how to order a website in Bender — how much it costs, how long it takes and what's included. Business-card sites, landing pages and online stores for Bender and all of Transnistria.",
+        readTime: "5 min",
+        ctaLabel: "Order a website",
+        intro:
+          "Bender is the second-largest city in Transnistria, and businesses here face the same task as everywhere: to be found on Google, show prices and services, and let a customer get in touch in a minute. Let's look at what kind of website a business in Bender needs, how much it costs in 2026 and how to order one without spending weeks on messaging.",
+        sections: [
+          {
+            heading: "Why a business in Bender needs its own website",
+            body: "When someone in Bender searches for 'where to order windows', 'buy flowers with delivery' or 'repair specialist', they open Google — and go to whoever has a clean site with prices and contacts. An Instagram page doesn't replace that: it isn't found in search, the catalogue is inconvenient, and half the people simply don't want to DM. Your own website works as a 24/7 storefront and builds more trust than a social profile.",
+          },
+          {
+            heading: "What kinds of sites I build",
+            body: "A business-card site (1-5 pages) — a short overview of you, services, prices and contacts, ideal for independent pros and small companies. A landing page — a single page for a specific service or promotion, focused on leads. An online store — a catalogue with cart, checkout and payment. Plus I connect lead capture straight to Telegram or Viber so you get requests instantly. Every site is mobile-friendly — that's how most customers in Transnistria browse.",
+          },
+          {
+            heading: "How much it costs and how long it takes",
+            body: "A business-card site — from $150, 3-7 days. A landing page — from $200, up to a week. An online store with a catalogue — from $400, 2-4 weeks. A Telegram bot for order intake — from $200. The price includes mobile adaptation, basic SEO setup (so Google finds you), hosting and the first month of support. I give the exact price after a short chat about your task.",
+          },
+          {
+            heading: "How to order a website in Bender",
+            body: "I live and work in Transnistria, so discussing a project with a business from Bender is quick and easy — via Telegram, WhatsApp or Viber, with all work done online. You describe the task, I propose a solution and price, then build the site and show progress at every step. No offices, no long meetings — just results within the agreed deadline.",
+          },
+        ],
+        outro:
+          "If you run a business in Bender and need a website, landing page or online store — message me. In 15 minutes we'll figure out what fits you, and I'll give you the exact price and timeline.",
+      },
+      ro: {
+        title: "Comandă un site în Bender: preț, termene și ce include",
+        excerpt:
+          "Unde și cum comanzi un site în Bender — cât costă, în cât timp se face și ce include. Site-uri de prezentare, landing-uri și magazine online pentru Bender și toată Transnistria.",
+        readTime: "5 min",
+        ctaLabel: "Comandă un site",
+        intro:
+          "Bender este al doilea oraș ca mărime din Transnistria, iar afacerile de aici au aceeași sarcină ca peste tot: să fie găsite pe Google, să arate prețuri și servicii și să permită clientului să ia legătura într-un minut. Vedem ce fel de site are nevoie o afacere din Bender, cât costă în 2026 și cum comanzi unul fără să pierzi săptămâni în mesaje.",
+        sections: [
+          {
+            heading: "De ce o afacere din Bender are nevoie de site propriu",
+            body: "Când cineva din Bender caută «unde comand ferestre», «flori cu livrare» sau «specialist în reparații», deschide Google — și intră la cel care are un site îngrijit, cu prețuri și contacte. O pagină de Instagram nu înlocuiește asta: nu e găsită în căutare, catalogul e incomod, iar jumătate dintre oameni pur și simplu nu vor să scrie în privat. Site-ul propriu funcționează ca o vitrină 24/7 și inspiră mai multă încredere decât un profil de rețea socială.",
+          },
+          {
+            heading: "Ce fel de site-uri fac",
+            body: "Site de prezentare (1-5 pagini) — pe scurt despre tine, servicii, prețuri și contacte, ideal pentru specialiști și companii mici. Landing — o singură pagină pentru un serviciu sau o promoție anume, axată pe cereri. Magazin online — catalog cu coș, comandă și plată. În plus, conectez preluarea cererilor direct în Telegram sau Viber, ca să primești solicitările instant. Toate site-urile sunt adaptate pentru telefon — de acolo intră majoritatea clienților din Transnistria.",
+          },
+          {
+            heading: "Cât costă și în cât timp",
+            body: "Site de prezentare — de la 150 $, 3-7 zile. Landing — de la 200 $, până la o săptămână. Magazin online cu catalog — de la 400 $, 2-4 săptămâni. Bot Telegram pentru preluarea comenzilor — de la 200 $. Prețul include adaptarea pentru telefon, configurarea SEO de bază (ca să te găsească Google), hosting și prima lună de suport. Prețul exact îl spun după o scurtă discuție despre sarcină.",
+          },
+          {
+            heading: "Cum comanzi un site în Bender",
+            body: "Locuiesc și lucrez în Transnistria, așa că discuția unui proiect cu o afacere din Bender e rapidă și comodă — prin Telegram, WhatsApp sau Viber, totul online. Îmi descrii sarcina, îți propun o soluție și un preț, apoi fac site-ul și îți arăt progresul la fiecare etapă. Fără birouri și întâlniri lungi — doar rezultat în termenul stabilit.",
+          },
+        ],
+        outro:
+          "Dacă ai o afacere în Bender și ai nevoie de un site, landing sau magazin online — scrie-mi. În 15 minute vedem ce ți se potrivește, iar eu îți spun prețul și termenul exact.",
+      },
+    },
+  },
+  {
+    slug: "skolko-stoit-telegram-bot",
+    emoji: "💰",
+    date: "2026-07-14",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Сколько стоит Telegram-бот в 2026: цены в Тирасполе и Молдове",
+        excerpt:
+          "Сколько стоит заказать Telegram-бота в 2026 году — от простого бота с заявками до AI-бота на GPT. Реальные цены, сроки и что входит. Для бизнеса ПМР и Молдовы.",
+        readTime: "6 мин",
+        ctaLabel: "Заказать бота",
+        intro:
+          "Telegram-бот — один из самых окупаемых инструментов для местного бизнеса: он принимает заказы круглосуточно, отвечает мгновенно и не теряет клиентов. Но перед заказом все спрашивают одно: сколько это стоит. Разберём честно — от чего зависит цена и сколько стоит бот в 2026 году в Тирасполе, Бендерах и по всей Молдове.",
+        sections: [
+          {
+            heading: "От чего зависит цена бота",
+            body: "Стоимость бота определяют три вещи: что он должен уметь, откуда берёт данные и нужен ли ему искусственный интеллект. Простой бот с парой сценариев стоит недорого. Бот с каталогом, корзиной и оплатой — дороже, потому что это уже мини-магазин. AI-бот, который понимает живые вопросы и отвечает по вашей базе знаний, — верхний сегмент. Ещё на цену влияет интеграция с сайтом, таблицей или CRM. Ниже — реальные вилки по каждому типу.",
+          },
+          {
+            heading: "Простой бот с заявками — от 200 $",
+            body: "Это бот, который встречает клиента, показывает меню кнопками (услуги, цены, контакты), принимает заявку и присылает её вам в Telegram. Подходит мастерам, салонам, небольшим услугам — всем, кому нужно просто не терять обращения и отвечать даже ночью. Делается за 3-5 дней. Самый быстрый способ перестать терять клиентов в переписке.",
+          },
+          {
+            heading: "Бот с каталогом и заказом — от 400 $",
+            body: "Полноценный «магазин в чате»: каталог с фото и ценами, корзина, оформление заказа, расчёт доставки, уведомления о статусе («заказ принят», «курьер выехал»). Подходит доставке еды, магазинам, шоурумам. Можно связать с таблицей или сайтом, чтобы заказы падали в одно место. Срок — 1-2 недели. Такой бот реально заменяет менеджера на приёме заказов.",
+          },
+          {
+            heading: "AI-бот на GPT — от 600 $",
+            body: "Бот, обученный на вашей информации: он понимает вопросы своими словами и отвечает клиентам как живой консультант — о товарах, услугах, наличии, условиях. Работает 24/7, разгружает вас от одинаковых вопросов и передаёт сложные случаи человеку. Верхний сегмент по цене, но и отдача выше: он не только принимает заказы, но и продаёт, отвечая на возражения. В стоимость всех ботов входит размещение на сервере и первый месяц поддержки.",
+          },
+        ],
+        outro:
+          "Точную цену бота я называю после короткого разговора — она зависит от того, что именно вам нужно. Напишите мне, опишите задачу, и я скажу, какой бот подойдёт и сколько он будет стоить.",
+      },
+      en: {
+        title: "How much a Telegram bot costs in 2026: prices in Tiraspol and Moldova",
+        excerpt:
+          "How much it costs to order a Telegram bot in 2026 — from a simple lead bot to a GPT-based AI bot. Real prices, timelines and what's included. For businesses in Transnistria and Moldova.",
+        readTime: "6 min",
+        ctaLabel: "Order a bot",
+        intro:
+          "A Telegram bot is one of the highest-ROI tools for a local business: it takes orders around the clock, replies instantly and never loses customers. But before ordering, everyone asks the same thing: how much does it cost. Let's break it down honestly — what drives the price and how much a bot costs in 2026 in Tiraspol, Bender and across Moldova.",
+        sections: [
+          {
+            heading: "What determines the price of a bot",
+            body: "Three things set the cost: what the bot needs to do, where it pulls data from and whether it needs artificial intelligence. A simple bot with a couple of scenarios is cheap. A bot with a catalogue, cart and payment costs more because it's already a mini-store. An AI bot that understands live questions and answers from your knowledge base is the top tier. Integration with a website, spreadsheet or CRM also affects price. Below are the real ranges for each type.",
+          },
+          {
+            heading: "A simple lead bot — from $200",
+            body: "This is a bot that greets the customer, shows a button menu (services, prices, contacts), takes a request and sends it to you in Telegram. It suits independent pros, salons and small services — anyone who just needs to stop losing inquiries and reply even at night. Built in 3-5 days. The fastest way to stop losing customers in chat threads.",
+          },
+          {
+            heading: "A bot with catalogue and checkout — from $400",
+            body: "A full 'store in a chat': a catalogue with photos and prices, cart, checkout, delivery calculation, status notifications ('order accepted', 'courier on the way'). It suits food delivery, shops and showrooms. It can connect to a spreadsheet or website so orders land in one place. Timeline — 1-2 weeks. This kind of bot genuinely replaces a manager at order intake.",
+          },
+          {
+            heading: "A GPT-based AI bot — from $600",
+            body: "A bot trained on your information: it understands questions in plain words and answers customers like a live consultant — about products, services, stock, terms. It works 24/7, frees you from repetitive questions and hands complex cases to a human. The top price tier, but a higher return: it not only takes orders but sells by handling objections. The price of every bot includes hosting and the first month of support.",
+          },
+        ],
+        outro:
+          "I give the exact bot price after a short chat — it depends on what exactly you need. Message me, describe the task, and I'll tell you which bot fits and how much it will cost.",
+      },
+      ro: {
+        title: "Cât costă un bot Telegram în 2026: prețuri în Tiraspol și Moldova",
+        excerpt:
+          "Cât costă să comanzi un bot Telegram în 2026 — de la un bot simplu cu cereri la un bot AI pe GPT. Prețuri reale, termene și ce include. Pentru afaceri din Transnistria și Moldova.",
+        readTime: "6 min",
+        ctaLabel: "Comandă un bot",
+        intro:
+          "Un bot Telegram este unul dintre cele mai rentabile instrumente pentru o afacere locală: preia comenzi non-stop, răspunde instant și nu pierde clienți. Dar înainte de a comanda, toți întreabă același lucru: cât costă. Vedem sincer — de ce depinde prețul și cât costă un bot în 2026 în Tiraspol, Bender și în toată Moldova.",
+        sections: [
+          {
+            heading: "De ce depinde prețul unui bot",
+            body: "Costul e determinat de trei lucruri: ce trebuie să facă botul, de unde ia datele și dacă are nevoie de inteligență artificială. Un bot simplu cu câteva scenarii e ieftin. Un bot cu catalog, coș și plată costă mai mult, fiindcă e deja un mini-magazin. Un bot AI care înțelege întrebări reale și răspunde din baza ta de cunoștințe este segmentul de vârf. Integrarea cu un site, un tabel sau CRM influențează și ea prețul. Mai jos sunt intervalele reale pentru fiecare tip.",
+          },
+          {
+            heading: "Un bot simplu cu cereri — de la 200 $",
+            body: "Este un bot care întâmpină clientul, arată un meniu cu butoane (servicii, prețuri, contacte), preia cererea și ți-o trimite în Telegram. Potrivit specialiștilor, saloanelor și serviciilor mici — oricui vrea doar să nu piardă solicitări și să răspundă chiar și noaptea. Se face în 3-5 zile. Cel mai rapid mod de a nu mai pierde clienți în conversații.",
+          },
+          {
+            heading: "Un bot cu catalog și comandă — de la 400 $",
+            body: "Un «magazin în chat» complet: catalog cu poze și prețuri, coș, finalizarea comenzii, calculul livrării, notificări de status («comandă acceptată», «curierul a plecat»). Potrivit livrărilor de mâncare, magazinelor și showroom-urilor. Se poate conecta la un tabel sau site, ca să primești comenzile într-un singur loc. Termen — 1-2 săptămâni. Un astfel de bot chiar înlocuiește un manager la preluarea comenzilor.",
+          },
+          {
+            heading: "Un bot AI pe GPT — de la 600 $",
+            body: "Un bot antrenat pe informația ta: înțelege întrebările în cuvinte proprii și răspunde clienților ca un consultant real — despre produse, servicii, stoc, condiții. Lucrează 24/7, te scutește de întrebările repetitive și transferă cazurile complexe unui om. Segmentul de preț de vârf, dar cu randament mai mare: nu doar preia comenzi, ci și vinde, tratând obiecțiile. Prețul fiecărui bot include hostingul și prima lună de suport.",
+          },
+        ],
+        outro:
+          "Prețul exact al botului îl spun după o scurtă discuție — depinde de ce anume ai nevoie. Scrie-mi, descrie sarcina, iar eu îți spun ce bot ți se potrivește și cât va costa.",
+      },
+    },
+  },
+  {
     slug: "sayt-vizitka-tiraspol",
     emoji: "🪪",
     date: "2026-07-02",
