@@ -34,6 +34,208 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "ai-chatbot-gpt-dlya-biznesa",
+    emoji: "🧠",
+    date: "2026-07-29",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "AI-чат-бот на GPT для бизнеса: отвечает клиентам вместо вас",
+        excerpt:
+          "Что такое AI-чат-бот на GPT, чем он отличается от обычного бота и сколько стоит заказать его в Тирасполе и Молдове. Умный помощник, который отвечает на вопросы клиентов 24/7.",
+        readTime: "6 мин",
+        ctaLabel: "Заказать AI-бота",
+        intro:
+          "Обычный бот работает по кнопкам и сценариям: шаг влево, шаг вправо — и он теряется. AI-бот на базе GPT понимает живые вопросы, отвечает своими словами и ведёт диалог как настоящий консультант. Разберём, что он умеет, кому подходит и сколько стоит заказать такого бота в ПМР и Молдове.",
+        sections: [
+          {
+            heading: "Чем AI-бот отличается от обычного",
+            body: "Обычный бот показывает меню с кнопками и отвечает только на то, что в него заранее заложили. Спросил не по сценарию — бот не понял. AI-бот на GPT работает иначе: он понимает вопрос в свободной форме, даже с опечатками, и отвечает по сути — как живой сотрудник. Его не нужно программировать под каждую фразу, достаточно дать ему информацию о вашем бизнесе, и он сам сформулирует ответ.",
+          },
+          {
+            heading: "Что умеет AI-бот для бизнеса",
+            body: "Он отвечает на вопросы клиентов о товарах, услугах, ценах, наличии, доставке и условиях — круглосуточно и мгновенно. Консультирует и помогает выбрать, подсказывает подходящий товар, снимает с вас поток одинаковых вопросов. Сложные или спорные случаи передаёт живому менеджеру. Может работать и в Telegram, и прямо на сайте в виде окна чата.",
+          },
+          {
+            heading: "Кому это выгодно",
+            body: "Магазинам и услугам, куда постоянно пишут одно и то же («сколько стоит», «есть ли в наличии», «как заказать»). Бот забирает эту рутину на себя, а вы занимаетесь делом. Особенно полезно, если заявки идут вечером и в выходные, когда ответить некому — AI-бот отвечает всегда и не даёт клиенту уйти к конкуренту из-за молчания.",
+          },
+          {
+            heading: "Обучение на вашей базе знаний",
+            body: "Главная ценность AI-бота — он отвечает не общими фразами, а по вашему бизнесу. Я обучаю его на вашей информации: каталог, услуги, частые вопросы, условия работы. После этого бот говорит как ваш сотрудник, который знает всё о компании. Информацию можно в любой момент дополнить, и бот сразу начнёт отвечать с учётом изменений.",
+          },
+          {
+            heading: "Сколько стоит и как заказать",
+            body: "AI-бот на GPT — от 600 $, срок 1-2 недели в зависимости от объёма базы знаний и интеграций. В стоимость входит разработка, обучение на ваших данных, размещение и первый месяц поддержки. Я живу и работаю в Приднестровье, поэтому обсудить задачу и запустить бота можно быстро и на связи — в Telegram, WhatsApp или Viber.",
+          },
+        ],
+        outro:
+          "Если клиенты пишут вам одно и то же, а отвечать на всё вручную нет времени — AI-бот на GPT решит это за вас. Напишите мне, опишите бизнес, и я подскажу, как такой бот поможет именно вам и сколько это будет стоить.",
+      },
+      en: {
+        title: "GPT AI chatbot for business: it answers customers for you",
+        excerpt:
+          "What a GPT-based AI chatbot is, how it differs from a regular bot and how much it costs to order one in Tiraspol and Moldova. A smart assistant that answers customer questions 24/7.",
+        readTime: "6 min",
+        ctaLabel: "Order an AI bot",
+        intro:
+          "A regular bot works with buttons and scripts: one step off the path and it's lost. A GPT-based AI bot understands real questions, answers in its own words and holds a conversation like a real consultant. Let's look at what it can do, who it fits and how much it costs to order one in Transnistria and Moldova.",
+        sections: [
+          {
+            heading: "How an AI bot differs from a regular one",
+            body: "A regular bot shows a button menu and only answers what was pre-programmed. Ask something off-script and it doesn't understand. A GPT AI bot works differently: it understands a free-form question, even with typos, and answers to the point — like a live employee. You don't program it for every phrase; you just give it information about your business and it formulates the answer itself.",
+          },
+          {
+            heading: "What an AI bot can do for a business",
+            body: "It answers customer questions about products, services, prices, stock, delivery and terms — around the clock and instantly. It advises and helps choose, suggests a suitable product, and takes the stream of repetitive questions off your hands. Complex or sensitive cases it hands to a live manager. It can work both in Telegram and right on the website as a chat window.",
+          },
+          {
+            heading: "Who benefits from it",
+            body: "Shops and services that constantly get the same messages ('how much', 'is it in stock', 'how to order'). The bot takes that routine off your plate so you can focus on the work. It's especially useful when requests come in the evening and on weekends with no one to answer — the AI bot always replies and keeps the customer from leaving for a competitor because of silence.",
+          },
+          {
+            heading: "Trained on your knowledge base",
+            body: "The main value of an AI bot is that it answers from your business, not with generic phrases. I train it on your information: catalogue, services, frequent questions, terms. After that the bot speaks like an employee who knows everything about the company. You can update the information at any time and the bot immediately answers with the changes in mind.",
+          },
+          {
+            heading: "How much it costs and how to order",
+            body: "A GPT AI bot — from $600, 1-2 weeks depending on the size of the knowledge base and integrations. The price includes development, training on your data, hosting and the first month of support. I live and work in Transnistria, so we can discuss the task and launch the bot quickly and stay in touch — via Telegram, WhatsApp or Viber.",
+          },
+        ],
+        outro:
+          "If customers keep asking you the same things and you have no time to answer it all by hand — a GPT AI bot will handle it for you. Message me, describe your business, and I'll tell you how such a bot would help you and how much it would cost.",
+      },
+      ro: {
+        title: "Chatbot AI pe GPT pentru afaceri: răspunde clienților în locul tău",
+        excerpt:
+          "Ce este un chatbot AI pe bază de GPT, prin ce diferă de un bot obișnuit și cât costă să comanzi unul în Tiraspol și Moldova. Un asistent inteligent care răspunde clienților 24/7.",
+        readTime: "6 min",
+        ctaLabel: "Comandă un bot AI",
+        intro:
+          "Un bot obișnuit lucrează cu butoane și scenarii: un pas în lateral și se pierde. Un bot AI pe bază de GPT înțelege întrebări reale, răspunde cu cuvintele sale și poartă o conversație ca un consultant adevărat. Vedem ce poate face, cui i se potrivește și cât costă să comanzi unul în Transnistria și Moldova.",
+        sections: [
+          {
+            heading: "Prin ce diferă un bot AI de unul obișnuit",
+            body: "Un bot obișnuit arată un meniu cu butoane și răspunde doar la ce a fost programat dinainte. Întrebi ceva în afara scenariului și nu înțelege. Un bot AI pe GPT funcționează altfel: înțelege o întrebare liberă, chiar și cu greșeli, și răspunde la obiect — ca un angajat real. Nu îl programezi pentru fiecare frază; îi dai doar informații despre afacerea ta și el formulează singur răspunsul.",
+          },
+          {
+            heading: "Ce poate face un bot AI pentru o afacere",
+            body: "Răspunde la întrebările clienților despre produse, servicii, prețuri, stoc, livrare și condiții — non-stop și instant. Consiliază și ajută la alegere, sugerează un produs potrivit și preia fluxul de întrebări repetitive. Cazurile complexe le transferă unui manager real. Poate lucra atât în Telegram, cât și direct pe site, ca fereastră de chat.",
+          },
+          {
+            heading: "Cui îi este de folos",
+            body: "Magazinelor și serviciilor cărora li se scrie constant același lucru («cât costă», «este în stoc», «cum comand»). Botul preia această rutină, iar tu te ocupi de treabă. E util mai ales când cererile vin seara și în weekend, când nu are cine răspunde — botul AI răspunde mereu și nu lasă clientul să plece la concurență din cauza tăcerii.",
+          },
+          {
+            heading: "Antrenat pe baza ta de cunoștințe",
+            body: "Valoarea principală a unui bot AI e că răspunde din afacerea ta, nu cu fraze generice. Îl antrenez pe informația ta: catalog, servicii, întrebări frecvente, condiții. După aceea botul vorbește ca un angajat care știe totul despre companie. Poți actualiza informația oricând, iar botul răspunde imediat ținând cont de modificări.",
+          },
+          {
+            heading: "Cât costă și cum comanzi",
+            body: "Un bot AI pe GPT — de la 600 $, 1-2 săptămâni în funcție de volumul bazei de cunoștințe și integrări. Prețul include dezvoltarea, antrenarea pe datele tale, hostingul și prima lună de suport. Locuiesc și lucrez în Transnistria, așa că putem discuta rapid și lansa botul, rămânând în legătură — prin Telegram, WhatsApp sau Viber.",
+          },
+        ],
+        outro:
+          "Dacă clienții te întreabă mereu aceleași lucruri și nu ai timp să răspunzi la toate manual — un bot AI pe GPT rezolvă asta pentru tine. Scrie-mi, descrie afacerea, iar eu îți spun cum te-ar ajuta un astfel de bot și cât ar costa.",
+      },
+    },
+  },
+  {
+    slug: "podderzhka-i-obsluzhivanie-sayta",
+    emoji: "🛠️",
+    date: "2026-07-29",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Поддержка и обслуживание сайта: зачем нужно и сколько стоит",
+        excerpt:
+          "Что входит в поддержку сайта, зачем она нужна после запуска и сколько стоит обслуживание сайта в Тирасполе и Молдове. Обновления, безопасность, правки и спокойствие владельца.",
+        readTime: "5 мин",
+        ctaLabel: "Заказать поддержку",
+        intro:
+          "Сайт — это не «сделал и забыл». Как и машине, ему нужно обслуживание: обновления, резервные копии, мелкие правки, слежение за безопасностью. Без этого сайт со временем начинает тормозить, ломаться или становится уязвимым. Разберём, что входит в поддержку и зачем она нужна.",
+        sections: [
+          {
+            heading: "Что входит в поддержку сайта",
+            body: "Обновление системы и компонентов, чтобы сайт не устаревал и не открывались дыры в безопасности. Регулярные резервные копии — чтобы при любом сбое всё можно было восстановить. Мелкие правки: поменять текст, цену, добавить товар или акцию, поправить контакты. Слежение за тем, что сайт работает и открывается быстро. По сути — вы спокойны, что сайт всегда на ходу.",
+          },
+          {
+            heading: "Зачем это нужно после запуска",
+            body: "Многие думают, что после сдачи сайта делать больше нечего. Но бизнес меняется: новые цены, товары, акции, телефоны. Плюс интернет не стоит на месте — выходят обновления, находят уязвимости, что-то может отвалиться. Сайт без поддержки за год-два обрастает мелкими проблемами, начинает медленно грузиться или становится лёгкой мишенью для взлома. Поддержка держит его в форме.",
+          },
+          {
+            heading: "Безопасность и резервные копии",
+            body: "Самое важное в обслуживании — защита и бэкапы. Регулярные резервные копии означают, что даже при серьёзном сбое, ошибке или атаке сайт восстанавливается за считанные часы, а не собирается заново. Плюс я слежу за защитой: обновления, правильные настройки, закрытые уязвимости. Это та страховка, о которой не думаешь, пока однажды она не спасёт.",
+          },
+          {
+            heading: "Сколько стоит и как это устроено",
+            body: "Поддержка обычно оформляется как небольшая ежемесячная подписка — вы платите фиксированную сумму, а я держу сайт в порядке и оперативно вношу правки, когда нужно. Это дешевле и спокойнее, чем срочно искать разработчика, когда что-то сломалось. Точную стоимость называю после того, как посмотрю на сайт и пойму объём — она зависит от размера и сложности.",
+          },
+        ],
+        outro:
+          "Если у вас уже есть сайт и хочется, чтобы он всегда работал, был защищён и вовремя обновлялся — я возьму обслуживание на себя. Напишите мне, и мы обсудим, что нужно именно вашему сайту и сколько это будет стоить.",
+      },
+      en: {
+        title: "Website support and maintenance: why you need it and what it costs",
+        excerpt:
+          "What website support includes, why you need it after launch and how much website maintenance costs in Tiraspol and Moldova. Updates, security, edits and peace of mind for the owner.",
+        readTime: "5 min",
+        ctaLabel: "Order support",
+        intro:
+          "A website isn't 'build it and forget it'. Like a car, it needs maintenance: updates, backups, small edits, security monitoring. Without that, a site eventually slows down, breaks or becomes vulnerable. Let's look at what support includes and why it matters.",
+        sections: [
+          {
+            heading: "What website support includes",
+            body: "Updating the system and components so the site doesn't get outdated or open up security holes. Regular backups — so anything can be restored after any failure. Small edits: change text, a price, add a product or promotion, fix contacts. Monitoring that the site works and loads fast. In short — you have peace of mind that the site is always up and running.",
+          },
+          {
+            heading: "Why you need it after launch",
+            body: "Many think there's nothing to do once the site is delivered. But business changes: new prices, products, promotions, phone numbers. Plus the web doesn't stand still — updates come out, vulnerabilities are found, something can break. An unsupported site accumulates small problems over a year or two, starts loading slowly or becomes an easy target for hacking. Support keeps it in shape.",
+          },
+          {
+            heading: "Security and backups",
+            body: "The most important part of maintenance is protection and backups. Regular backups mean that even after a serious failure, mistake or attack, the site is restored within hours instead of being rebuilt from scratch. Plus I keep an eye on security: updates, correct settings, closed vulnerabilities. It's the kind of insurance you don't think about until it saves you one day.",
+          },
+          {
+            heading: "How much it costs and how it works",
+            body: "Support is usually arranged as a small monthly subscription — you pay a fixed amount and I keep the site in order and make edits promptly when needed. That's cheaper and calmer than urgently looking for a developer when something breaks. I give the exact cost after I look at the site and understand the scope — it depends on size and complexity.",
+          },
+        ],
+        outro:
+          "If you already have a website and want it to always work, stay secure and get updated on time — I'll take the maintenance off your hands. Message me and we'll discuss what your site needs and what it will cost.",
+      },
+      ro: {
+        title: "Suport și mentenanță pentru site: de ce ai nevoie și cât costă",
+        excerpt:
+          "Ce include suportul unui site, de ce ai nevoie de el după lansare și cât costă mentenanța unui site în Tiraspol și Moldova. Actualizări, securitate, modificări și liniște pentru proprietar.",
+        readTime: "5 min",
+        ctaLabel: "Comandă suport",
+        intro:
+          "Un site nu e «l-am făcut și gata». Ca o mașină, are nevoie de mentenanță: actualizări, copii de rezervă, mici modificări, monitorizarea securității. Fără asta, un site în timp încetinește, se strică sau devine vulnerabil. Vedem ce include suportul și de ce contează.",
+        sections: [
+          {
+            heading: "Ce include suportul unui site",
+            body: "Actualizarea sistemului și componentelor, ca site-ul să nu se învechească și să nu se deschidă breșe de securitate. Copii de rezervă regulate — ca orice să poată fi restaurat după orice defecțiune. Mici modificări: schimbi un text, un preț, adaugi un produs sau o promoție, corectezi contactele. Monitorizarea că site-ul funcționează și se încarcă rapid. Pe scurt — ai liniștea că site-ul e mereu funcțional.",
+          },
+          {
+            heading: "De ce ai nevoie după lansare",
+            body: "Mulți cred că, odată predat site-ul, nu mai e nimic de făcut. Dar afacerea se schimbă: prețuri noi, produse, promoții, numere de telefon. În plus, internetul nu stă pe loc — apar actualizări, se găsesc vulnerabilități, ceva se poate strica. Un site fără suport adună mici probleme într-un an-doi, începe să se încarce greu sau devine o țintă ușoară pentru atacuri. Suportul îl menține în formă.",
+          },
+          {
+            heading: "Securitate și copii de rezervă",
+            body: "Cea mai importantă parte a mentenanței e protecția și copiile de rezervă. Copiile regulate înseamnă că, chiar și după o defecțiune serioasă, o greșeală sau un atac, site-ul se restaurează în câteva ore, nu se reface de la zero. În plus, am grijă de securitate: actualizări, setări corecte, vulnerabilități închise. E acea asigurare la care nu te gândești până când, într-o zi, te salvează.",
+          },
+          {
+            heading: "Cât costă și cum funcționează",
+            body: "Suportul se face de obicei ca un mic abonament lunar — plătești o sumă fixă, iar eu țin site-ul în ordine și fac modificări prompt când e nevoie. E mai ieftin și mai liniștit decât să cauți urgent un dezvoltator când ceva se strică. Prețul exact îl spun după ce mă uit la site și înțeleg volumul — depinde de mărime și complexitate.",
+          },
+        ],
+        outro:
+          "Dacă ai deja un site și vrei să funcționeze mereu, să fie protejat și actualizat la timp — preiau eu mentenanța. Scrie-mi și discutăm de ce are nevoie site-ul tău și cât va costa.",
+      },
+    },
+  },
+  {
     slug: "zakazat-sayt-v-benderah",
     emoji: "🏙️",
     date: "2026-07-14",
