@@ -34,6 +34,192 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "konstruktor-ili-sayt-na-zakaz",
+    emoji: "🧩",
+    date: "2026-08-20",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Сайт на конструкторе или на заказ: что выбрать бизнесу",
+        excerpt:
+          "Tilda, Wix и другие конструкторы против сайта на заказ: сравниваем цену, скорость, SEO и владение. Что реально выгоднее бизнесу в Тирасполе и Молдове.",
+        readTime: "6 мин",
+        ctaLabel: "Заказать сайт",
+        intro:
+          "«Сделаю сам на конструкторе за вечер» или «закажу разработчику» — с этого выбора начинается почти каждый сайт. Конструкторы вроде Tilda и Wix кажутся дешёвыми и быстрыми, но у них есть подводные камни, о которых узнают позже. Разберём честно, где выгоднее конструктор, а где — сайт на заказ, без рекламы одного и другого.",
+        sections: [
+          { heading: "Что такое конструктор и что такое «на заказ»", body: "Конструктор — сервис, где сайт собирается из готовых блоков мышкой, по подписке (Tilda, Wix, Craftum). Сайт на заказ — это когда разработчик делает его под вашу задачу: свой дизайн, нужные функции, код, который принадлежит вам. Конструктор — как съёмная квартира с мебелью: быстро заехать, но всё чужое и по правилам хозяина. Заказная разработка — своя квартира: дороже на старте, зато делаете что хотите." },
+          { heading: "Цена: где дешевле на самом деле", body: "Конструктор дешевле на входе, но платить нужно постоянно: подписка 10-25 $ в месяц, и как только перестал платить — сайт выключается. За 2-3 года набегает сумма, сравнимая с заказным сайтом, который вы оплатили один раз. Сайт на заказ дороже сразу (от 150-300 $ за визитку), но дальше вы платите только за домен и хостинг — копейки. Для долгого проекта разовая оплата обычно выгоднее подписки." },
+          { heading: "Скорость, SEO и телефоны", body: "Сайты на конструкторах часто тяжёлые: тянут лишний код, медленнее грузятся, и Google это учитывает при ранжировании. Заказной сайт можно сделать лёгким и быстрым, с чистой SEO-структурой, чтобы он выходил в поиске выше. Мобильная версия у конструкторов бывает кривой на нестандартных блоках — на заказ её вылизывают под ваши реальные экраны. Для продвижения в Google это ощутимая разница." },
+          { heading: "Чей это сайт на самом деле", body: "Главный риск конструктора — вы не владеете сайтом. Он живёт на чужой платформе по её правилам: поднимут цены, изменят условия, заблокируют аккаунт — и вы не всегда можете просто забрать сайт и перенести. Заказной сайт — ваш: код, домен и хостинг под вашим контролем, его можно перенести к любому разработчику. Для бизнеса, который строится надолго, это важно." },
+          { heading: "Что выбрать под задачу", body: "Нужно быстро и на пробу, бюджет минимальный, сайт «чтобы был» — начните с конструктора, это нормально. Нужен сайт, который продаёт, выходит в Google, имеет нужные функции (заявки в Telegram, каталог, оплата, интеграции) и принадлежит вам — берите на заказ. Часто оптимально начать с недорогого заказного сайта-визитки и наращивать по мере роста бизнеса." },
+        ],
+        outro:
+          "Не уверены, что выбрать под ваш случай и бюджет? Напишите мне — честно скажу, где вам хватит конструктора, а где выгоднее сайт на заказ, и предложу вариант без переплат. Работаю в ПМР, на связи в Telegram, WhatsApp и Viber.",
+      },
+      en: {
+        title: "Website builder or custom-made: what a business should choose",
+        excerpt:
+          "Tilda, Wix and other builders vs a custom-made website: comparing price, speed, SEO and ownership. What is actually cheaper for a business in Tiraspol and Moldova.",
+        readTime: "6 min",
+        ctaLabel: "Order a website",
+        intro:
+          "«I'll build it myself on a builder in one evening» or «I'll hire a developer» — almost every website starts with this choice. Builders like Tilda and Wix look cheap and fast, but they have pitfalls you learn about later. Let's honestly sort out where a builder is better and where a custom site wins — without pushing either one.",
+        sections: [
+          { heading: "What a builder is vs custom-made", body: "A builder is a service where the site is assembled from ready blocks by mouse, on a subscription (Tilda, Wix, Craftum). A custom site is when a developer makes it for your task: your design, the functions you need, code that belongs to you. A builder is like a furnished rental: quick to move in, but everything is someone else's and by the landlord's rules. Custom development is your own flat: pricier upfront, but you do what you want." },
+          { heading: "Price: where it's actually cheaper", body: "A builder is cheaper to start, but you pay constantly: a subscription of $10–25 a month, and the moment you stop paying the site switches off. Over 2–3 years it adds up to a sum comparable to a custom site you paid for once. A custom site costs more upfront (from $150–300 for a business card), but after that you only pay for a domain and hosting — pennies. For a long-term project a one-time payment usually beats a subscription." },
+          { heading: "Speed, SEO and phones", body: "Builder sites are often heavy: they carry extra code, load slower, and Google factors this into ranking. A custom site can be made light and fast, with a clean SEO structure so it ranks higher. The mobile version on builders can break on non-standard blocks — a custom one is polished for your real screens. For Google promotion this is a noticeable difference." },
+          { heading: "Whose site is it, really", body: "The main risk of a builder is that you don't own the site. It lives on someone else's platform by their rules: they raise prices, change terms, block the account — and you can't always just take the site and move it. A custom site is yours: the code, domain and hosting are under your control and can be moved to any developer. For a business built for the long run, this matters." },
+          { heading: "What to choose for your task", body: "Need it fast, as a test, minimal budget, a site «just to have one» — start with a builder, that's fine. Need a site that sells, ranks in Google, has the functions you need (Telegram leads, a catalog, payments, integrations) and belongs to you — go custom. Often the best move is to start with an affordable custom business-card site and grow it as the business grows." },
+        ],
+        outro:
+          "Not sure what fits your case and budget? Message me — I'll honestly say where a builder is enough for you and where a custom site pays off, and suggest an option without overpaying. I work in Transnistria, reachable on Telegram, WhatsApp and Viber.",
+      },
+      ro: {
+        title: "Site pe constructor sau la comandă: ce să aleagă o afacere",
+        excerpt:
+          "Tilda, Wix și alte constructoare vs un site la comandă: comparăm prețul, viteza, SEO și proprietatea. Ce e cu adevărat mai avantajos pentru o afacere în Tiraspol și Moldova.",
+        readTime: "6 min",
+        ctaLabel: "Comandă un site",
+        intro:
+          "«Îl fac singur pe un constructor într-o seară» sau «angajez un dezvoltator» — aproape orice site începe cu această alegere. Constructoarele precum Tilda și Wix par ieftine și rapide, dar au capcane pe care le afli mai târziu. Să vedem sincer unde e mai bun un constructor și unde câștigă un site la comandă — fără să laud vreunul.",
+        sections: [
+          { heading: "Ce e un constructor și ce e «la comandă»", body: "Un constructor este un serviciu unde site-ul se asamblează din blocuri gata făcute, cu mouse-ul, pe abonament (Tilda, Wix, Craftum). Un site la comandă e când dezvoltatorul îl face pentru sarcina ta: design propriu, funcțiile de care ai nevoie, cod care îți aparține. Constructorul e ca o chirie mobilată: intri repede, dar totul e al altcuiva și după regulile proprietarului. Dezvoltarea la comandă e apartamentul tău: mai scump la început, dar faci ce vrei." },
+          { heading: "Prețul: unde e de fapt mai ieftin", body: "Constructorul e mai ieftin la start, dar plătești constant: abonament de 10–25 $ pe lună, iar în clipa în care încetezi să plătești, site-ul se stinge. În 2–3 ani se adună o sumă comparabilă cu un site la comandă plătit o singură dată. Site-ul la comandă costă mai mult imediat (de la 150–300 $ pentru o vizită), dar apoi plătești doar domeniul și hostingul — mărunțiș. Pentru un proiect de durată, plata unică e de obicei mai avantajoasă decât abonamentul." },
+          { heading: "Viteză, SEO și telefoane", body: "Site-urile pe constructoare sunt adesea grele: cară cod în plus, se încarcă mai lent, iar Google ține cont de asta la clasare. Un site la comandă poate fi făcut ușor și rapid, cu o structură SEO curată, ca să apară mai sus în căutare. Versiunea mobilă pe constructoare poate fi stricată pe blocuri nestandard — una la comandă e șlefuită pentru ecranele tale reale. Pentru promovarea în Google, e o diferență sesizabilă." },
+          { heading: "Al cui e site-ul, de fapt", body: "Riscul principal al unui constructor e că nu deții site-ul. El trăiește pe platforma altcuiva, după regulile ei: ridică prețurile, schimbă condițiile, blochează contul — și nu întotdeauna poți pur și simplu să iei site-ul și să-l muți. Un site la comandă e al tău: codul, domeniul și hostingul sunt sub controlul tău și pot fi mutate la orice dezvoltator. Pentru o afacere construită pe termen lung, asta contează." },
+          { heading: "Ce să alegi în funcție de sarcină", body: "Ai nevoie repede, ca test, buget minim, un site «doar ca să existe» — începe cu un constructor, e în regulă. Ai nevoie de un site care vinde, apare în Google, are funcțiile necesare (cereri în Telegram, catalog, plăți, integrări) și îți aparține — alege la comandă. Adesea cel mai bun pas e să începi cu un site de vizită la comandă accesibil și să-l dezvolți pe măsură ce crește afacerea." },
+        ],
+        outro:
+          "Nu ești sigur ce ți se potrivește după caz și buget? Scrie-mi — îți spun sincer unde îți ajunge un constructor și unde merită un site la comandă, și îți propun o variantă fără plăți în plus. Lucrez în Transnistria, disponibil pe Telegram, WhatsApp și Viber.",
+      },
+    },
+  },
+  {
+    slug: "pochemu-sayt-ne-prinosit-klientov",
+    emoji: "📉",
+    date: "2026-08-20",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Почему сайт не приносит клиентов: 5 частых ошибок",
+        excerpt:
+          "Сайт есть, а заявок нет — знакомо? Разбираем 5 главных причин, почему сайт не продаёт, и как это исправить. Практический разбор для бизнеса в Тирасполе и Молдове.",
+        readTime: "6 мин",
+        ctaLabel: "Проверить мой сайт",
+        intro:
+          "«Сделали сайт, а толку ноль» — частая жалоба. Но сайт сам по себе не приносит клиентов: приносит правильно собранный сайт, который находят и которому доверяют. Разберём 5 самых частых причин, из-за которых сайт молчит, и что с каждой делать — по опыту работы с бизнесом в ПМР и Молдове.",
+        sections: [
+          { heading: "1. Сайт никто не находит", body: "Самая частая причина: сайт есть, но его нет в поиске. Если он не настроен под Google (нет нормальных заголовков, описаний, sitemap, скорости), он висит на 5-й странице, куда никто не заходит. Проверьте: загуглите свою услугу и город — вы там есть? Если нет, нужно базовое SEO и время на индексацию. Без этого сайт видят только те, кому вы сами дали ссылку." },
+          { heading: "2. Непонятно, что вы предлагаете", body: "Посетитель решает за 3-5 секунд, остаться или уйти. Если на первом экране красивая картинка, но не написано, что вы делаете, для кого и почему к вам — человек уходит. Первый экран должен сразу отвечать: кто вы, какую проблему решаете и что сделать дальше. Размытые слоганы «мы лидеры рынка» не работают — работает конкретика." },
+          { heading: "3. Некуда нажать (нет призыва к действию)", body: "Сайт рассказал о себе — и всё, тупик. Нет кнопки «заказать», формы заявки, кликабельного телефона, ссылки на WhatsApp или Telegram. Клиент, готовый написать, просто не находит как. На каждом экране должно быть очевидное следующее действие: позвонить, оставить заявку, написать в мессенджер. Чем меньше усилий — тем больше заявок." },
+          { heading: "4. Неудобно с телефона", body: "Больше половины посетителей заходят с телефона. Если на мобильном текст мелкий, кнопки не нажимаются, форма разъезжается — человек закрывает сайт. Проверьте свой сайт с телефона как обычный клиент: удобно ли читать, легко ли нажать «позвонить», быстро ли грузится. Кривая мобильная версия убивает заявки тихо и незаметно." },
+          { heading: "5. Сайту не доверяют", body: "Даже найдя вас, человек колеблется: реальный ли это бизнес. Нет фото работ, отзывов, контактов, адреса, цен — доверия нет, заявки нет. Добавьте живые фото (не только стоки), реальные отзывы, понятные цены или «от», контакты и лицо/имя за бизнесом. Доверие — это то, что превращает посетителя в клиента." },
+        ],
+        outro:
+          "Если сайт есть, а заявок нет — почти всегда дело в одной-двух из этих причин, и это чинится. Пришлите мне ссылку на свой сайт — бесплатно посмотрю, что мешает ему продавать, и скажу, что исправить в первую очередь.",
+      },
+      en: {
+        title: "Why your website brings no customers: 5 common mistakes",
+        excerpt:
+          "You have a site but no leads — sound familiar? We break down the 5 main reasons a website doesn't sell and how to fix them. A practical guide for business in Tiraspol and Moldova.",
+        readTime: "6 min",
+        ctaLabel: "Check my website",
+        intro:
+          "«We made a site and it's useless» is a common complaint. But a website on its own brings no customers — a properly built site that gets found and trusted does. Let's go through the 5 most common reasons a site stays silent and what to do about each, based on work with businesses in Transnistria and Moldova.",
+        sections: [
+          { heading: "1. Nobody finds the site", body: "The most common reason: the site exists but isn't in search. If it isn't set up for Google (no proper titles, descriptions, sitemap, speed), it sits on page 5 where nobody looks. Test it: google your service and city — are you there? If not, you need basic SEO and time to index. Without it, only people you hand the link to ever see the site." },
+          { heading: "2. It's unclear what you offer", body: "A visitor decides in 3–5 seconds whether to stay. If the first screen has a pretty picture but doesn't say what you do, for whom and why you — they leave. The first screen must instantly answer: who you are, what problem you solve and what to do next. Vague slogans like «market leader» don't work — specifics do." },
+          { heading: "3. Nowhere to click (no call to action)", body: "The site talks about itself and then — a dead end. No «order» button, no lead form, no clickable phone, no WhatsApp or Telegram link. A customer ready to write simply can't find how. Every screen needs an obvious next step: call, leave a request, message on a messenger. The less effort required, the more leads you get." },
+          { heading: "4. It's inconvenient on a phone", body: "More than half of visitors come from a phone. If on mobile the text is tiny, buttons don't tap, the form falls apart — the person closes the site. Check your own site from a phone like a regular customer: is it easy to read, easy to tap «call», does it load fast? A broken mobile version kills leads quietly and invisibly." },
+          { heading: "5. The site isn't trusted", body: "Even after finding you, a person hesitates: is this a real business? No work photos, reviews, contacts, address or prices — no trust, no lead. Add real photos (not just stock), genuine reviews, clear prices or «from», contacts, and a face/name behind the business. Trust is what turns a visitor into a customer." },
+        ],
+        outro:
+          "If you have a site but no leads, it's almost always one or two of these reasons — and it's fixable. Send me the link to your site — I'll take a free look at what stops it from selling and tell you what to fix first.",
+      },
+      ro: {
+        title: "De ce site-ul nu aduce clienți: 5 greșeli frecvente",
+        excerpt:
+          "Ai un site, dar nu ai cereri — sună cunoscut? Analizăm cele 5 motive principale pentru care un site nu vinde și cum le repari. Ghid practic pentru afaceri în Tiraspol și Moldova.",
+        readTime: "6 min",
+        ctaLabel: "Verifică-mi site-ul",
+        intro:
+          "«Am făcut un site și n-are niciun rost» e o plângere frecventă. Dar un site în sine nu aduce clienți — aduce un site bine construit, care e găsit și în care oamenii au încredere. Să trecem prin cele 5 motive frecvente pentru care un site tace și ce faci cu fiecare, din experiența cu afaceri din Transnistria și Moldova.",
+        sections: [
+          { heading: "1. Nimeni nu găsește site-ul", body: "Cel mai frecvent motiv: site-ul există, dar nu e în căutare. Dacă nu e configurat pentru Google (fără titluri, descrieri, sitemap, viteză), stă pe pagina 5, unde nu intră nimeni. Testează: caută pe Google serviciul tău și orașul — apari? Dacă nu, îți trebuie SEO de bază și timp de indexare. Fără asta, site-ul îl văd doar cei cărora le dai tu linkul." },
+          { heading: "2. Nu e clar ce oferi", body: "Un vizitator decide în 3–5 secunde dacă rămâne. Dacă pe primul ecran e o poză frumoasă, dar nu scrie ce faci, pentru cine și de ce la tine — pleacă. Primul ecran trebuie să răspundă imediat: cine ești, ce problemă rezolvi și ce să facă mai departe. Sloganele vagi «lideri de piață» nu funcționează — concretul funcționează." },
+          { heading: "3. Nu are unde apăsa (fără îndemn la acțiune)", body: "Site-ul a povestit despre sine și atât — fundătură. Fără buton «comandă», fără formular, fără telefon apelabil, fără link de WhatsApp sau Telegram. Clientul gata să scrie pur și simplu nu găsește cum. Pe fiecare ecran trebuie un pas următor evident: sună, lasă o cerere, scrie pe messenger. Cu cât mai puțin efort, cu atât mai multe cereri." },
+          { heading: "4. E incomod pe telefon", body: "Peste jumătate dintre vizitatori intră de pe telefon. Dacă pe mobil textul e mic, butoanele nu se apasă, formularul se destramă — omul închide site-ul. Verifică-ți site-ul de pe telefon ca un client obișnuit: e ușor de citit, e ușor de apăsat «sună», se încarcă rapid? O versiune mobilă stricată omoară cererile tăcut și pe nevăzute." },
+          { heading: "5. Nu se are încredere în site", body: "Chiar și după ce te găsește, omul ezită: e o afacere reală? Fără poze cu lucrări, recenzii, contacte, adresă sau prețuri — fără încredere, fără cerere. Adaugă poze reale (nu doar stoc), recenzii adevărate, prețuri clare sau «de la», contacte și un chip/nume în spatele afacerii. Încrederea e ceea ce transformă un vizitator în client." },
+        ],
+        outro:
+          "Dacă ai un site, dar n-ai cereri, aproape mereu e unul-două dintre aceste motive — și se poate repara. Trimite-mi linkul site-ului tău — mă uit gratuit ce îl împiedică să vândă și îți spun ce să repari mai întâi.",
+      },
+    },
+  },
+  {
+    slug: "onlayn-oplata-na-sayte-pmr-moldova",
+    emoji: "💳",
+    date: "2026-08-20",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Онлайн-оплата на сайте в Молдове и ПМР: как подключить",
+        excerpt:
+          "Как принимать оплату на сайте в Молдове и ПМР: карты, QR-перевод, оплата при получении. Какие способы реально работают и как их подключить к сайту или боту.",
+        readTime: "6 мин",
+        ctaLabel: "Подключить оплату",
+        intro:
+          "«Хочу, чтобы клиент оплачивал прямо на сайте» — запрос частый, но в наших реалиях есть нюансы: не все привычные платёжные системы работают в ПМР и Молдове одинаково. Разберём, какие способы приёма оплаты реально доступны, что проще подключить и как это устроить на сайте или в Telegram-боте без лишних сложностей.",
+        sections: [
+          { heading: "Оплата картой онлайн", body: "Классический вариант — приём карт прямо на сайте. В Молдове это реально через местные банки и платёжные провайдеры (эквайринг): клиент вводит карту, деньги идут на ваш счёт. Для этого нужен оформленный бизнес и договор с банком. Технически я подключаю платёжную форму к сайту, а условия эквайринга вы получаете в своём банке. Это самый «взрослый» способ для магазина с потоком заказов." },
+          { heading: "QR-перевод и оплата по реквизитам", body: "Самый простой и рабочий способ в наших условиях — оплата переводом по QR-коду или реквизитам. На странице заказа показывается QR вашего банка, клиент оплачивает из приложения, вы видите поступление. Подключается быстро, без сложного эквайринга, и отлично подходит для ПМР, где карточный онлайн-эквайринг ограничен. Часто именно с этого стоит начать." },
+          { heading: "Оплата при получении", body: "Не стоит недооценивать наличные и оплату при доставке — в ПМР и Молдове это по-прежнему самый привычный для многих способ. На сайте это просто вариант «оплата при получении» в форме заказа, а заявка сразу падает вам в Telegram. Ноль комиссий, ноль сложностей, максимум доверия у осторожного покупателя. Обычно этот способ оставляют как основной или запасной." },
+          { heading: "Оплата прямо в Telegram-боте", body: "Если продажи идут через бота, оплату можно встроить прямо в него: клиент выбирает товар, оформляет и оплачивает не выходя из чата (картой через провайдера или переводом по QR с подтверждением). Удобно для тех, кто торгует в мессенджерах и не хочет полноценный магазин. Бот сам присылает заказ и отмечает оплату." },
+          { heading: "Что выбрать и с чего начать", body: "Для небольшого бизнеса в ПМР я обычно советую начать с QR-перевода плюс оплата при получении — это дёшево, надёжно и запускается за пару дней. Когда поток заказов растёт, добавляем полноценный приём карт через банк. Главное — чтобы оплатить было легко и в один-два шага, иначе клиент бросит корзину. Точную связку подбираю под ваш банк, товар и объём." },
+        ],
+        outro:
+          "Хотите принимать оплату на сайте или в боте, но не знаете, что реально работает в ПМР и Молдове? Напишите мне — разберёмся с вашим банком и товаром и подключим самый простой рабочий способ без лишних комиссий и сложностей.",
+      },
+      en: {
+        title: "Online payments on a website in Moldova and Transnistria: how to set it up",
+        excerpt:
+          "How to accept payments on a website in Moldova and Transnistria: cards, QR transfer, cash on delivery. Which methods actually work and how to connect them to a site or bot.",
+        readTime: "6 min",
+        ctaLabel: "Set up payments",
+        intro:
+          "«I want the customer to pay right on the site» is a common request, but in our region there are nuances: not all the usual payment systems work the same in Transnistria and Moldova. Let's sort out which payment methods are really available, what's easier to connect and how to arrange it on a website or a Telegram bot without extra hassle.",
+        sections: [
+          { heading: "Online card payments", body: "The classic option — accepting cards right on the site. In Moldova this works through local banks and payment providers (acquiring): the customer enters a card and the money goes to your account. This requires a registered business and a bank contract. Technically I connect a payment form to the site, while the acquiring terms you get from your bank. It's the most «grown-up» method for a store with a flow of orders." },
+          { heading: "QR transfer and payment by details", body: "The simplest working method in our conditions — payment by QR code or bank details. The order page shows your bank's QR, the customer pays from their app, you see the incoming transfer. It connects quickly, without complex acquiring, and fits Transnistria well, where online card acquiring is limited. Often this is exactly where to start." },
+          { heading: "Cash on delivery", body: "Don't underestimate cash and payment on delivery — in Transnistria and Moldova it's still the most familiar method for many. On the site it's simply a «pay on delivery» option in the order form, and the request drops straight into your Telegram. Zero fees, zero complexity, maximum trust for a cautious buyer. Usually this method is kept as the main or backup one." },
+          { heading: "Payment right inside a Telegram bot", body: "If sales go through a bot, payment can be built right into it: the customer picks a product, checks out and pays without leaving the chat (by card via a provider, or by QR transfer with confirmation). Handy for those who sell in messengers and don't want a full store. The bot itself sends the order and marks it paid." },
+          { heading: "What to choose and where to start", body: "For a small business in Transnistria I usually advise starting with a QR transfer plus cash on delivery — it's cheap, reliable and launches in a couple of days. As order flow grows, we add full card acceptance through a bank. The main thing is that paying is easy and takes one or two steps, otherwise the customer abandons the cart. I tailor the exact setup to your bank, product and volume." },
+        ],
+        outro:
+          "Want to accept payments on a site or bot but don't know what actually works in Transnistria and Moldova? Message me — we'll sort out your bank and product and connect the simplest working method without extra fees or hassle.",
+      },
+      ro: {
+        title: "Plăți online pe site în Moldova și Transnistria: cum le conectezi",
+        excerpt:
+          "Cum accepți plăți pe site în Moldova și Transnistria: carduri, transfer QR, plata la livrare. Ce metode chiar funcționează și cum le conectezi la un site sau bot.",
+        readTime: "6 min",
+        ctaLabel: "Conectează plățile",
+        intro:
+          "«Vreau ca clientul să plătească chiar pe site» e o cerere frecventă, dar în realitatea noastră sunt nuanțe: nu toate sistemele de plată obișnuite funcționează la fel în Transnistria și Moldova. Să vedem ce metode de plată sunt cu adevărat disponibile, ce e mai ușor de conectat și cum le pui pe un site sau într-un bot Telegram fără bătăi de cap.",
+        sections: [
+          { heading: "Plata cu cardul online", body: "Opțiunea clasică — acceptarea cardurilor direct pe site. În Moldova asta merge prin bănci locale și furnizori de plăți (acquiring): clientul introduce cardul, iar banii ajung în contul tău. Pentru asta e nevoie de o afacere înregistrată și un contract cu banca. Tehnic, eu conectez formularul de plată la site, iar condițiile de acquiring le primești de la banca ta. E metoda cea mai «serioasă» pentru un magazin cu flux de comenzi." },
+          { heading: "Transfer QR și plata după rechizite", body: "Cea mai simplă metodă care funcționează în condițiile noastre — plata prin cod QR sau rechizite bancare. Pe pagina comenzii se afișează QR-ul băncii tale, clientul plătește din aplicație, iar tu vezi încasarea. Se conectează repede, fără acquiring complicat, și se potrivește bine în Transnistria, unde acquiring-ul online pe card e limitat. Adesea exact de aici merită să începi." },
+          { heading: "Plata la livrare", body: "Nu subestima numerarul și plata la livrare — în Transnistria și Moldova rămâne metoda cea mai familiară pentru mulți. Pe site e pur și simplu opțiunea «plata la primire» în formularul de comandă, iar cererea îți ajunge direct în Telegram. Zero comisioane, zero complicații, încredere maximă pentru un cumpărător precaut. De obicei această metodă se păstrează ca principală sau de rezervă." },
+          { heading: "Plata direct în botul de Telegram", body: "Dacă vânzările merg printr-un bot, plata poate fi integrată direct în el: clientul alege produsul, finalizează și plătește fără să iasă din chat (cu cardul printr-un furnizor sau prin transfer QR cu confirmare). Comod pentru cei care vând în mesagerie și nu vor un magazin complet. Botul trimite singur comanda și o marchează plătită." },
+          { heading: "Ce să alegi și de unde să începi", body: "Pentru o afacere mică din Transnistria de obicei recomand să începi cu transfer QR plus plata la livrare — e ieftin, sigur și se lansează în câteva zile. Când fluxul de comenzi crește, adăugăm acceptarea completă a cardurilor prin bancă. Important e ca plata să fie ușoară și în unul-doi pași, altfel clientul abandonează coșul. Configurația exactă o potrivesc după banca, produsul și volumul tău." },
+        ],
+        outro:
+          "Vrei să accepți plăți pe site sau în bot, dar nu știi ce chiar funcționează în Transnistria și Moldova? Scrie-mi — lămurim cu banca și produsul tău și conectăm cea mai simplă metodă care merge, fără comisioane și complicații în plus.",
+      },
+    },
+  },
+  {
     slug: "ai-chatbot-gpt-dlya-biznesa",
     emoji: "🧠",
     date: "2026-07-29",

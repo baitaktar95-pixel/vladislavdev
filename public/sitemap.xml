@@ -16,7 +16,25 @@
     <loc>https://www.vladislavbdev.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-08-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/konstruktor-ili-sayt-na-zakaz</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-08-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/pochemu-sayt-ne-prinosit-klientov</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-08-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/onlayn-oplata-na-sayte-pmr-moldova</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-08-20</lastmod>
   </url>
   <url>
     <loc>https://www.vladislavbdev.com/blog/ai-chatbot-gpt-dlya-biznesa</loc>
