@@ -34,6 +34,192 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "chto-nuzhno-dlya-sozdaniya-sayta",
+    emoji: "📋",
+    date: "2026-09-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Что нужно подготовить для создания сайта: чек-лист",
+        excerpt:
+          "Что подготовить перед заказом сайта: тексты, фото, логотип, домен и примеры. Простой чек-лист, чтобы сайт сделали быстро и без задержек. Для бизнеса в Тирасполе и Молдове.",
+        readTime: "5 мин",
+        ctaLabel: "Заказать сайт",
+        intro:
+          "Часто сайт делается дольше не из-за разработки, а потому что от клиента долго нет материалов. Если подготовить всё заранее — сайт соберётся быстро и получится именно таким, как нужно. Вот простой чек-лист, что подготовить перед стартом. Не пугайся: если чего-то нет — помогу собрать.",
+        sections: [
+          { heading: "1. Понять цель сайта", body: "Главное — зачем сайт. Принимать заявки? Показать услуги и цены? Продавать товары? Просто чтобы находили в Google? От этого зависит структура. Достаточно в двух словах описать: чем занимаешься, кто твои клиенты и что человек должен сделать на сайте (позвонить, написать, купить). Остальное я помогу оформить." },
+          { heading: "2. Тексты и информация", body: "Собери базовую информацию: описание бизнеса, список услуг или товаров, цены (или «от»), как заказать, часы работы, контакты. Не нужно писать красиво — накидай как есть, своими словами, а я причешу текст под сайт и SEO. Реальная информация о тебе всегда работает лучше «воды»." },
+          { heading: "3. Фото и логотип", body: "Живые фото твоих работ, товаров, помещения или команды повышают доверие лучше любых стоков. Скинь что есть, даже с телефона — обработаю. Логотип: если есть — в хорошем качестве; если нет — не проблема, можно сделать простой аккуратный вариант или обойтись красивым названием." },
+          { heading: "4. Домен и контакты", body: "Определись с адресом сайта (доменом) — обычно это название бизнеса латиницей. Подскажу, свободен ли он, и помогу зарегистрировать. Плюс собери контакты, которые будут на сайте: телефон, WhatsApp/Telegram/Viber, адрес, карта, соцсети — всё, куда клиенту удобно писать." },
+          { heading: "5. Примеры, которые нравятся", body: "Скинь 2-3 сайта (можно конкурентов или из другой сферы), которые тебе нравятся, и коротко — чем именно. Это лучший способ быстро попасть в нужный стиль, чем описывать словами. Не обязательно, но сильно ускоряет." },
+        ],
+        outro:
+          "Если что-то из списка не готово — ничего страшного, это не блокирует старт, соберём по ходу. Напиши мне, опиши бизнес в двух словах — подскажу, что реально нужно именно для твоего сайта, и с чего начнём. Работаю в ПМР, на связи в Telegram, WhatsApp и Viber.",
+      },
+      en: {
+        title: "What to prepare for building a website: a checklist",
+        excerpt:
+          "What to prepare before ordering a website: texts, photos, a logo, a domain and examples. A simple checklist so the site gets built fast and without delays. For business in Tiraspol and Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Order a website",
+        intro:
+          "Often a website takes longer not because of development, but because the client is slow to send materials. Prepare everything in advance and the site comes together fast and turns out exactly right. Here's a simple checklist of what to prepare before we start. Don't worry: if something is missing, I'll help gather it.",
+        sections: [
+          { heading: "1. Understand the site's goal", body: "The main thing is why you need the site. To take leads? Show services and prices? Sell products? Just to be found on Google? The structure depends on that. It's enough to describe in a couple of words: what you do, who your customers are, and what a person should do on the site (call, message, buy). I'll help shape the rest." },
+          { heading: "2. Texts and information", body: "Gather the basics: a business description, a list of services or products, prices (or 'from'), how to order, working hours, contacts. No need to write it beautifully — jot it down as is, in your own words, and I'll polish the text for the site and SEO. Real information about you always works better than filler." },
+          { heading: "3. Photos and a logo", body: "Real photos of your work, products, premises or team build trust better than any stock images. Send what you have, even from a phone — I'll process it. Logo: if you have one, in good quality; if not, no problem — we can make a simple neat version or use a nice wordmark." },
+          { heading: "4. Domain and contacts", body: "Decide on the site's address (domain) — usually your business name in Latin letters. I'll tell you if it's free and help register it. Also gather the contacts that will be on the site: phone, WhatsApp/Telegram/Viber, address, map, socials — everywhere it's convenient for a client to reach you." },
+          { heading: "5. Examples you like", body: "Send 2-3 sites (competitors or from another field) that you like, and briefly say what exactly you like about them. That's the fastest way to hit the right style, better than describing it in words. Optional, but it speeds things up a lot." },
+        ],
+        outro:
+          "If something on the list isn't ready — no problem, it doesn't block the start, we'll gather it along the way. Message me, describe your business in a couple of words, and I'll tell you what's actually needed for your site and where we begin. I work in Transnistria, reachable on Telegram, WhatsApp and Viber.",
+      },
+      ro: {
+        title: "Ce trebuie pregătit pentru crearea unui site: checklist",
+        excerpt:
+          "Ce să pregătești înainte de a comanda un site: texte, poze, logo, domeniu și exemple. Un checklist simplu ca site-ul să fie făcut repede și fără întârzieri. Pentru afaceri în Tiraspol și Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Comandă un site",
+        intro:
+          "Adesea un site durează mai mult nu din cauza dezvoltării, ci pentru că clientul întârzie să trimită materialele. Dacă pregătești totul din timp — site-ul se face repede și iese exact cum trebuie. Iată un checklist simplu, ce să pregătești înainte de start. Nu te speria: dacă lipsește ceva, te ajut să aduni.",
+        sections: [
+          { heading: "1. Înțelege scopul site-ului", body: "Cel mai important — de ce ai nevoie de site. Să primești cereri? Să arăți servicii și prețuri? Să vinzi produse? Doar să fii găsit pe Google? De asta depinde structura. E suficient să descrii în două vorbe: ce faci, cine sunt clienții tăi și ce trebuie să facă omul pe site (să sune, să scrie, să cumpere). Restul te ajut să formulezi." },
+          { heading: "2. Texte și informații", body: "Adună baza: descrierea afacerii, lista de servicii sau produse, prețuri (sau «de la»), cum se comandă, programul, contactele. Nu trebuie scris frumos — notează cum e, cu cuvintele tale, iar eu șlefuiesc textul pentru site și SEO. Informația reală despre tine funcționează mereu mai bine decât «apa»." },
+          { heading: "3. Poze și logo", body: "Pozele reale ale lucrărilor, produselor, spațiului sau echipei cresc încrederea mai bine decât orice stoc. Trimite ce ai, chiar și de pe telefon — le prelucrez. Logo: dacă ai, în calitate bună; dacă nu, nu-i problemă — putem face o variantă simplă și îngrijită sau folosim un nume scris frumos." },
+          { heading: "4. Domeniu și contacte", body: "Decide adresa site-ului (domeniul) — de obicei numele afacerii cu litere latine. Îți spun dacă e liber și te ajut să-l înregistrezi. Plus adună contactele care vor fi pe site: telefon, WhatsApp/Telegram/Viber, adresă, hartă, rețele — tot unde îi e comod clientului să scrie." },
+          { heading: "5. Exemple care îți plac", body: "Trimite 2-3 site-uri (concurenți sau din alt domeniu) care îți plac și spune pe scurt ce anume îți place la ele. E cel mai rapid mod de a nimeri stilul potrivit, mai bine decât să descrii în cuvinte. Opțional, dar accelerează mult." },
+        ],
+        outro:
+          "Dacă ceva din listă nu e gata — nu-i problemă, nu blochează startul, adunăm pe parcurs. Scrie-mi, descrie afacerea în două vorbe, și îți spun ce e cu adevărat necesar pentru site-ul tău și de unde începem. Lucrez în Transnistria, disponibil pe Telegram, WhatsApp și Viber.",
+      },
+    },
+  },
+  {
+    slug: "pochemu-vazhna-skorost-sayta",
+    emoji: "⚡",
+    date: "2026-09-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Почему важна скорость загрузки сайта и как её улучшить",
+        excerpt:
+          "Почему медленный сайт теряет клиентов и позиции в Google, что его тормозит и как ускорить. Простое объяснение и что можно сделать. Для бизнеса в Тирасполе и Молдове.",
+        readTime: "5 мин",
+        ctaLabel: "Ускорить мой сайт",
+        intro:
+          "Скорость сайта — это не про «гиков», это про деньги. Медленный сайт теряет клиентов ещё до того, как они увидели твоё предложение, и хуже ранжируется в Google. Разберём простыми словами, почему это важно и что с этим делать.",
+        sections: [
+          { heading: "Люди уходят с медленных сайтов", body: "Человек не будет ждать. Если страница грузится дольше 3 секунд, значительная часть посетителей просто закрывает её и уходит к конкуренту. Ты платишь за рекламу или продвижение, приводишь человека на сайт — а он уходит из-за загрузки. Это прямые потерянные заявки, которые ты даже не видишь." },
+          { heading: "Google понижает медленные сайты", body: "Скорость — официальный фактор ранжирования Google. Из двух похожих сайтов выше в поиске будет тот, что грузится быстрее, особенно на телефоне. То есть медленный сайт теряет не только тех, кто зашёл, но и тех, кто вообще не увидел его в поиске." },
+          { heading: "Что чаще всего тормозит сайт", body: "Главные виновники: тяжёлые несжатые картинки (фото по 5-10 МБ прямо с телефона), перегруженные шаблоны и конструкторы, которые тянут кучу лишнего кода, много сторонних скриптов (виджеты, счётчики, чаты) и дешёвый медленный хостинг. Часто сайт можно ускорить в разы, просто убрав лишнее и сжав картинки." },
+          { heading: "Как ускорить", body: "Сжать и оптимизировать изображения, убрать лишние скрипты и виджеты, использовать лёгкий чистый код вместо тяжёлого шаблона, подключить кеширование и нормальный хостinг. На заказном сайте это закладывается сразу; готовый чужой сайт обычно тоже реально заметно ускорить." },
+          { heading: "Как проверить свой сайт", body: "Открой бесплатный Google PageSpeed Insights, вставь адрес сайта — он покажет оценку скорости на телефоне и компьютере и что именно тормозит. Красные и оранжевые цифры — сигнал, что пора оптимизировать. Могу проверить твой сайт и сказать, где узкие места." },
+        ],
+        outro:
+          "Если твой сайт долго грузится — это тихо съедает клиентов и позиции. Пришли мне ссылку, бесплатно проверю скорость и скажу, что тормозит и насколько реально ускорить. Работаю в ПМР, на связи в Telegram, WhatsApp и Viber.",
+      },
+      en: {
+        title: "Why website loading speed matters and how to improve it",
+        excerpt:
+          "Why a slow website loses customers and Google rankings, what slows it down and how to speed it up. A simple explanation and what can be done. For business in Tiraspol and Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Speed up my site",
+        intro:
+          "Site speed isn't a 'geek' thing — it's about money. A slow site loses customers before they even see your offer, and it ranks worse on Google. Let's break down in simple terms why it matters and what to do about it.",
+        sections: [
+          { heading: "People leave slow sites", body: "A person won't wait. If a page takes longer than 3 seconds to load, a large share of visitors simply close it and go to a competitor. You pay for ads or promotion, bring a person to the site — and they leave because of loading. Those are lost leads you don't even see." },
+          { heading: "Google demotes slow sites", body: "Speed is an official Google ranking factor. Of two similar sites, the faster one ranks higher, especially on mobile. So a slow site loses not only those who arrived, but also those who never saw it in search at all." },
+          { heading: "What slows a site down most", body: "The main culprits: heavy uncompressed images (5-10 MB photos straight from a phone), bloated templates and builders that pull in tons of extra code, many third-party scripts (widgets, counters, chats) and cheap slow hosting. Often a site can be sped up several times over just by removing excess and compressing images." },
+          { heading: "How to speed it up", body: "Compress and optimize images, remove unnecessary scripts and widgets, use light clean code instead of a heavy template, enable caching and decent hosting. On a custom site this is built in from the start; someone's existing site can usually be noticeably sped up too." },
+          { heading: "How to check your site", body: "Open the free Google PageSpeed Insights, paste your site address — it shows a speed score for mobile and desktop and exactly what's slowing it down. Red and orange numbers signal it's time to optimize. I can check your site and point out the bottlenecks." },
+        ],
+        outro:
+          "If your site loads slowly, it quietly eats your customers and rankings. Send me the link, I'll check the speed for free and tell you what's slowing it down and how much it can realistically be sped up. I work in Transnistria, reachable on Telegram, WhatsApp and Viber.",
+      },
+      ro: {
+        title: "De ce contează viteza de încărcare a site-ului și cum s-o îmbunătățești",
+        excerpt:
+          "De ce un site lent pierde clienți și poziții în Google, ce îl încetinește și cum îl accelerezi. O explicație simplă și ce se poate face. Pentru afaceri în Tiraspol și Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Accelerează-mi site-ul",
+        intro:
+          "Viteza site-ului nu e o chestie de «tocilari» — e despre bani. Un site lent pierde clienți înainte ca ei să-ți vadă oferta și se clasează mai prost în Google. Să vedem pe înțeles de ce contează și ce să faci.",
+        sections: [
+          { heading: "Oamenii pleacă de pe site-urile lente", body: "Omul nu așteaptă. Dacă pagina se încarcă mai mult de 3 secunde, o parte mare din vizitatori pur și simplu o închid și merg la concurent. Plătești reclamă sau promovare, aduci omul pe site — iar el pleacă din cauza încărcării. Sunt cereri pierdute pe care nici nu le vezi." },
+          { heading: "Google retrogradează site-urile lente", body: "Viteza e un factor oficial de clasare Google. Dintre două site-uri similare, cel mai rapid apare mai sus, mai ales pe telefon. Deci un site lent pierde nu doar pe cei care au intrat, ci și pe cei care nu l-au văzut deloc în căutare." },
+          { heading: "Ce încetinește cel mai des un site", body: "Principalii vinovați: imagini grele necomprimate (poze de 5-10 MB direct de pe telefon), șabloane și constructoare supraîncărcate care trag mult cod inutil, multe scripturi terțe (widget-uri, contoare, chat-uri) și hosting ieftin și lent. Adesea un site poate fi accelerat de câteva ori doar scoțând ce e în plus și comprimând imaginile." },
+          { heading: "Cum să-l accelerezi", body: "Comprimă și optimizează imaginile, scoate scripturile și widget-urile inutile, folosește cod ușor și curat în loc de un șablon greu, activează caching și un hosting decent. La un site la comandă asta se pune de la început; și un site existent poate fi de obicei accelerat vizibil." },
+          { heading: "Cum să-ți verifici site-ul", body: "Deschide gratuitul Google PageSpeed Insights, pune adresa site-ului — arată un scor de viteză pentru telefon și calculator și exact ce îl încetinește. Cifrele roșii și portocalii sunt semnal că e timpul de optimizat. Pot verifica site-ul tău și să-ți spun unde sunt punctele slabe." },
+        ],
+        outro:
+          "Dacă site-ul tău se încarcă greu, îți mănâncă în tăcere clienții și pozițiile. Trimite-mi linkul, verific gratuit viteza și îți spun ce îl încetinește și cât de mult poate fi accelerat realist. Lucrez în Transnistria, disponibil pe Telegram, WhatsApp și Viber.",
+      },
+    },
+  },
+  {
+    slug: "domen-i-hosting-dlya-nachinayushchih",
+    emoji: "🌐",
+    date: "2026-09-02",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Домен и хостинг простыми словами: что это и сколько стоит",
+        excerpt:
+          "Что такое домен и хостинг, зачем они нужны, сколько стоят в год и на кого их регистрировать. Простое объяснение без терминов для владельца бизнеса в Тирасполе и Молдове.",
+        readTime: "4 мин",
+        ctaLabel: "Помогу с доменом и сайтом",
+        intro:
+          "Когда заказываешь сайт, всплывают два слова — «домен» и «хостинг». Звучит технически, но на деле всё просто. Объясню на пальцах, что это, сколько стоит и на что обратить внимание, чтобы сайт всегда оставался твоим.",
+        sections: [
+          { heading: "Домен — это адрес сайта", body: "Домен — то, что человек набирает в браузере, чтобы попасть на твой сайт: например, tvoy-biznes.com или .md. Это как адрес магазина, только в интернете. Домен арендуется на год (потом продлевается) и должен быть уникальным — двух одинаковых не бывает. Обычно берут название бизнеса латиницей." },
+          { heading: "Хостинг — это место, где живёт сайт", body: "Сайт — это файлы, и они должны где-то храниться и быть доступны 24/7. Хостинг — это и есть тот «участок» на сервере, где лежит сайт и откуда он отдаётся посетителям. Нет хостинга — сайт негде разместить. Домен ведёт людей по адресу, а хостинг — то, что по этому адресу стоит." },
+          { heading: "Сколько это стоит", body: "Домен — примерно 10-20 $ в год в зависимости от зоны (.com, .md, .ru и т.д.). Хостинг для сайта-визитки или лендинга — недорого, а часто для небольших сайтов его вообще можно разместить бесплатно на современных платформах. Итого поддержка адреса обходится в символические деньги в год — это не то, на чём разоряются." },
+          { heading: "Важно: регистрируй на СЕБЯ", body: "Домен и хостинг должны быть оформлены на тебя (на твою почту/аккаунт), а не «где-то у разработчика». Иначе однажды можешь оказаться в ситуации, когда сайт вроде твой, а адрес и доступы — у чужого человека. Я всегда регистрирую на аккаунт клиента и отдаю все доступы — сайт полностью твой." },
+          { heading: "Что беру на себя я", body: "Тебе не нужно разбираться в этом самому. Я подскажу свободный домен, помогу зарегистрировать его на тебя, подключу к сайту и настрою хостинг. Ты получаешь готовый работающий сайт по своему адресу и все доступы к нему на руки." },
+        ],
+        outro:
+          "Если не хочешь вникать в домены и хостинги — и не надо. Напиши мне, я всё объясню простыми словами, подберу адрес и настрою так, чтобы сайт был полностью твой. Работаю в ПМР, на связи в Telegram, WhatsApp и Viber.",
+      },
+      en: {
+        title: "Domain and hosting in simple words: what they are and what they cost",
+        excerpt:
+          "What a domain and hosting are, why you need them, what they cost per year and whose name to register them under. A simple, jargon-free explanation for a business owner in Tiraspol and Moldova.",
+        readTime: "4 min",
+        ctaLabel: "Help me with a domain and site",
+        intro:
+          "When you order a website, two words come up — 'domain' and 'hosting'. It sounds technical, but it's actually simple. Let me explain plainly what they are, what they cost, and what to watch for so the site always stays yours.",
+        sections: [
+          { heading: "A domain is the site's address", body: "A domain is what a person types into the browser to reach your site: for example, your-business.com or .md. It's like a shop's address, only online. A domain is rented per year (then renewed) and must be unique — no two are the same. Usually it's the business name in Latin letters." },
+          { heading: "Hosting is where the site lives", body: "A website is files, and they have to be stored somewhere and available 24/7. Hosting is that 'plot' on a server where the site sits and from which it's served to visitors. No hosting — nowhere to put the site. The domain leads people to the address; hosting is what stands at that address." },
+          { heading: "What it costs", body: "A domain — roughly $10-20 a year depending on the zone (.com, .md, .ru, etc.). Hosting for a business-card site or a landing page is cheap, and often small sites can even be hosted for free on modern platforms. So keeping the address running costs a symbolic amount per year — it's not where budgets go." },
+          { heading: "Important: register it under YOUR name", body: "The domain and hosting must be registered under you (your email/account), not 'somewhere at the developer's'. Otherwise you may one day find the site is supposedly yours, but the address and access belong to someone else. I always register under the client's account and hand over all access — the site is fully yours." },
+          { heading: "What I take care of", body: "You don't need to figure this out yourself. I'll suggest an available domain, help register it under you, connect it to the site and set up hosting. You get a ready, working site at your address and all its access in your hands." },
+        ],
+        outro:
+          "If you don't want to dig into domains and hosting — you don't have to. Message me, I'll explain it plainly, pick an address and set it up so the site is fully yours. I work in Transnistria, reachable on Telegram, WhatsApp and Viber.",
+      },
+      ro: {
+        title: "Domeniu și hosting pe înțeles: ce sunt și cât costă",
+        excerpt:
+          "Ce este un domeniu și un hosting, de ce ai nevoie de ele, cât costă pe an și pe numele cui să le înregistrezi. O explicație simplă, fără termeni, pentru un proprietar de afacere din Tiraspol și Moldova.",
+        readTime: "4 min",
+        ctaLabel: "Ajută-mă cu domeniu și site",
+        intro:
+          "Când comanzi un site, apar două cuvinte — «domeniu» și «hosting». Sună tehnic, dar de fapt e simplu. Îți explic pe înțeles ce sunt, cât costă și la ce să fii atent, ca site-ul să rămână mereu al tău.",
+        sections: [
+          { heading: "Domeniul este adresa site-ului", body: "Domeniul e ceea ce tastează omul în browser ca să ajungă pe site-ul tău: de exemplu, afacerea-ta.com sau .md. E ca adresa unui magazin, doar că online. Domeniul se închiriază pe an (apoi se prelungește) și trebuie să fie unic — nu există două la fel. De obicei e numele afacerii cu litere latine." },
+          { heading: "Hostingul este locul unde trăiește site-ul", body: "Un site înseamnă fișiere, iar ele trebuie stocate undeva și disponibile 24/7. Hostingul e acel «lot» de pe server unde stă site-ul și de unde e livrat vizitatorilor. Fără hosting — nu ai unde pune site-ul. Domeniul duce oamenii la adresă, iar hostingul e ceea ce se află la acea adresă." },
+          { heading: "Cât costă", body: "Un domeniu — aproximativ 10-20 $ pe an, în funcție de zonă (.com, .md, .ru etc.). Hostingul pentru un site de vizită sau un landing e ieftin, iar adesea site-urile mici pot fi găzduite chiar gratuit pe platforme moderne. Deci menținerea adresei costă o sumă simbolică pe an — nu aici se duc bugetele." },
+          { heading: "Important: înregistrează pe numele TĂU", body: "Domeniul și hostingul trebuie să fie pe numele tău (pe email-ul/contul tău), nu «undeva la dezvoltator». Altfel poți ajunge într-o zi în situația în care site-ul e chipurile al tău, dar adresa și accesele sunt la altcineva. Eu înregistrez mereu pe contul clientului și predau toate accesele — site-ul e complet al tău." },
+          { heading: "De ce mă ocup eu", body: "Nu trebuie să te descurci singur cu asta. Îți sugerez un domeniu liber, te ajut să-l înregistrezi pe numele tău, îl conectez la site și configurez hostingul. Primești un site gata, funcțional, la adresa ta, și toate accesele în mână." },
+        ],
+        outro:
+          "Dacă nu vrei să intri în detalii de domenii și hosting — nici nu trebuie. Scrie-mi, îți explic pe înțeles, aleg o adresă și configurez așa încât site-ul să fie complet al tău. Lucrez în Transnistria, disponibil pe Telegram, WhatsApp și Viber.",
+      },
+    },
+  },
+  {
     slug: "konstruktor-ili-sayt-na-zakaz",
     emoji: "🧩",
     date: "2026-08-20",

@@ -16,7 +16,25 @@
     <loc>https://www.vladislavbdev.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/chto-nuzhno-dlya-sozdaniya-sayta</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/pochemu-vazhna-skorost-sayta</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/domen-i-hosting-dlya-nachinayushchih</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.vladislavbdev.com/blog/konstruktor-ili-sayt-na-zakaz</loc>
