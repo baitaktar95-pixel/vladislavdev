@@ -34,6 +34,183 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "zayavki-s-sayta-v-telegram",
+    emoji: "📨",
+    date: "2026-09-14",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Заявки с сайта сразу в Telegram: зачем и как это работает",
+        excerpt:
+          "Как сделать, чтобы заявка с сайта через секунду приходила вам в Telegram. Почему это ускоряет продажи и что нужно, чтобы настроить это для бизнеса в Тирасполе и Молдове.",
+        readTime: "4 мин",
+        ctaLabel: "Подключить заявки в Telegram",
+        intro:
+          "Клиент оставил заявку на сайте, а вы увидели её в почте через три часа. За это время он уже позвонил конкуренту. Решение простое: заявки должны приходить туда, где вы и так сидите весь день, — в Telegram. Разберём, как это работает.",
+        sections: [
+          { heading: "Как это работает", body: "Клиент заполняет форму на сайте: имя, телефон, что нужно. В ту же секунду бот присылает это сообщение вам в Telegram — в личку или в общий чат с менеджерами. Никаких писем, которые теряются в спаме, и никаких входов в админку. Открыл телефон — видишь заявку." },
+          { heading: "Почему скорость решает", body: "Чем быстрее вы перезвонили, тем выше шанс продажи. Человек, который оставил заявку пять минут назад, ещё помнит, что ему нужно, и ещё не написал другим. Через пару часов он уже остыл или договорился с конкурентом. Заявки в Telegram позволяют ответить почти мгновенно, даже если вы не за компьютером." },
+          { heading: "Что можно передавать", body: "Не только имя и телефон. В сообщение можно добавить, какую услугу выбрал клиент, с какой страницы пришла заявка, сумму заказа и комментарий. Если на сайте есть корзина, бот пришлёт полный состав заказа. Так менеджер сразу понимает, о чём разговор, и не переспрашивает." },
+          { heading: "Сколько стоит и сроки", body: "Если сайт делаю я, отправка заявок в Telegram входит в стоимость. Подключить её к уже готовому сайту тоже можно — цена и срок зависят от того, на чём он сделан. Напишите, и я назову точную стоимость. Работаю в ПМР, так что обсудить и настроить можно быстро." },
+        ],
+        outro:
+          "Если заявки с вашего сайта приходят на почту или вы их вообще не видите вовремя — это потерянные клиенты. Напишите мне адрес сайта, и я подскажу, как подключить заявки в Telegram.",
+      },
+      en: {
+        title: "Website leads straight to Telegram: why and how it works",
+        excerpt:
+          "How to get a lead from your website delivered to your Telegram within a second. Why it speeds up sales and what it takes to set it up for a business in Tiraspol and Moldova.",
+        readTime: "4 min",
+        ctaLabel: "Connect leads to Telegram",
+        intro:
+          "A customer left a request on your site, and you saw it in your email three hours later. By then they had already called a competitor. The fix is simple: leads should arrive where you already spend your whole day — in Telegram. Here's how it works.",
+        sections: [
+          { heading: "How it works", body: "A customer fills out the form on your site: name, phone, what they need. That same second a bot sends the message to your Telegram — to your private chat or a shared chat with managers. No emails lost in spam and no logging into an admin panel. Open your phone and see the lead." },
+          { heading: "Why speed matters", body: "The faster you call back, the higher the chance of a sale. Someone who left a request five minutes ago still remembers what they need and hasn't written to anyone else yet. A couple of hours later they've cooled off or agreed with a competitor. Leads in Telegram let you reply almost instantly, even when you're away from your computer." },
+          { heading: "What can be sent", body: "Not only the name and phone. The message can include the service the customer chose, the page the request came from, the order amount and a comment. If the site has a cart, the bot sends the full order. That way a manager instantly understands the context and doesn't have to ask again." },
+          { heading: "Cost and timeline", body: "If I build your site, sending leads to Telegram is included in the price. It can also be connected to an existing site — the price and timeline depend on what the site is built with. Message me and I'll give you the exact cost. I work in Transnistria, so we can discuss and set it up quickly." },
+        ],
+        outro:
+          "If leads from your site go to email or you don't see them in time, those are lost customers. Send me your site address and I'll tell you how to connect leads to Telegram.",
+      },
+      ro: {
+        title: "Cererile de pe site direct în Telegram: de ce și cum funcționează",
+        excerpt:
+          "Cum faci ca o cerere de pe site să-ți ajungă în Telegram într-o secundă. De ce accelerează vânzările și ce e nevoie pentru a o configura pentru o afacere în Tiraspol și Moldova.",
+        readTime: "4 min",
+        ctaLabel: "Conectează cererile la Telegram",
+        intro:
+          "Un client a lăsat o cerere pe site, iar tu ai văzut-o în email după trei ore. Între timp, el a sunat deja la concurent. Soluția e simplă: cererile trebuie să ajungă acolo unde stai oricum toată ziua — în Telegram. Să vedem cum funcționează.",
+        sections: [
+          { heading: "Cum funcționează", body: "Clientul completează formularul de pe site: nume, telefon, de ce are nevoie. În aceeași secundă, un bot îți trimite mesajul în Telegram — în chatul personal sau într-un chat comun cu managerii. Fără emailuri pierdute în spam și fără intrări în panoul de administrare. Deschizi telefonul și vezi cererea." },
+          { heading: "De ce contează viteza", body: "Cu cât suni înapoi mai repede, cu atât șansa de vânzare e mai mare. Omul care a lăsat o cerere acum cinci minute încă își amintește de ce are nevoie și încă nu a scris altora. După câteva ore s-a răcit sau s-a înțeles cu un concurent. Cererile în Telegram îți permit să răspunzi aproape instantaneu, chiar dacă nu ești la calculator." },
+          { heading: "Ce se poate transmite", body: "Nu doar numele și telefonul. Mesajul poate include serviciul ales de client, pagina de pe care a venit cererea, suma comenzii și un comentariu. Dacă site-ul are coș, botul trimite comanda completă. Astfel managerul înțelege imediat despre ce e vorba și nu mai întreabă din nou." },
+          { heading: "Cost și termene", body: "Dacă site-ul îl fac eu, trimiterea cererilor în Telegram e inclusă în preț. Se poate conecta și la un site existent — prețul și termenul depind de platforma pe care e făcut. Scrie-mi și îți spun costul exact. Lucrez în Transnistria, așa că putem discuta și configura rapid." },
+        ],
+        outro:
+          "Dacă cererile de pe site-ul tău ajung pe email sau nu le vezi la timp, aceștia sunt clienți pierduți. Trimite-mi adresa site-ului și îți spun cum conectăm cererile la Telegram.",
+      },
+    },
+  },
+  {
+    slug: "google-biznes-profil-na-kartah",
+    emoji: "📍",
+    date: "2026-09-14",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Google Бизнес-профиль: как попасть на карты и получать звонки",
+        excerpt:
+          "Что такое Google Бизнес-профиль, почему он приводит клиентов даже без сайта и как его правильно заполнить. Простая инструкция для бизнеса в Тирасполе и Молдове.",
+        readTime: "5 мин",
+        ctaLabel: "Помочь с профилем",
+        intro:
+          "Когда человек ищет «ремонт телефонов Тирасполь» или «кафе рядом», Google первым делом показывает карту с компаниями. Попасть туда можно бесплатно — через Google Бизнес-профиль. Разберём, зачем он нужен и как заполнить его, чтобы звонили вам.",
+        sections: [
+          { heading: "Что это и зачем", body: "Бизнес-профиль — это карточка вашей компании в Google Поиске и на Google Картах: адрес, телефон, часы работы, фото, отзывы и кнопка «Позвонить». Для многих клиентов это первое, что они видят. Если карточки нет, на карте показываются только конкуренты." },
+          { heading: "Как создать", body: "Профиль создаётся бесплатно на google.com/business через ваш Google-аккаунт. Нужно указать название, категорию, адрес или зону обслуживания, телефон и сайт. Затем Google подтверждает, что компания настоящая — обычно по телефону, SMS или видео. После подтверждения карточка появляется в поиске." },
+          { heading: "Как заполнить, чтобы звонили", body: "Выберите точную основную категорию — от неё сильно зависит, по каким запросам вас покажут. Заполните часы работы, добавьте 10–20 живых фото и опишите услуги. Главное — отзывы: просите довольных клиентов оставить отзыв и отвечайте на каждый, в том числе на плохие. Карточки с отзывами и фото получают больше звонков." },
+          { heading: "Профиль и сайт вместе", body: "Профиль приводит людей, а сайт их убеждает. Добавьте ссылку на сайт в карточку, а на сайте разместите карту и те же контакты. Одинаковые название, адрес и телефон везде помогают Google доверять вашей компании и показывать её выше." },
+        ],
+        outro:
+          "Если у вас нет карточки в Google или она заполнена наполовину — вы теряете клиентов, которые ищут рядом. Напишите мне: помогу создать и заполнить профиль, а при необходимости сделаю сайт, который будет работать вместе с ним.",
+      },
+      en: {
+        title: "Google Business Profile: how to get on the map and get calls",
+        excerpt:
+          "What a Google Business Profile is, why it brings customers even without a website and how to fill it out properly. A simple guide for businesses in Tiraspol and Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Help with my profile",
+        intro:
+          "When someone searches for «phone repair Tiraspol» or «cafe near me», Google first shows a map with businesses. You can get there for free — with a Google Business Profile. Let's look at why you need it and how to fill it out so people call you.",
+        sections: [
+          { heading: "What it is and why", body: "A Business Profile is your company's card in Google Search and Google Maps: address, phone, opening hours, photos, reviews and a «Call» button. For many customers it's the first thing they see. If you don't have a card, only your competitors appear on the map." },
+          { heading: "How to create it", body: "The profile is created for free at google.com/business with your Google account. You enter the name, category, address or service area, phone and website. Then Google confirms the business is real — usually by phone, SMS or video. After verification, the card appears in search." },
+          { heading: "How to fill it out so people call", body: "Choose an accurate primary category — it strongly affects which searches you appear for. Fill in opening hours, add 10–20 real photos and describe your services. Most important are reviews: ask happy customers to leave one and reply to every review, including negative ones. Cards with reviews and photos get more calls." },
+          { heading: "Profile and website together", body: "The profile brings people in, and the website convinces them. Add your website link to the card, and put a map and the same contacts on your site. The same name, address and phone everywhere help Google trust your business and rank it higher." },
+        ],
+        outro:
+          "If you don't have a Google card or it's only half filled out, you're losing customers who search nearby. Message me: I'll help create and fill out your profile and, if needed, build a website that works together with it.",
+      },
+      ro: {
+        title: "Profilul de companie Google: cum apari pe hartă și primești apeluri",
+        excerpt:
+          "Ce este Profilul de companie Google, de ce aduce clienți chiar și fără site și cum îl completezi corect. Un ghid simplu pentru afaceri din Tiraspol și Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Ajutor cu profilul",
+        intro:
+          "Când cineva caută «reparații telefoane Tiraspol» sau «cafenea în apropiere», Google arată mai întâi o hartă cu companii. Poți ajunge acolo gratuit — prin Profilul de companie Google. Să vedem de ce ai nevoie de el și cum îl completezi ca să te sune pe tine.",
+        sections: [
+          { heading: "Ce este și de ce", body: "Profilul de companie este fișa firmei tale în Căutarea Google și pe Google Maps: adresă, telefon, program, poze, recenzii și butonul «Sună». Pentru mulți clienți e primul lucru pe care îl văd. Dacă nu ai fișă, pe hartă apar doar concurenții." },
+          { heading: "Cum îl creezi", body: "Profilul se creează gratuit pe google.com/business cu contul tău Google. Introduci numele, categoria, adresa sau zona deservită, telefonul și site-ul. Apoi Google confirmă că firma e reală — de obicei prin telefon, SMS sau video. După confirmare, fișa apare în căutare." },
+          { heading: "Cum îl completezi ca să te sune", body: "Alege o categorie principală exactă — de ea depinde mult la ce căutări apari. Completează programul, adaugă 10–20 de poze reale și descrie serviciile. Cel mai important sunt recenziile: roagă clienții mulțumiți să lase una și răspunde la fiecare, inclusiv la cele negative. Fișele cu recenzii și poze primesc mai multe apeluri." },
+          { heading: "Profilul și site-ul împreună", body: "Profilul aduce oamenii, iar site-ul îi convinge. Adaugă linkul site-ului în fișă, iar pe site pune harta și aceleași contacte. Același nume, aceeași adresă și același telefon peste tot ajută Google să aibă încredere în firma ta și s-o afișeze mai sus." },
+        ],
+        outro:
+          "Dacă nu ai fișă în Google sau e completată pe jumătate, pierzi clienții care caută în apropiere. Scrie-mi: te ajut să creezi și să completezi profilul, iar la nevoie fac un site care să funcționeze împreună cu el.",
+      },
+    },
+  },
+  {
+    slug: "otzyvy-na-sayte-dlya-biznesa",
+    emoji: "⭐",
+    date: "2026-09-14",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Отзывы на сайте: почему без них клиенты не доверяют",
+        excerpt:
+          "Как отзывы влияют на решение клиента, где их собирать и как правильно показать на сайте, чтобы им верили. Советы для бизнеса в Тирасполе и Молдове.",
+        readTime: "4 мин",
+        ctaLabel: "Сделать блок отзывов",
+        intro:
+          "Прежде чем позвонить незнакомой компании, большинство людей ищет отзывы. Сайт без них выглядит как магазин с пустыми полками: вроде всё есть, но заходить страшно. Разберём, как отзывы помогают продавать и как их правильно показать.",
+        sections: [
+          { heading: "Почему отзывы продают", body: "Клиент не знает вас лично, и ему нужен знак, что до него здесь уже покупали и остались довольны. Отзывы других людей работают сильнее любых слов компании о себе. Особенно в небольших городах, где многие услуги ищут по рекомендации." },
+          { heading: "Где взять отзывы", body: "Попросите постоянных клиентов написать пару предложений после заказа — большинство соглашается, если попросить сразу. Сохраняйте благодарности из Telegram, WhatsApp и Viber (с разрешения автора). Собирайте отзывы в Google Бизнес-профиле — их можно показывать и на сайте." },
+          { heading: "Как показать, чтобы верили", body: "Имя и, по возможности, фото клиента или фото работы. Конкретика: что заказывали и что понравилось. Живой язык, а не одинаковые гладкие фразы. Скриншоты переписки часто убеждают лучше красивого текста. Никогда не пишите отзывы сами за клиентов — это видно и подрывает доверие." },
+          { heading: "Где разместить на сайте", body: "Блок отзывов — на главной странице рядом с кнопкой заявки, а отдельные отзывы — на страницах конкретных услуг. Человек сомневается как раз перед тем, как нажать «Заказать», и отзыв в этот момент помогает решиться." },
+        ],
+        outro:
+          "Если на вашем сайте нет отзывов или они спрятаны где-то внизу — напишите мне. Добавлю аккуратный блок отзывов со скриншотами и фото и размещу его там, где он поможет получать больше заявок.",
+      },
+      en: {
+        title: "Reviews on your website: why customers don't trust you without them",
+        excerpt:
+          "How reviews affect a customer's decision, where to collect them and how to show them on your site so people believe them. Tips for businesses in Tiraspol and Moldova.",
+        readTime: "4 min",
+        ctaLabel: "Add a reviews section",
+        intro:
+          "Before calling an unfamiliar company, most people look for reviews. A website without them feels like a shop with empty shelves: everything seems to be there, but it's scary to walk in. Let's see how reviews help sell and how to show them properly.",
+        sections: [
+          { heading: "Why reviews sell", body: "A customer doesn't know you personally and needs a sign that others have already bought here and were happy. Other people's reviews work better than anything a company says about itself. Especially in smaller cities, where many services are found by recommendation." },
+          { heading: "Where to get reviews", body: "Ask regular customers to write a couple of sentences after an order — most agree if you ask right away. Save thank-you messages from Telegram, WhatsApp and Viber (with the author's permission). Collect reviews in your Google Business Profile — they can be shown on your site too." },
+          { heading: "How to show them so people believe", body: "The customer's name and, if possible, a photo of them or of the work. Specifics: what they ordered and what they liked. Natural language, not identical polished phrases. Screenshots of chats often convince better than nice text. Never write reviews yourself on behalf of customers — it shows and destroys trust." },
+          { heading: "Where to place them on the site", body: "A reviews block on the home page next to the request button, and individual reviews on specific service pages. A person hesitates right before clicking «Order», and a review at that moment helps them decide." },
+        ],
+        outro:
+          "If your site has no reviews or they're hidden somewhere at the bottom, message me. I'll add a neat reviews section with screenshots and photos and place it where it helps you get more requests.",
+      },
+      ro: {
+        title: "Recenziile pe site: de ce fără ele clienții nu au încredere",
+        excerpt:
+          "Cum influențează recenziile decizia clientului, unde le aduni și cum le arăți pe site ca să fie crezute. Sfaturi pentru afaceri din Tiraspol și Moldova.",
+        readTime: "4 min",
+        ctaLabel: "Adaugă un bloc de recenzii",
+        intro:
+          "Înainte să sune la o firmă necunoscută, majoritatea oamenilor caută recenzii. Un site fără ele arată ca un magazin cu rafturi goale: pare că e totul, dar îți e teamă să intri. Să vedem cum ajută recenziile la vânzări și cum le arăți corect.",
+        sections: [
+          { heading: "De ce vând recenziile", body: "Clientul nu te cunoaște personal și are nevoie de un semn că alții au cumpărat deja aici și au fost mulțumiți. Recenziile altor oameni funcționează mai bine decât orice spune firma despre sine. Mai ales în orașele mici, unde multe servicii se găsesc prin recomandare." },
+          { heading: "De unde iei recenzii", body: "Roagă clienții fideli să scrie câteva propoziții după comandă — majoritatea acceptă dacă îi rogi imediat. Păstrează mesajele de mulțumire din Telegram, WhatsApp și Viber (cu permisiunea autorului). Adună recenzii în Profilul de companie Google — le poți afișa și pe site." },
+          { heading: "Cum le arăți ca să fie crezute", body: "Numele clientului și, dacă se poate, o poză cu el sau cu lucrarea. Detalii concrete: ce a comandat și ce i-a plăcut. Limbaj natural, nu fraze identice și lustruite. Capturile de ecran ale conversațiilor conving adesea mai bine decât un text frumos. Nu scrie niciodată recenzii în locul clienților — se vede și distruge încrederea." },
+          { heading: "Unde le pui pe site", body: "Un bloc de recenzii pe pagina principală, lângă butonul de cerere, și recenzii separate pe paginile serviciilor. Omul ezită chiar înainte să apese «Comandă», iar o recenzie în acel moment îl ajută să se decidă." },
+        ],
+        outro:
+          "Dacă pe site-ul tău nu sunt recenzii sau sunt ascunse undeva jos, scrie-mi. Adaug un bloc de recenzii îngrijit, cu capturi și poze, și îl pun acolo unde te ajută să primești mai multe cereri.",
+      },
+    },
+  },
+  {
     slug: "chto-nuzhno-dlya-sozdaniya-sayta",
     emoji: "📋",
     date: "2026-09-02",
