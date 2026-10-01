@@ -16,7 +16,25 @@
     <loc>https://www.vladislavbdev.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/sayt-dlya-mastera-chastnika</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/kak-napisat-teksty-dlya-sayta</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/oshibki-pri-zakaze-sayta</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
   </url>
   <url>
     <loc>https://www.vladislavbdev.com/blog/zayavki-s-sayta-v-telegram</loc>

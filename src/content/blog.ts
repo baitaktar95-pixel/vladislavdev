@@ -34,6 +34,192 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "sayt-dlya-mastera-chastnika",
+    emoji: "💇",
+    date: "2026-10-01",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Нужен ли сайт мастеру-частнику: парикмахеру, мастеру маникюра, репетитору",
+        excerpt:
+          "Зачем сайт частному мастеру, если есть Instagram и сарафанное радио. Что должно быть на такой странице и сколько это стоит в Тирасполе и Молдове.",
+        readTime: "5 мин",
+        ctaLabel: "Сделать сайт мастеру",
+        intro:
+          "Мастер маникюра, парикмахер, репетитор, фотограф, мастер по ремонту — у большинства клиенты идут по рекомендациям и через Instagram. Вопрос справедливый: зачем тогда сайт. Разберём, что он даёт в реальности, а не в теории.",
+        sections: [
+          { heading: "Вас находят в Google, а не только по рекомендации", body: "Сарафанное радио работает, но оно ограничено кругом знакомых. А человек, который только что переехал в район или ищет мастера срочно, пишет в поиске «маникюр Тирасполь» или «репетитор по математике Бендеры». Instagram в таком поиске почти не показывается, а простой сайт-визитка — да. Это новые клиенты, которые про вас никогда не слышали." },
+          { heading: "Сайт отвечает за вас в нерабочее время", body: "Цены, услуги, адрес, как записаться — всё это клиенты спрашивают в переписке по десять раз в день. На сайте это написано один раз и доступно круглосуточно. Вы перестаёте отвечать на одни и те же вопросы и тратите время только на реальные записи." },
+          { heading: "Выглядит солиднее профиля в соцсети", body: "Когда у мастера есть свой адрес в интернете, доверия больше: это сигнал, что человек работает всерьёз и надолго. Особенно заметно в услугах, где важна репутация: ремонт, медицина, обучение, фото." },
+          { heading: "Что должно быть на сайте мастера", body: "Первый экран: кто вы, что делаете и кнопка записи. Дальше услуги с ценами, портфолио работ, отзывы клиентов, адрес с картой и ссылки на мессенджеры. Главное — чтобы с телефона можно было в один клик позвонить или написать в WhatsApp. Большинство заходит именно с телефона." },
+          { heading: "Сколько стоит", body: "Простой сайт-визитка для мастера — от 150 $, срок 3-5 дней. В стоимость входят адаптация под телефон, форма записи с уведомлением в Telegram и базовая настройка для поиска. Домен обходится примерно в 10-15 $ в год. Это разовые вложения, которые дальше работают сами." },
+        ],
+        outro:
+          "Если клиенты приходят только по знакомым, а в поиске вас нет, вы теряете тех, кто готов платить, но просто не знает о вас. Напишите мне, расскажите о своих услугах, и я подскажу, что имеет смысл сделать именно в вашем случае.",
+      },
+      en: {
+        title: "Does a solo professional need a website: stylist, nail artist, tutor",
+        excerpt:
+          "Why a private professional needs a website when they already have Instagram and word of mouth. What such a page should contain and what it costs in Tiraspol and Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Build a website for me",
+        intro:
+          "Nail artists, hairdressers, tutors, photographers, repair specialists — most of them get clients through recommendations and Instagram. So the question is fair: why bother with a website. Let's look at what it actually gives you in practice.",
+        sections: [
+          { heading: "People find you on Google, not only by referral", body: "Word of mouth works, but it is limited to the circle of people who already know you. Someone who just moved to the area or needs a specialist urgently types «manicure Tiraspol» or «maths tutor Bender» into search. Instagram barely shows up in those results, a simple business-card website does. Those are new clients who have never heard of you." },
+          { heading: "The site answers for you after hours", body: "Prices, services, address, how to book — clients ask the same things ten times a day in chat. On a website it is written once and available around the clock. You stop repeating yourself and spend time only on real bookings." },
+          { heading: "It looks more solid than a social profile", body: "When a specialist has their own address online, trust goes up: it signals that the person works seriously and for the long run. This matters most in services where reputation counts: repairs, health, education, photography." },
+          { heading: "What a specialist's website needs", body: "First screen: who you are, what you do and a booking button. Then services with prices, a portfolio, client reviews, address with a map and messenger links. The key thing is that from a phone a visitor can call or message on WhatsApp in one tap. Most people arrive from a phone." },
+          { heading: "What it costs", body: "A simple business-card site for a specialist — from $150, ready in 3-5 days. The price includes mobile-responsive design, a booking form with a Telegram notification and basic search setup. A domain costs about $10-15 a year. It is a one-time investment that keeps working on its own." },
+        ],
+        outro:
+          "If clients come only through acquaintances and search does not show you at all, you are losing people who are ready to pay but simply do not know about you. Message me, tell me about your services, and I will suggest what makes sense in your case.",
+      },
+      ro: {
+        title: "Are nevoie un meșter independent de site: coafor, manichiuristă, meditator",
+        excerpt:
+          "De ce are nevoie de site un specialist independent, dacă are deja Instagram și recomandări. Ce trebuie să conțină o astfel de pagină și cât costă în Tiraspol și Moldova.",
+        readTime: "5 min",
+        ctaLabel: "Fă-mi un site",
+        intro:
+          "Manichiuriste, coafori, meditatori, fotografi, meșteri — majoritatea își găsesc clienții prin recomandări și Instagram. Întrebarea e corectă: atunci de ce un site. Să vedem ce îți oferă în realitate, nu în teorie.",
+        sections: [
+          { heading: "Te găsesc pe Google, nu doar prin recomandare", body: "Recomandările funcționează, dar sunt limitate la cercul celor care te cunosc deja. Omul care tocmai s-a mutat în zonă sau caută urgent un specialist scrie în căutare «manichiură Tiraspol» sau «meditator matematică Bender». Instagram aproape nu apare în acele rezultate, un site de vizită simplu apare. Aceștia sunt clienți noi, care nu au auzit niciodată de tine." },
+          { heading: "Site-ul răspunde în locul tău după program", body: "Prețuri, servicii, adresă, cum se face programarea — clienții întreabă aceleași lucruri de zece ori pe zi în chat. Pe site sunt scrise o dată și sunt disponibile non-stop. Nu mai repeți aceleași răspunsuri și pierzi timp doar cu programările reale." },
+          { heading: "Arată mai serios decât un profil de rețea socială", body: "Când un specialist are propria adresă online, încrederea crește: e un semn că omul lucrează serios și pe termen lung. Se observă mai ales în servicii unde contează reputația: reparații, sănătate, educație, fotografie." },
+          { heading: "Ce trebuie să aibă site-ul unui specialist", body: "Primul ecran: cine ești, ce faci și un buton de programare. Apoi serviciile cu prețuri, portofoliul lucrărilor, recenzii, adresa cu hartă și linkuri către mesagerie. Cel mai important: de pe telefon să se poată suna sau scrie pe WhatsApp dintr-o atingere. Majoritatea intră de pe telefon." },
+          { heading: "Cât costă", body: "Un site de vizită simplu pentru un specialist — de la 150 $, gata în 3-5 zile. Prețul include adaptarea pentru telefon, formular de programare cu notificare în Telegram și configurarea de bază pentru căutare. Domeniul costă circa 10-15 $ pe an. E o investiție unică ce lucrează apoi singură." },
+        ],
+        outro:
+          "Dacă clienții vin doar prin cunoscuți, iar în căutare nu apari deloc, pierzi oameni gata să plătească, dar care pur și simplu nu știu de tine. Scrie-mi, spune-mi despre serviciile tale și îți sugerez ce merită făcut în cazul tău.",
+      },
+    },
+  },
+  {
+    slug: "kak-napisat-teksty-dlya-sayta",
+    emoji: "✍️",
+    date: "2026-10-01",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Как написать тексты для сайта, которые приводят клиентов",
+        excerpt:
+          "Как написать тексты для своего сайта: о чём писать на главной, как рассказать об услугах и чего избегать. Простые правила для владельца бизнеса.",
+        readTime: "5 мин",
+        ctaLabel: "Помочь с текстами",
+        intro:
+          "Самый частый затык при создании сайта — тексты. Дизайн готов, фото есть, а написать о себе пару абзацев оказывается тяжелее всего. Разберём, что и как писать, чтобы человек не закрыл страницу через пять секунд.",
+        sections: [
+          { heading: "Пишите о клиенте, а не о себе", body: "Самая частая ошибка: «мы динамично развивающаяся компания с индивидуальным подходом». Клиенту всё равно. Его волнует своя задача: починить, купить, успеть к сроку. Переверните фразу: не «мы предлагаем широкий ассортимент», а «привезём к двери в день заказа». Проверка простая: если фразу можно поставить на сайт любого конкурента, она бесполезна." },
+          { heading: "Первый экран решает", body: "В первые секунды человек должен понять три вещи: что здесь предлагают, для кого это и что делать дальше. Один понятный заголовок, одна строка пояснения, одна кнопка. Красивый слоган без конкретики на этом месте только мешает." },
+          { heading: "Конкретика вместо прилагательных", body: "«Быстрая доставка» — пусто. «Доставим за 2 часа по Тирасполю» — понятно. «Большой опыт» — пусто. «12 лет, более 400 установленных окон» — понятно. Цифры, сроки, города, гарантии работают в разы сильнее любых эпитетов." },
+          { heading: "Короткие абзацы и подзаголовки", body: "Сайт не читают подряд, его просматривают по диагонали. Пишите абзацы по 2-3 предложения, разбивайте текст подзаголовками, выносите главное в списки. Человек должен понять суть, даже если прочитает только жирные строчки." },
+          { heading: "Если писать совсем не получается", body: "Не мучайтесь. Запишите голосом, как вы объясняете свою услугу клиенту по телефону, и расшифруйте. Это почти готовый текст, живой и понятный. Я из такой расшифровки собираю страницу: убираю лишнее, выстраиваю структуру и добавляю ключевые слова для поиска." },
+        ],
+        outro:
+          "Тексты можно не писать самому: достаточно рассказать мне про свой бизнес, а остальное я соберу. Напишите, и обсудим, что должно быть на вашем сайте.",
+      },
+      en: {
+        title: "How to write website copy that actually brings clients",
+        excerpt:
+          "How to write the copy for your own website: what to put on the home page, how to describe services and what to avoid. Simple rules for a business owner.",
+        readTime: "5 min",
+        ctaLabel: "Help me with the copy",
+        intro:
+          "The most common blocker when building a website is the copy. The design is ready, the photos are there, but writing a couple of paragraphs about yourself turns out to be the hardest part. Let's go through what to write so a visitor does not close the page in five seconds.",
+        sections: [
+          { heading: "Write about the client, not about yourself", body: "The most common mistake: «we are a dynamically developing company with an individual approach». The client does not care. They care about their own problem: fix it, buy it, make the deadline. Flip the sentence: not «we offer a wide range», but «delivered to your door the same day». Simple test: if the sentence could sit on any competitor's site, it is useless." },
+          { heading: "The first screen decides everything", body: "In the first seconds a person must understand three things: what is offered here, who it is for and what to do next. One clear headline, one line of explanation, one button. A beautiful slogan with no substance only gets in the way here." },
+          { heading: "Specifics instead of adjectives", body: "«Fast delivery» is empty. «Delivered within 2 hours across Tiraspol» is clear. «Extensive experience» is empty. «12 years, over 400 windows installed» is clear. Numbers, deadlines, cities and guarantees work far better than any adjectives." },
+          { heading: "Short paragraphs and subheadings", body: "Nobody reads a website top to bottom, people scan it. Write paragraphs of 2-3 sentences, break the text with subheadings, move the key points into lists. A visitor should get the gist even if they only read the bold lines." },
+          { heading: "If writing just does not work", body: "Do not force it. Record yourself explaining your service to a client on the phone, then transcribe it. That is almost finished copy: alive and clear. I take such a transcript and turn it into a page: cut the extra, build the structure and add the keywords for search." },
+        ],
+        outro:
+          "You do not have to write the copy yourself: just tell me about your business and I will put the rest together. Message me and we will go through what your site should say.",
+      },
+      ro: {
+        title: "Cum scrii textele pentru site ca să aducă clienți",
+        excerpt:
+          "Cum scrii textele pentru propriul site: ce pui pe pagina principală, cum descrii serviciile și ce să eviți. Reguli simple pentru un proprietar de afacere.",
+        readTime: "5 min",
+        ctaLabel: "Ajută-mă cu textele",
+        intro:
+          "Cel mai frecvent blocaj când se face un site sunt textele. Designul e gata, pozele există, dar să scrii două paragrafe despre tine se dovedește cel mai greu. Să vedem ce și cum să scrii, ca vizitatorul să nu închidă pagina în cinci secunde.",
+        sections: [
+          { heading: "Scrie despre client, nu despre tine", body: "Cea mai frecventă greșeală: «suntem o companie în dezvoltare dinamică, cu abordare individuală». Clientului nu-i pasă. Pe el îl interesează problema lui: să repare, să cumpere, să se încadreze în termen. Întoarce fraza: nu «oferim o gamă largă», ci «livrăm la ușă în ziua comenzii». Testul e simplu: dacă fraza poate sta pe site-ul oricărui concurent, e inutilă." },
+          { heading: "Primul ecran decide", body: "În primele secunde omul trebuie să înțeleagă trei lucruri: ce se oferă aici, pentru cine și ce să facă mai departe. Un titlu clar, un rând de explicație, un buton. Un slogan frumos fără concret doar încurcă în acest loc." },
+          { heading: "Concret în loc de adjective", body: "«Livrare rapidă» e gol. «Livrăm în 2 ore în Tiraspol» e clar. «Experiență vastă» e gol. «12 ani, peste 400 de ferestre montate» e clar. Cifrele, termenele, orașele și garanțiile funcționează mult mai bine decât orice epitet." },
+          { heading: "Paragrafe scurte și subtitluri", body: "Un site nu se citește rând cu rând, se parcurge în diagonală. Scrie paragrafe de 2-3 propoziții, împarte textul cu subtitluri, pune esențialul în liste. Omul trebuie să prindă ideea chiar dacă citește doar rândurile îngroșate." },
+          { heading: "Dacă chiar nu îți iese să scrii", body: "Nu te chinui. Înregistrează-te vocal explicând serviciul tău unui client la telefon și transcrie. E aproape un text gata, viu și clar. Din așa o transcriere eu construiesc pagina: scot ce e în plus, fac structura și adaug cuvintele cheie pentru căutare." },
+        ],
+        outro:
+          "Nu trebuie să scrii textele singur: e suficient să-mi povestești despre afacerea ta, restul adun eu. Scrie-mi și discutăm ce trebuie să conțină site-ul tău.",
+      },
+    },
+  },
+  {
+    slug: "oshibki-pri-zakaze-sayta",
+    emoji: "⚠️",
+    date: "2026-10-01",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "5 ошибок при заказе сайта, из-за которых теряют деньги",
+        excerpt:
+          "Частые ошибки при заказе сайта: домен на разработчика, нет доступов, нет мобильной версии, оплата без договорённостей. Как не потерять деньги и время.",
+        readTime: "5 мин",
+        ctaLabel: "Обсудить мой проект",
+        intro:
+          "Чаще всего ко мне приходят не с нуля, а переделывать. И проблемы почти всегда одинаковые. Собрал пять ошибок, которые дороже всего обходятся заказчику, чтобы вы их не повторили, даже если делать будет не моя команда.",
+        sections: [
+          { heading: "1. Домен и хостинг оформлены на разработчика", body: "Самая дорогая ошибка. Пока всё хорошо, разницы не видно. Но стоит поссориться или потерять контакт с человеком, и сайт оказывается заложником: вы не можете ни перенести его, ни продлить домен. Регистрируйте домен и хостинг на свою почту и свой аккаунт, даже если вам предлагают «сделать всё под ключ»." },
+          { heading: "2. Нет доступов на руках", body: "После сдачи проекта у вас должны остаться: доступ к домену, к хостингу или панели управления, к админке сайта и к почте, на которую всё оформлено. Если доступов нет, любое мелкое изменение будет возможно только через того же человека, и цена этих правок со временем вырастет." },
+          { heading: "3. Сайт не проверили с телефона", body: "Больше половины посетителей заходят со смартфона. Сайт может отлично выглядеть на большом мониторе и разваливаться на телефоне: мелкий текст, кнопки, в которые не попасть, формы, которые не отправляются. Принимая работу, откройте сайт с телефона и пройдите весь путь клиента: от главной до отправки заявки." },
+          { heading: "4. Забыли про заявки и аналитику", body: "Сайт сдан, а заявки уходят на почту, которую никто не проверяет, или не уходят вообще. Проверьте на приёмке: заполните форму сами и убедитесь, что сообщение пришло туда, где вы его увидите, например в Telegram. И сразу подключите счётчик посещений, иначе через полгода будет непонятно, работает сайт или нет." },
+          { heading: "5. Нет договорённостей о поддержке", body: "Сайт — не картина на стене, ему нужны обновления, продление домена, иногда правки. Обсудите заранее: кто и на каких условиях вносит изменения после сдачи, сколько стоит час работы, как быстро реагируют на проблему. Это снимает большинство конфликтов." },
+        ],
+        outro:
+          "Если сомневаетесь в своём текущем сайте или подрядчике, пришлите ссылку: бесплатно посмотрю и скажу, всё ли в порядке с доступами, мобильной версией и заявками.",
+      },
+      en: {
+        title: "5 mistakes when ordering a website that cost you money",
+        excerpt:
+          "Common mistakes when ordering a website: the domain registered to the developer, no access credentials, no mobile version, no support agreement. How to avoid losing money and time.",
+        readTime: "5 min",
+        ctaLabel: "Discuss my project",
+        intro:
+          "Most people come to me not to start from scratch but to fix something. And the problems are almost always the same. Here are the five mistakes that cost clients the most, so you can avoid them even if someone else builds your site.",
+        sections: [
+          { heading: "1. The domain and hosting are registered to the developer", body: "The most expensive mistake. While everything is fine you see no difference. But once you fall out or lose contact with that person, the site becomes a hostage: you can neither move it nor renew the domain. Register the domain and hosting under your own email and account, even if you are offered a full turnkey service." },
+          { heading: "2. You do not hold the access credentials", body: "After the project is delivered you should keep: access to the domain, to the hosting or control panel, to the site admin area and to the email everything is registered to. Without them any small change will only be possible through the same person, and the price of those edits tends to grow over time." },
+          { heading: "3. Nobody tested the site on a phone", body: "More than half of visitors arrive from a smartphone. A site can look great on a large monitor and fall apart on a phone: tiny text, buttons you cannot hit, forms that do not submit. When accepting the work, open the site on your phone and walk the whole client path, from the home page to submitting a request." },
+          { heading: "4. Leads and analytics were forgotten", body: "The site is delivered, but requests go to an inbox nobody checks, or do not arrive at all. Check it at handover: fill in the form yourself and make sure the message lands where you will see it, for example in Telegram. And connect a visitor counter right away, otherwise in six months nobody will know whether the site works." },
+          { heading: "5. No agreement about support", body: "A website is not a painting on the wall: it needs updates, domain renewal and occasional edits. Agree in advance who makes changes after handover and on what terms, what an hour of work costs and how fast problems are handled. That removes most conflicts." },
+        ],
+        outro:
+          "If you have doubts about your current site or contractor, send me the link: I will take a free look and tell you whether the access, the mobile version and the lead forms are in order.",
+      },
+      ro: {
+        title: "5 greșeli la comandarea unui site care te costă bani",
+        excerpt:
+          "Greșeli frecvente la comandarea unui site: domeniul pe numele dezvoltatorului, lipsa accesurilor, lipsa versiunii mobile, fără înțelegere de suport. Cum să nu pierzi bani și timp.",
+        readTime: "5 min",
+        ctaLabel: "Discutăm proiectul meu",
+        intro:
+          "Cel mai des oamenii vin la mine nu de la zero, ci să refacem ceva. Iar problemele sunt aproape mereu aceleași. Am adunat cinci greșeli care costă cel mai scump, ca să le eviți chiar dacă site-ul ți-l face altcineva.",
+        sections: [
+          { heading: "1. Domeniul și hostingul sunt pe numele dezvoltatorului", body: "Cea mai scumpă greșeală. Cât timp e totul bine, nu se vede diferența. Dar dacă vă certați sau pierzi legătura cu omul acela, site-ul devine ostatic: nu-l poți nici muta, nici prelungi domeniul. Înregistrează domeniul și hostingul pe email-ul și contul tău, chiar dacă ți se propune «la cheie»." },
+          { heading: "2. Nu ai accesurile la tine", body: "După predarea proiectului trebuie să-ți rămână: accesul la domeniu, la hosting sau panoul de control, la panoul de administrare al site-ului și la email-ul pe care e înregistrat totul. Fără ele, orice modificare mică va fi posibilă doar prin aceeași persoană, iar prețul acestor corecturi crește în timp." },
+          { heading: "3. Site-ul nu a fost verificat de pe telefon", body: "Peste jumătate dintre vizitatori intră de pe smartphone. Un site poate arăta excelent pe un monitor mare și să se destrame pe telefon: text mic, butoane pe care nu nimerești, formulare care nu se trimit. Când primești lucrarea, deschide site-ul pe telefon și parcurge tot drumul clientului, de la pagina principală până la trimiterea cererii." },
+          { heading: "4. S-a uitat de cereri și statistici", body: "Site-ul e predat, dar cererile ajung pe un email pe care nu-l verifică nimeni, sau nu ajung deloc. Verifică la predare: completează formularul tu însuți și asigură-te că mesajul ajunge acolo unde îl vei vedea, de exemplu în Telegram. Și conectează imediat un contor de vizite, altfel peste jumătate de an nu se va ști dacă site-ul funcționează." },
+          { heading: "5. Nicio înțelegere despre suport", body: "Un site nu e un tablou pe perete: are nevoie de actualizări, prelungirea domeniului și uneori corecturi. Stabiliți din timp cine face modificările după predare și în ce condiții, cât costă o oră de lucru și cât de repede se reacționează la o problemă. Asta elimină majoritatea conflictelor." },
+        ],
+        outro:
+          "Dacă ai dubii legate de site-ul tău actual sau de executant, trimite-mi linkul: mă uit gratuit și îți spun dacă accesurile, versiunea mobilă și formularele de cerere sunt în regulă.",
+      },
+    },
+  },
+  {
     slug: "zayavki-s-sayta-v-telegram",
     emoji: "📨",
     date: "2026-09-14",
