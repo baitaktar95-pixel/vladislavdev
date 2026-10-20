@@ -16,7 +16,25 @@
     <loc>https://www.vladislavbdev.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/mobilnaya-versiya-sayta</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/bezopasnost-sayta-ssl-bekapy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/nuzhen-li-blog-biznesu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-20</lastmod>
   </url>
   <url>
     <loc>https://www.vladislavbdev.com/blog/sayt-dlya-mastera-chastnika</loc>

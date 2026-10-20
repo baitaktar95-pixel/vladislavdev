@@ -34,6 +34,195 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "mobilnaya-versiya-sayta",
+    emoji: "📱",
+    date: "2026-10-20",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Почему сайт обязан хорошо работать на телефоне",
+        excerpt:
+          "Больше 70% посетителей заходят с телефона. Что ломается на маленьком экране, как это проверить самому и во что обходится неудобный мобильный сайт.",
+        readTime: "5 мин",
+        ctaLabel: "Проверить мой сайт",
+        intro:
+          "Владелец открывает свой сайт на ноутбуке, видит красивую картинку и доволен. А три четверти его клиентов в этот момент смотрят совсем другое: мелкий текст, съехавшие кнопки и форму, в которую невозможно попасть пальцем. Разберём, почему так выходит и как проверить себя.",
+        sections: [
+          { heading: "С телефона заходят почти все", body: "По нашим сайтам в Приднестровье и Молдове доля мобильного трафика держится в районе 70-80%, а у магазинов и услуг бывает и выше. Человек увидел ссылку в Instagram, в переписке или в поиске — и открыл её там же, с телефона. Компьютер он включит в лучшем случае вечером, а скорее не включит вовсе." },
+          { heading: "Что обычно ломается", body: "Текст приходится увеличивать пальцами. Кнопка «Заказать» уезжает за край экрана. Меню не открывается. Таблица с ценами не помещается и режется. Форма требует заполнить семь полей на крошечной клавиатуре. Телефон на сайте написан текстом, по нему нельзя позвонить нажатием. Каждая из этих мелочей по отдельности терпима, вместе они выгоняют человека за десять секунд." },
+          { heading: "Google понижает такие сайты", body: "Поисковик давно оценивает сайты по мобильной версии, а не по компьютерной. Если страница неудобна на телефоне и грузится медленно, она опускается в выдаче — даже при хорошем тексте. То есть плохая мобильная версия бьёт дважды: и по тем, кто зашёл, и по тем, кто уже не зайдёт." },
+          { heading: "Как проверить за пять минут", body: "Откройте свой сайт с телефона и попробуйте пройти путь клиента целиком: найти цену, найти адрес, оставить заявку. Не глазами, а пальцами, как обычный человек. Всё, обо что вы споткнулись, споткнёт и клиента. Дополнительно прогоните адрес через PageSpeed Insights от Google — он покажет скорость и прямо назовёт проблемы." },
+          { heading: "Что обычно нужно исправить", body: "Увеличить шрифт до читаемого без приближения. Сделать кнопки крупнее — палец это не курсор. Сжать картинки, они главная причина медленной загрузки. Убрать из формы всё лишнее, оставив имя и телефон. Сделать номер кликабельным, а мессенджеры вынести на видное место. Обычно это день работы, а не переделка сайта с нуля." },
+        ],
+        outro:
+          "Если не уверены, как ваш сайт выглядит у клиента в руках, пришлите мне адрес — посмотрю с телефона и честно скажу, что мешает людям оставить заявку. Это бесплатно и ни к чему не обязывает.",
+      },
+      en: {
+        title: "Why your website must work well on a phone",
+        excerpt:
+          "Over 70% of visitors arrive from a phone. What breaks on a small screen, how to check it yourself and what an awkward mobile site costs you.",
+        readTime: "5 min",
+        ctaLabel: "Check my website",
+        intro:
+          "The owner opens the site on a laptop, sees a nice picture and feels fine. Meanwhile three quarters of their clients are looking at something else entirely: tiny text, buttons pushed off the screen and a form you cannot hit with a finger. Let's see why that happens and how to test yourself.",
+        sections: [
+          { heading: "Almost everyone arrives from a phone", body: "Across our sites in Transnistria and Moldova mobile traffic stays around 70-80%, and for shops and services it runs higher. People see a link on Instagram, in a chat or in search — and open it right there on the phone. They will switch on a computer in the evening at best, and more likely never." },
+          { heading: "What usually breaks", body: "Text has to be pinch-zoomed. The «Order» button slides off the edge. The menu will not open. A price table does not fit and gets cut. A form asks for seven fields on a tiny keyboard. The phone number is plain text you cannot tap to call. Any one of these is survivable; together they push people away in ten seconds." },
+          { heading: "Google ranks such sites lower", body: "Search has long judged sites by their mobile version, not the desktop one. If a page is awkward on a phone and loads slowly, it drops in results even with good content. So a poor mobile version hurts twice: those who came, and those who now never will." },
+          { heading: "How to check in five minutes", body: "Open your site on a phone and walk the client's path end to end: find a price, find the address, submit a request. With your fingers, like a normal person, not with your eyes. Everything you stumble over will trip a client too. Then run the address through Google PageSpeed Insights — it shows speed and names the problems directly." },
+          { heading: "What usually needs fixing", body: "Raise the font size so it reads without zooming. Make buttons bigger — a finger is not a cursor. Compress images, they are the main cause of slow loading. Strip the form down to a name and a phone number. Make the number tappable and put messenger links where they are easy to see. That is usually a day of work, not a rebuild." },
+        ],
+        outro:
+          "If you are not sure how your site looks in a client's hand, send me the address — I will open it on a phone and tell you honestly what stops people from getting in touch. Free and with no obligation.",
+      },
+      ro: {
+        title: "De ce site-ul trebuie să funcționeze bine pe telefon",
+        excerpt:
+          "Peste 70% dintre vizitatori intră de pe telefon. Ce se strică pe ecranul mic, cum verifici singur și cât te costă un site mobil incomod.",
+        readTime: "5 min",
+        ctaLabel: "Verifică-mi site-ul",
+        intro:
+          "Proprietarul deschide site-ul pe laptop, vede o imagine frumoasă și e mulțumit. Între timp trei sferturi dintre clienții lui văd cu totul altceva: text mărunt, butoane ieșite din ecran și un formular în care nu nimerești cu degetul. Să vedem de ce se întâmplă și cum te verifici singur.",
+        sections: [
+          { heading: "Aproape toți intră de pe telefon", body: "Pe site-urile noastre din Transnistria și Moldova traficul mobil se menține în jur de 70-80%, iar la magazine și servicii e și mai mare. Omul vede un link pe Instagram, într-o conversație sau în căutare — și îl deschide acolo, pe telefon. Calculatorul îl va porni cel mult seara, iar cel mai probabil deloc." },
+          { heading: "Ce se strică de obicei", body: "Textul trebuie mărit cu degetele. Butonul «Comandă» iese din ecran. Meniul nu se deschide. Tabelul cu prețuri nu încape și se taie. Formularul cere șapte câmpuri pe o tastatură minusculă. Numărul de telefon e scris ca text simplu, nu poți suna dintr-o atingere. Fiecare în parte e suportabil, împreună alungă omul în zece secunde." },
+          { heading: "Google coboară astfel de site-uri", body: "Căutarea evaluează de mult site-urile după versiunea mobilă, nu după cea de calculator. Dacă pagina e incomodă pe telefon și se încarcă greu, coboară în rezultate chiar și cu un text bun. Deci o versiune mobilă slabă lovește de două ori: în cei care au intrat și în cei care nu vor mai intra." },
+          { heading: "Cum verifici în cinci minute", body: "Deschide site-ul pe telefon și parcurge tot drumul clientului: găsește un preț, găsește adresa, trimite o cerere. Cu degetele, ca un om obișnuit, nu doar cu ochii. Tot ce te încurcă pe tine va încurca și clientul. În plus, trece adresa prin Google PageSpeed Insights — arată viteza și numește direct problemele." },
+          { heading: "Ce trebuie reparat de obicei", body: "Mărit fontul ca să se citească fără zoom. Butoane mai mari — degetul nu e cursor. Comprimat imaginile, ele sunt principala cauză a încărcării lente. Scos din formular tot ce e în plus, rămân numele și telefonul. Numărul făcut apelabil, iar linkurile de mesagerie puse la vedere. De obicei e o zi de lucru, nu o refacere de la zero." },
+        ],
+        outro:
+          "Dacă nu ești sigur cum arată site-ul tău în mâna clientului, trimite-mi adresa — îl deschid pe telefon și îți spun sincer ce îi împiedică pe oameni să lase o cerere. Gratuit și fără obligații.",
+      },
+    },
+  },
+  {
+    slug: "bezopasnost-sayta-ssl-bekapy",
+    emoji: "🔒",
+    date: "2026-10-20",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Безопасность сайта: сертификат, бэкапы и обновления",
+        excerpt:
+          "Что такое SSL и почему без него браузер пугает посетителей. Зачем нужны резервные копии, как часто их делать и что происходит со взломанными сайтами.",
+        readTime: "6 мин",
+        ctaLabel: "Проверить безопасность",
+        intro:
+          "О безопасности сайта вспоминают в двух случаях: когда браузер начал писать «Не защищено» и когда сайт уже лежит. Разберём заранее, что реально нужно небольшому бизнесу, без запугивания и лишней техники.",
+        sections: [
+          { heading: "SSL-сертификат: без него теряются клиенты", body: "Это то, из-за чего адрес начинается с https, а в браузере горит замочек. Сертификат шифрует данные между посетителем и сайтом, чтобы их нельзя было перехватить по дороге. Без него Chrome крупно пишет «Не защищено» прямо в адресной строке, и человек закрывает страницу, не разбираясь. Хорошая новость: нормальный сертификат сегодня бесплатный и ставится за десять минут. Если на вашем сайте его до сих пор нет, это просто недосмотр." },
+          { heading: "Резервные копии — главное, на чём не стоит экономить", body: "Сайт может лечь от чего угодно: неудачное обновление, ошибка при правке, сбой хостинга, взлом. Если есть свежая копия, всё это чинится за полчаса. Если копии нет, сайт собирают заново, и это недели работы и новые деньги. Копии должны делаться автоматически и храниться отдельно от самого сайта — копия на том же сервере пропадёт вместе с ним." },
+          { heading: "Как часто делать копии", body: "Для сайта-визитки, который меняется раз в месяц, хватит еженедельной копии. Для интернет-магазина с заказами нужна ежедневная, а лучше чаще: потерянные за сутки заказы — это живые деньги и обиженные клиенты. И раз в несколько месяцев копию надо проверять: восстановить её куда-нибудь и убедиться, что она рабочая. Копия, которую ни разу не разворачивали, нередко оказывается пустышкой." },
+          { heading: "Обновления", body: "Большинство взломов происходит не потому, что сайтом занялся хакер, а потому, что робот нашёл известную дыру в старой версии движка или плагина. Такие дыры закрывают обновлениями, которые никто не ставит. Правило простое: обновлять раз в месяц и сразу после новостей о серьёзных уязвимостях. На самописном сайте движка нет, но библиотеки обновлять всё равно нужно." },
+          { heading: "Что бывает со взломанным сайтом", body: "Обычно его не ломают ради вас. На страницы тихо вставляют чужие ссылки или перенаправление на другой сайт, и месяцами никто не замечает. А замечает Google: сайт вылетает из поиска и получает пометку «может быть опасен». Вернуть позиции потом дольше и дороже, чем было бы предотвратить. Отдельная беда — магазины: там воруют данные покупателей, и это уже вопрос репутации и ответственности." },
+          { heading: "Минимум, который нужен каждому", body: "Сертификат SSL. Автоматические резервные копии в отдельном месте. Регулярные обновления. Разные и сложные пароли к хостингу, панели и почте — одинаковый пароль везде обесценивает всё остальное. И двухфакторный вход там, где он есть. Этого достаточно, чтобы не попасть в 99% неприятностей." },
+        ],
+        outro:
+          "Если не знаете, есть ли у вашего сайта копии и когда он обновлялся — пришлите адрес, посмотрю и скажу прямо, что стоит починить в первую очередь. Поддержка сайта у меня входит в обслуживание, отдельно за это не беру.",
+      },
+      en: {
+        title: "Website security: certificate, backups and updates",
+        excerpt:
+          "What SSL is and why browsers scare visitors away without it. Why backups matter, how often to make them and what happens to hacked sites.",
+        readTime: "6 min",
+        ctaLabel: "Check my security",
+        intro:
+          "People remember website security in two situations: when the browser starts saying «Not secure», and when the site is already down. Let's go through what a small business actually needs, without scare tactics or unnecessary technical detail.",
+        sections: [
+          { heading: "An SSL certificate: without it you lose visitors", body: "It is what makes the address start with https and puts a padlock in the browser. The certificate encrypts data between visitor and site so it cannot be intercepted on the way. Without it Chrome prints «Not secure» right in the address bar, and people close the page without thinking. The good news: a proper certificate is free today and takes ten minutes to install. If your site still lacks one, that is simply an oversight." },
+          { heading: "Backups are the last thing to save money on", body: "A site can go down for any reason: a bad update, a mistake while editing, a hosting failure, a hack. With a fresh backup all of that is fixed in half an hour. Without one the site is rebuilt from scratch, which means weeks of work and new money. Backups must run automatically and be stored away from the site itself — a copy on the same server disappears along with it." },
+          { heading: "How often to back up", body: "For a business-card site that changes once a month, weekly is enough. An online shop with orders needs daily or more often: a day of lost orders is real money and upset customers. And every few months a backup should be tested by actually restoring it somewhere. A backup nobody has ever restored quite often turns out to be empty." },
+          { heading: "Updates", body: "Most hacks happen not because a hacker targeted you, but because a bot found a known hole in an outdated engine or plugin. Those holes are closed by updates nobody installs. The rule is simple: update monthly, and immediately after news of a serious vulnerability. A custom-built site has no engine, but its libraries still need updating." },
+          { heading: "What happens to a hacked site", body: "Usually nobody breaks in for your sake. Hidden links or a redirect to another site are quietly inserted into your pages, and for months no one notices. Google does notice: the site falls out of search and gets flagged as possibly dangerous. Recovering those positions takes longer and costs more than prevention would have. Shops are a separate story: customer data gets stolen, and that becomes a matter of reputation and liability." },
+          { heading: "The minimum everyone needs", body: "An SSL certificate. Automatic backups kept somewhere else. Regular updates. Different, strong passwords for hosting, admin panel and email — one shared password cancels out everything else. And two-factor login wherever it is offered. That is enough to stay out of 99% of trouble." },
+        ],
+        outro:
+          "If you do not know whether your site has backups or when it was last updated, send me the address — I will look and tell you plainly what to fix first. Support is part of my maintenance work, I do not charge separately for it.",
+      },
+      ro: {
+        title: "Securitatea site-ului: certificat, copii de rezervă și actualizări",
+        excerpt:
+          "Ce este SSL și de ce fără el browserul sperie vizitatorii. De ce ai nevoie de copii de rezervă, cât de des și ce se întâmplă cu site-urile sparte.",
+        readTime: "6 min",
+        ctaLabel: "Verifică securitatea",
+        intro:
+          "De securitatea site-ului oamenii își amintesc în două situații: când browserul începe să scrie «Nesecurizat» și când site-ul e deja căzut. Să vedem din timp ce îi trebuie în realitate unei afaceri mici, fără sperieturi și detalii tehnice inutile.",
+        sections: [
+          { heading: "Certificatul SSL: fără el pierzi clienți", body: "El face ca adresa să înceapă cu https și pune lacătul în browser. Certificatul criptează datele dintre vizitator și site, ca să nu poată fi interceptate pe drum. Fără el Chrome scrie mare «Nesecurizat» chiar în bara de adrese, iar omul închide pagina fără să stea pe gânduri. Vestea bună: un certificat normal e gratuit azi și se instalează în zece minute. Dacă site-ul tău încă nu îl are, e pur și simplu o scăpare." },
+          { heading: "Copiile de rezervă — ultimul lucru la care să economisești", body: "Un site poate cădea din orice: o actualizare nereușită, o greșeală la editare, o defecțiune a hostingului, o spargere. Cu o copie proaspătă toate astea se repară în jumătate de oră. Fără copie, site-ul se reface de la zero, adică săptămâni de muncă și bani noi. Copiile trebuie făcute automat și păstrate separat de site — o copie pe același server dispare odată cu el." },
+          { heading: "Cât de des", body: "Pentru un site de vizită care se schimbă o dată pe lună, o copie săptămânală ajunge. Un magazin online cu comenzi are nevoie de una zilnică sau mai des: comenzile pierdute pe o zi înseamnă bani reali și clienți supărați. Iar o dată la câteva luni copia trebuie testată, restaurând-o undeva. O copie pe care nimeni nu a desfăcut-o vreodată se dovedește adesea goală." },
+          { heading: "Actualizări", body: "Majoritatea spargerilor nu se întâmplă pentru că un hacker s-a ocupat de tine, ci pentru că un robot a găsit o gaură cunoscută într-o versiune veche de motor sau plugin. Acele găuri se închid prin actualizări pe care nu le instalează nimeni. Regula e simplă: actualizezi lunar și imediat după știri despre vulnerabilități serioase. Un site scris la comandă nu are motor, dar bibliotecile tot trebuie actualizate." },
+          { heading: "Ce pățește un site spart", body: "De obicei nimeni nu intră de dragul tău. În pagini se strecoară discret linkuri străine sau o redirecționare către alt site, și luni de zile nu observă nimeni. Observă însă Google: site-ul iese din căutare și primește eticheta de posibil periculos. Recuperarea pozițiilor durează mai mult și costă mai mult decât ar fi costat prevenirea. Magazinele sunt o poveste aparte: acolo se fură datele cumpărătorilor, și devine o chestiune de reputație și răspundere." },
+          { heading: "Minimul necesar oricui", body: "Certificat SSL. Copii automate păstrate în altă parte. Actualizări regulate. Parole diferite și puternice la hosting, panou și e-mail — o parolă comună anulează tot restul. Și autentificare în doi pași acolo unde există. Atât e de ajuns ca să eviți 99% dintre probleme." },
+        ],
+        outro:
+          "Dacă nu știi dacă site-ul tău are copii de rezervă sau când a fost actualizat ultima dată, trimite-mi adresa — mă uit și îți spun direct ce trebuie reparat întâi. Suportul intră în întreținerea pe care o fac, nu îl taxez separat.",
+      },
+    },
+  },
+  {
+    slug: "nuzhen-li-blog-biznesu",
+    emoji: "📰",
+    date: "2026-10-20",
+    ctaHref: "/#contact",
+    i18n: {
+      ru: {
+        title: "Нужен ли блог на сайте и о чём там писать",
+        excerpt:
+          "Зачем небольшому бизнесу блог, как он приводит клиентов из поиска, о чём писать, если «у нас ничего интересного», и как часто публиковать.",
+        readTime: "5 мин",
+        ctaLabel: "Завести блог на сайте",
+        intro:
+          "Фраза «вам нужен блог» звучит как навязывание лишней работы. У вас магазин или услуги, а не журнал. Но блог решает одну вполне конкретную задачу: он приводит людей из поиска бесплатно и постоянно. Объясню, как это устроено.",
+        sections: [
+          { heading: "Как блог приводит клиентов", body: "Страница «Жалюзи в Тирасполе» отвечает ровно на один запрос. А люди ищут иначе: «почему потеет пластиковое окно», «чем отмыть пригоревшую кастрюлю», «сколько стоит сделать сайт». Это сотни разных формулировок, и под каждую нужна своя страница. Статья и есть такая страница. Человек приходит за ответом, получает его, видит, что вы в теме, и остаётся — а дальше становится клиентом." },
+          { heading: "Почему это выгоднее рекламы", body: "Реклама работает, пока вы платите: выключили бюджет — поток прекратился. Статья, попавшая в поиск, приводит людей годами и бесплатно. Она не исчезает и не дорожает. Разница в том, что реклама даёт результат завтра, а блог через два-три месяца. Поэтому разумно делать и то и другое: реклама на сейчас, статьи на потом." },
+          { heading: "О чём писать, если «ничего интересного»", body: "Пишите ответы на вопросы, которые клиенты задают вам каждый день. Вы отвечаете на них по телефону годами и считаете очевидными — а для человека со стороны это как раз то, что он гуглит. Как выбрать, сколько стоит, чем отличается, как ухаживать, что делать, если сломалось. Один вопрос — одна статья. Список тем на год набирается за вечер, если просто вспомнить переписки." },
+          { heading: "Как часто и какого объёма", body: "Лучше две-три статьи в месяц стабильно, чем десять за неделю и потом тишина полгода. Поиск ценит регулярность. Объём — 600-1200 слов: этого хватает, чтобы раскрыть тему, и не настолько много, чтобы читатель устал. Важнее объёма конкретика: живые примеры, цифры, случаи из практики. Вода из нейросети без единого факта не ранжируется и не читается." },
+          { heading: "Чего делать не стоит", body: "Не пишите «о нас» и новости компании — это никто не ищет. Не копируйте чужие тексты, поиск это видит. Не набивайте ключевые слова, сейчас это работает против вас. И не бросайте блог после трёх статей: первые результаты приходят месяца через три, а большинство сдаётся раньше." },
+        ],
+        outro:
+          "Если решите вести блог, но не хотите писать сами — я делаю это для своих клиентов: подбираю темы под то, что реально ищут в вашей нише, пишу и публикую. Напишите, обсудим, подходит ли это вашему случаю.",
+      },
+      en: {
+        title: "Does your site need a blog, and what to write there",
+        excerpt:
+          "Why a small business needs a blog, how it brings clients from search, what to write about when «nothing interesting happens here», and how often to publish.",
+        readTime: "5 min",
+        ctaLabel: "Start a blog on my site",
+        intro:
+          "«You need a blog» sounds like someone pushing extra work on you. You run a shop or a service, not a magazine. But a blog solves one very specific task: it brings people from search, for free and continuously. Here is how it works.",
+        sections: [
+          { heading: "How a blog brings clients", body: "A page titled «Blinds in Tiraspol» answers exactly one query. People search differently: «why does my window fog up», «how to clean a burnt pot», «how much does a website cost». That is hundreds of phrasings, and each needs its own page. An article is that page. Someone arrives for an answer, gets it, sees that you know the subject and stays — and later becomes a client." },
+          { heading: "Why it beats advertising", body: "Advertising works while you pay: switch off the budget and the flow stops. An article that ranks brings people for years, for free. It does not disappear and does not get more expensive. The difference is that ads produce results tomorrow, a blog in two or three months. So doing both makes sense: ads for now, articles for later." },
+          { heading: "What to write when «nothing is interesting»", body: "Write answers to the questions clients ask you every single day. You have been answering them on the phone for years and consider them obvious — but for an outsider that is exactly what they google. How to choose, what it costs, what the difference is, how to care for it, what to do when it breaks. One question, one article. A year's worth of topics comes together in one evening if you just go through your chats." },
+          { heading: "How often and how long", body: "Two or three articles a month, steadily, beat ten in a week followed by six months of silence. Search rewards consistency. Length — 600 to 1200 words: enough to cover a topic, not so much that the reader gives up. Specifics matter more than length: real examples, numbers, cases from practice. Vague AI filler with no facts neither ranks nor gets read." },
+          { heading: "What not to do", body: "Do not write «about us» pieces and company news — nobody searches for those. Do not copy other people's texts, search notices. Do not stuff keywords, that works against you now. And do not abandon the blog after three posts: first results arrive around month three, and most people quit before that." },
+        ],
+        outro:
+          "If you decide to run a blog but do not want to write it yourself — I do this for my clients: I pick topics based on what people actually search in your niche, write and publish them. Message me and we will see whether it fits your case.",
+      },
+      ro: {
+        title: "Are nevoie site-ul de un blog și despre ce să scrii acolo",
+        excerpt:
+          "De ce are nevoie o afacere mică de blog, cum aduce clienți din căutare, despre ce scrii dacă «la noi nu e nimic interesant» și cât de des publici.",
+        readTime: "5 min",
+        ctaLabel: "Pornește un blog",
+        intro:
+          "Expresia «ai nevoie de blog» sună a muncă în plus impusă. Tu ai un magazin sau servicii, nu o revistă. Dar blogul rezolvă o sarcină foarte concretă: aduce oameni din căutare, gratuit și constant. Îți explic cum funcționează.",
+        sections: [
+          { heading: "Cum aduce blogul clienți", body: "O pagină «Jaluzele în Tiraspol» răspunde exact la o singură căutare. Oamenii caută altfel: «de ce transpiră geamul de plastic», «cum curăț o oală arsă», «cât costă un site». Sunt sute de formulări, iar fiecare are nevoie de pagina ei. Articolul este acea pagină. Omul vine după un răspuns, îl primește, vede că te pricepi și rămâne — iar mai târziu devine client." },
+          { heading: "De ce e mai avantajos decât reclama", body: "Reclama funcționează cât timp plătești: oprești bugetul, se oprește fluxul. Un articol ajuns în căutare aduce oameni ani la rând și gratuit. Nu dispare și nu se scumpește. Diferența e că reclama dă rezultat mâine, iar blogul peste două-trei luni. De aceea are sens să le faci pe amândouă: reclama pentru acum, articolele pentru mai târziu." },
+          { heading: "Despre ce scrii dacă «nu e nimic interesant»", body: "Scrie răspunsuri la întrebările pe care clienții ți le pun în fiecare zi. Le răspunzi la telefon de ani de zile și ți se par evidente — dar pentru un om din afară exact asta caută pe Google. Cum aleg, cât costă, prin ce diferă, cum se îngrijește, ce fac dacă s-a stricat. O întrebare, un articol. O listă de teme pentru un an se adună într-o seară, dacă îți recitești conversațiile." },
+          { heading: "Cât de des și cât de lung", body: "Mai bine două-trei articole pe lună, constant, decât zece într-o săptămână și apoi tăcere jumătate de an. Căutarea apreciază regularitatea. Lungimea — 600-1200 de cuvinte: destul cât să acoperi tema, nu atât cât să obosească cititorul. Mai important decât lungimea e concretul: exemple reale, cifre, cazuri din practică. Textul vag scos din inteligență artificială, fără niciun fapt, nu se clasează și nu se citește." },
+          { heading: "Ce să nu faci", body: "Nu scrie texte «despre noi» și știri ale companiei — nimeni nu le caută. Nu copia texte străine, căutarea observă. Nu îndesa cuvinte cheie, acum lucrează împotriva ta. Și nu abandona blogul după trei articole: primele rezultate vin pe la luna a treia, iar majoritatea renunță înainte." },
+        ],
+        outro:
+          "Dacă te hotărăști să ții un blog, dar nu vrei să scrii singur — fac asta pentru clienții mei: aleg temele după ce se caută în realitate în nișa ta, scriu și public. Scrie-mi și vedem dacă se potrivește cazului tău.",
+      },
+    },
+  },
+  {
     slug: "sayt-dlya-mastera-chastnika",
     emoji: "💇",
     date: "2026-10-01",
