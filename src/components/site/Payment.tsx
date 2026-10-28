@@ -22,7 +22,6 @@ const methods = [
   { emoji: "💳", key: "card",   logo: null },
   { emoji: null,  key: "apb",   logo: <ApbLogo /> },
   { emoji: "🌐", key: "paypal", logo: null },
-  { emoji: "₿",  key: "crypto", logo: null },
   { emoji: "💵", key: "cash",   logo: null },
 ];
 
