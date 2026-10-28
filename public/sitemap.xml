@@ -16,7 +16,25 @@
     <loc>https://www.vladislavbdev.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/tehnicheskoe-zadanie-na-sayt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/sayt-na-dvuh-yazykah</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vladislavbdev.com/blog/otkuda-prihodyat-klienty-analitika</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://www.vladislavbdev.com/blog/mobilnaya-versiya-sayta</loc>

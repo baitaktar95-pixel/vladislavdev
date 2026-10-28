@@ -34,6 +34,300 @@ export type LocalizedPost = {
 
 export const posts: BlogPost[] = [
   {
+      slug: "tehnicheskoe-zadanie-na-sayt",
+      emoji: "📐",
+      date: "2026-10-28",
+      ctaHref: "/#contact",
+      i18n: {
+        ru: {
+          title: "Зачем сайту техническое задание и что в нём пишут",
+          excerpt: "Без ТЗ сайт почти всегда выходит не таким, каким его представлял заказчик. Что это за документ, кто его составляет и как он экономит деньги обеим сторонам.",
+          readTime: "5 мин",
+          ctaLabel: "Обсудить проект",
+          intro: "Самый частый конфликт между заказчиком и разработчиком звучит так: «я думал, это будет входить». Думал заказчик, не включил разработчик, виноватых нет — просто никто не записал. Техническое задание и есть та самая запись, после которой спорить не о чем.",
+          sections: [
+            {
+              heading: "Что это такое простыми словами",
+              body: "Это список того, что будет на сайте и как оно работает. Не юридический документ и не сто страниц текста: для сайта визитки хватает двух-трёх страниц. Главное свойство — конкретность. Не «удобный каталог», а «товары делятся на категории, у товара есть фото, цена, описание и кнопка заказа». Второе звучит скучнее, зато это нельзя понять двумя разными способами."
+            },
+            {
+              heading: "Почему без него выходит не то",
+              body: "В голове у заказчика уже есть готовый сайт, он его видит. Разработчик этого не видит и достраивает недостающее из своего опыта. Совпадают картинки редко. Потом начинается переделка: заказчик недоволен, разработчик считает, что сделал всё как договаривались, и оба по-своему правы. ТЗ просто переносит картинку из головы на бумагу, пока за неё ещё не заплачено."
+            },
+            {
+              heading: "Что внутри",
+              body: "Список страниц и что на каждой. Как выглядит заявка и куда она приходит. Нужны ли языки кроме одного. Что заказчик сможет менять сам, а что только через разработчика. Кто даёт тексты и фотографии — это, кстати, самый частый срыв сроков. Сроки по этапам и что входит в поддержку после запуска. Отдельно — чего на сайте точно не будет, этот пункт экономит больше всего нервов."
+            },
+            {
+              heading: "Кто его пишет",
+              body: "Обычно разработчик, после разговора с заказчиком. Клиент не обязан знать, как формулируют требования, его дело — рассказать про бизнес и ответить на вопросы. Я делаю так: созваниваемся, я расспрашиваю, потом присылаю документ. Заказчик читает и говорит, где я его не так понял. Поправили, согласовали — дальше работаем по нему, и к этому тексту возвращаемся при любом споре."
+            },
+            {
+              heading: "Когда можно обойтись",
+              body: "Если задача на пару часов — поправить текст, добавить страницу, поменять телефон, — писать ТЗ дольше, чем сделать. Хватит переписки. Но всё, что дороже нескольких сотен долларов и дольше недели, лучше начинать с документа. Не из любви к бюрократии, а потому что переделка стоит дороже, чем день на согласование."
+            }
+          ],
+          outro: "Если вы собираетесь заказывать сайт — не важно, у меня или у кого-то ещё — попросите техническое задание до начала работ. Разработчик, который отказывается его писать, экономит свой день сейчас и ваши деньги потом. Напишите мне, и я составлю такой документ по вашему проекту."
+        },
+        en: {
+          title: "Why a website needs a written brief and what goes in it",
+          excerpt: "Without a brief a site almost always comes out different from what the client pictured. What the document is, who writes it and how it saves both sides money.",
+          readTime: "5 min",
+          ctaLabel: "Discuss a project",
+          intro: "The most common argument between a client and a developer sounds like this: «I thought that was included». The client thought so, the developer did not include it, and nobody is at fault — it simply was never written down. A technical brief is that written record, and after it there is nothing left to argue about.",
+          sections: [
+            {
+              heading: "What it actually is",
+              body: "A list of what the site will contain and how it behaves. Not a legal contract and not a hundred pages: for a small business site two or three pages are enough. Its one essential quality is being specific. Not «a convenient catalogue», but «products are grouped into categories; a product has photos, a price, a description and an order button». The second version is duller, but it cannot be read two different ways."
+            },
+            {
+              heading: "Why things go wrong without it",
+              body: "The client already has a finished site in their head and can see it. The developer cannot, so they fill the gaps from their own experience. The two pictures rarely match. Then come the rebuilds: the client is unhappy, the developer believes they built what was agreed, and both are right in their own way. A brief moves the picture out of someone's head and onto paper while it is still free to change."
+            },
+            {
+              heading: "What goes inside",
+              body: "The list of pages and what sits on each. What an enquiry looks like and where it lands. Whether more than one language is needed. What the client will be able to edit alone and what needs the developer. Who supplies texts and photos — this, incidentally, is the most common reason deadlines slip. Milestones, and what support after launch covers. And separately: what the site will definitely not have. That last point saves the most nerves."
+            },
+            {
+              heading: "Who writes it",
+              body: "Usually the developer, after talking to the client. A client is not supposed to know how requirements are phrased; their job is to explain the business and answer questions. My own routine: we talk, I ask a lot, then I send the document over. The client reads it and points out where I misunderstood. We fix it, agree on it, and from then on it is the reference we return to whenever a question comes up."
+            },
+            {
+              heading: "When you can skip it",
+              body: "If the job takes a couple of hours — edit some text, add a page, change a phone number — writing a brief takes longer than doing the work. A chat thread is fine. But anything costing more than a few hundred dollars and running longer than a week is better started with a document. Not out of love for paperwork, but because redoing work costs more than a day of agreeing on it."
+            }
+          ],
+          outro: "If you are about to commission a website — from me or from anyone else — ask for a written brief before the work starts. A developer who refuses to write one saves a day of their own time now and spends your money later. Write to me and I will put that document together for your project."
+        },
+        ro: {
+          title: "De ce are nevoie un site de caiet de sarcini și ce conține",
+          excerpt: "Fără un caiet de sarcini, site-ul iese aproape mereu altfel decât și-l imagina clientul. Ce este acest document, cine îl scrie și cum economisește bani pentru ambele părți.",
+          readTime: "5 min",
+          ctaLabel: "Discutăm proiectul",
+          intro: "Cel mai frecvent conflict dintre client și dezvoltator sună așa: «credeam că asta e inclusă». Clientul a crezut, dezvoltatorul nu a inclus, iar vinovați nu există — pur și simplu nimeni nu a scris-o. Caietul de sarcini este exact acea notă scrisă, după care nu mai rămâne nimic de disputat.",
+          sections: [
+            {
+              heading: "Ce este, pe scurt",
+              body: "O listă cu ce va fi pe site și cum funcționează. Nu un document juridic și nu o sută de pagini: pentru un site de prezentare ajung două-trei pagini. Singura calitate esențială este să fie concret. Nu «un catalog comod», ci «produsele se împart în categorii, iar un produs are fotografii, preț, descriere și buton de comandă». A doua variantă e mai plictisitoare, în schimb nu poate fi înțeleasă în două feluri."
+            },
+            {
+              heading: "De ce fără el iese altceva",
+              body: "Clientul are deja site-ul gata în cap și îl vede. Dezvoltatorul nu îl vede și completează golurile din propria experiență. Cele două imagini coincid rar. Apoi încep refacerile: clientul e nemulțumit, dezvoltatorul consideră că a făcut ce s-a convenit, și fiecare are dreptate în felul lui. Caietul de sarcini mută imaginea din cap pe hârtie, cât timp schimbările sunt încă gratuite."
+            },
+            {
+              heading: "Ce conține",
+              body: "Lista paginilor și ce se află pe fiecare. Cum arată o cerere și unde ajunge. Dacă e nevoie de mai multe limbi. Ce va putea modifica singur clientul și ce doar prin dezvoltator. Cine furnizează textele și fotografiile — acesta este, de altfel, cel mai frecvent motiv de întârziere. Etapele și ce include suportul după lansare. Și separat: ce nu va avea site-ul. Acest ultim punct economisește cei mai mulți nervi."
+            },
+            {
+              heading: "Cine îl scrie",
+              body: "De obicei dezvoltatorul, după discuția cu clientul. Clientul nu e obligat să știe cum se formulează cerințele; treaba lui este să povestească despre afacere și să răspundă la întrebări. Eu procedez așa: vorbim, întreb mult, apoi trimit documentul. Clientul îl citește și îmi arată unde l-am înțeles greșit. Corectăm, aprobăm, iar de atunci el rămâne referința la care ne întoarcem la orice neclaritate."
+            },
+            {
+              heading: "Când te poți lipsi de el",
+              body: "Dacă munca durează câteva ore — o corectură de text, o pagină în plus, schimbarea unui număr de telefon — scrierea documentului durează mai mult decât lucrarea. O conversație ajunge. Dar orice costă mai mult de câteva sute de dolari și durează peste o săptămână merită început cu un document. Nu din dragoste de birocrație, ci pentru că refacerea costă mai mult decât o zi de discuții."
+            }
+          ],
+          outro: "Dacă urmează să comandați un site — de la mine sau de la altcineva — cereți un caiet de sarcini înainte de începerea lucrului. Un dezvoltator care refuză să îl scrie economisește o zi din timpul lui acum și cheltuiește banii dumneavoastră mai târziu. Scrieți-mi și întocmesc acest document pentru proiectul dumneavoastră."
+        }
+      }
+    },
+    {
+      slug: "sayt-na-dvuh-yazykah",
+      emoji: "🗣️",
+      date: "2026-10-28",
+      ctaHref: "/#contact",
+      i18n: {
+        ru: {
+          title: "Нужен ли сайту второй язык в Молдове и Приднестровье",
+          excerpt: "Русский, румынский, английский: когда второй язык приносит заявки, когда это выброшенные деньги и почему автоперевод делает хуже, чем его отсутствие.",
+          readTime: "5 мин",
+          ctaLabel: "Обсудить мой случай",
+          intro: "Вопрос про языки всплывает почти в каждом проекте, и ответ на него не «чем больше, тем лучше». Каждый язык — это не кнопка-переключатель, а вторая версия всех текстов, которую потом надо поддерживать. Разберём, когда это окупается, а когда нет.",
+          sections: [
+            {
+              heading: "Сначала посмотрите, как вас ищут",
+              body: "Не гадайте, а проверьте. Откройте Google и наберите то, что набрал бы ваш клиент: «жалюзи Тирасполь», «jaluzele Chișinău». Посмотрите, на каком языке написаны сайты в выдаче и сколько их. Если по-русски конкурентов десять, а по-румынски два — второй язык это не расход, а свободная ниша. В Приднестровье поиск идёт почти полностью по-русски, в Кишинёве картина другая, и это стоит учитывать."
+            },
+            {
+              heading: "Когда второй язык окупается",
+              body: "Когда вы работаете или собираетесь работать за пределами своего города. Когда среди клиентов есть юридические лица из правобережья — там документооборот на румынском, и сайт на одном русском выглядит чужим. Когда вы продаёте то, что покупают приезжие: аренда, туризм, медицина, перевозки. И когда есть экспорт или заказы из-за границы — тогда нужен английский, а не румынский."
+            },
+            {
+              heading: "Когда это лишние деньги",
+              body: "Магазин, кафе или мастерская, которые обслуживают свой район, прекрасно живут на одном языке. Второй язык тут не добавит ни одного клиента, зато добавит работы: каждую новую цену, акцию и статью придётся писать дважды. Через полгода вторая версия устаревает, и сайт начинает выглядеть заброшенным — это хуже, чем если бы её не было вовсе."
+            },
+            {
+              heading: "Как это устроено внутри",
+              body: "Правильно сделанный мультиязычный сайт — это не одна страница с переключателем, который подменяет надписи. У каждого языка свой адрес: site.com/ru/uslugi и site.com/ro/servicii. Так Google видит две отдельные страницы и показывает каждую своей аудитории. Если же текст подменяется скриптом на одном адресе, поисковик видит одну страницу на одном языке, и вторая версия в выдачу не попадает — то есть деньги потрачены впустую."
+            },
+            {
+              heading: "Главная ошибка — автоперевод",
+              body: "Поставить плагин, который переводит страницу на лету, кажется разумной экономией. На деле получается текст, который носитель языка читает с усмешкой, а Google помечает как некачественный. Отдельно смешно выходит с названиями услуг и товаров. Лучше один язык, написанный нормально, чем два, один из которых машинный. Если бюджет не тянет перевод всего сайта, переведите главную и страницу услуг, а блог оставьте на основном языке."
+            }
+          ],
+          outro: "Если сомневаетесь, нужен ли вам второй язык — напишите мне, посмотрю вашу нишу и конкурентов в поиске и честно скажу, окупится это или нет. Бывает, что честный ответ — «не нужен», и это тоже экономия."
+        },
+        en: {
+          title: "Does your website need a second language in Moldova?",
+          excerpt: "Russian, Romanian, English: when a second language brings enquiries, when it is money thrown away, and why machine translation is worse than none at all.",
+          readTime: "5 min",
+          ctaLabel: "Discuss my case",
+          intro: "The language question comes up in almost every project, and the answer is not «the more the better». A language is not a toggle button; it is a second version of every text that then has to be maintained. Let us look at when it pays off and when it does not.",
+          sections: [
+            {
+              heading: "First check how people search for you",
+              body: "Do not guess, look. Open Google and type what your client would type: «blinds Tiraspol», «jaluzele Chișinău». See which language the results are written in and how many there are. If there are ten competitors in Russian and two in Romanian, a second language is not a cost but an open niche. In Transnistria search runs almost entirely in Russian; in Chișinău the picture differs, and that is worth taking into account."
+            },
+            {
+              heading: "When a second language pays off",
+              body: "When you work, or plan to work, beyond your own town. When your clients include companies from the right bank — their paperwork is in Romanian and a Russian-only site feels foreign to them. When you sell what visitors buy: rentals, tourism, medicine, transport. And when there is export or work coming from abroad — in that case you need English, not Romanian."
+            },
+            {
+              heading: "When it is wasted money",
+              body: "A shop, a café or a workshop serving its own neighbourhood does perfectly well in one language. A second one will not add a single client, but it will add work: every new price, promotion and article has to be written twice. Six months later the second version is out of date and the site starts to look abandoned — which is worse than never having had it."
+            },
+            {
+              heading: "How it works underneath",
+              body: "A properly built multilingual site is not one page with a switch that swaps the labels. Each language gets its own address: site.com/en/services and site.com/ro/servicii. That way Google sees two separate pages and shows each to its own audience. If the text is swapped by a script at a single address, search engines see one page in one language and the second version never reaches results — meaning the money was spent for nothing."
+            },
+            {
+              heading: "The main mistake is machine translation",
+              body: "Installing a plugin that translates the page on the fly looks like sensible thrift. In practice you get text a native speaker reads with a smirk and Google flags as low quality. Service and product names come out especially funny. One language written properly beats two where one is machine-made. If the budget will not stretch to translating everything, translate the home and services pages and leave the blog in your main language."
+            }
+          ],
+          outro: "If you are unsure whether you need a second language, write to me — I will look at your niche and your competitors in search and tell you honestly whether it will pay for itself. Sometimes the honest answer is «you do not need it», and that is a saving too."
+        },
+        ro: {
+          title: "Are nevoie site-ul de a doua limbă în Moldova?",
+          excerpt: "Rusă, română, engleză: când a doua limbă aduce cereri, când sunt bani aruncați și de ce traducerea automată e mai rea decât lipsa ei.",
+          readTime: "5 min",
+          ctaLabel: "Discutăm cazul meu",
+          intro: "Întrebarea despre limbi apare aproape în fiecare proiect, iar răspunsul nu este «cu cât mai multe, cu atât mai bine». O limbă nu este un buton de comutare, ci a doua versiune a tuturor textelor, care apoi trebuie întreținută. Să vedem când se justifică și când nu.",
+          sections: [
+            {
+              heading: "Întâi verificați cum vă caută lumea",
+              body: "Nu ghiciți, verificați. Deschideți Google și scrieți ce ar scrie clientul dumneavoastră: «jaluzele Chișinău», «жалюзи Тирасполь». Uitați-vă în ce limbă sunt site-urile din rezultate și câte sunt. Dacă în rusă aveți zece concurenți, iar în română doi, a doua limbă nu este o cheltuială, ci o nișă liberă. În Transnistria căutarea se face aproape integral în rusă; la Chișinău tabloul e altul, iar asta contează."
+            },
+            {
+              heading: "Când se justifică",
+              body: "Când lucrați, sau vreți să lucrați, dincolo de orașul dumneavoastră. Când printre clienți sunt firme de pe malul drept — acolo actele sunt în română, iar un site doar în rusă pare străin. Când vindeți ce cumpără vizitatorii: cazare, turism, servicii medicale, transport. Și când aveți export sau comenzi din străinătate — atunci vă trebuie engleza, nu româna."
+            },
+            {
+              heading: "Când sunt bani aruncați",
+              body: "Un magazin, o cafenea sau un atelier care își servește cartierul funcționează foarte bine într-o singură limbă. A doua nu va aduce niciun client în plus, dar va adăuga muncă: fiecare preț nou, promoție sau articol trebuie scris de două ori. După o jumătate de an, a doua versiune rămâne în urmă, iar site-ul începe să pară abandonat — ceea ce e mai rău decât dacă nu ar fi existat."
+            },
+            {
+              heading: "Cum funcționează pe dinăuntru",
+              body: "Un site multilingv făcut corect nu este o pagină cu un comutator care schimbă etichetele. Fiecare limbă are adresa ei: site.com/ro/servicii și site.com/ru/uslugi. Astfel Google vede două pagini separate și o arată pe fiecare publicului potrivit. Dacă textul este schimbat de un script la aceeași adresă, motorul de căutare vede o singură pagină într-o singură limbă, iar a doua versiune nu ajunge în rezultate — adică banii au fost cheltuiți degeaba."
+            },
+            {
+              heading: "Greșeala principală: traducerea automată",
+              body: "Un plugin care traduce pagina din mers pare o economie rezonabilă. În realitate iese un text pe care un vorbitor nativ îl citește zâmbind, iar Google îl marchează drept de slabă calitate. Mai ales denumirile serviciilor și produselor sună caraghios. Mai bine o limbă scrisă ca lumea decât două, dintre care una făcută de mașină. Dacă bugetul nu acoperă tot site-ul, traduceți pagina principală și serviciile, iar blogul lăsați-l în limba de bază."
+            }
+          ],
+          outro: "Dacă nu sunteți sigur că vă trebuie a doua limbă, scrieți-mi: mă uit la nișa dumneavoastră și la concurenții din căutare și vă spun sincer dacă se va amortiza. Uneori răspunsul cinstit este «nu vă trebuie», iar asta e tot o economie."
+        }
+      }
+    },
+    {
+      slug: "otkuda-prihodyat-klienty-analitika",
+      emoji: "📊",
+      date: "2026-10-28",
+      ctaHref: "/#contact",
+      i18n: {
+        ru: {
+          title: "Как понять, откуда к вам приходят клиенты",
+          excerpt: "«Кажется, из Instagram» — это не ответ. Какие три цифры смотреть владельцу сайта, что поставить, чтобы их видеть, и какие решения из них следуют.",
+          readTime: "6 мин",
+          ctaLabel: "Настроить аналитику",
+          intro: "Спросите у владельца бизнеса, откуда приходят клиенты, и чаще всего услышите «по-разному» или «наверное, сарафан». Это честный ответ, но на нём нельзя построить ни одного решения. А цифры, которые превращают догадку в факт, собираются бесплатно и ставятся за час.",
+          sections: [
+            {
+              heading: "Почему «сарафан» — это не ответ",
+              body: "Пока вы не знаете, что работает, вы не можете это усилить. Вкладывать в рекламу наугад — всё равно что поливать огород в темноте: что-то вырастет, но вы не узнаете что и почему. Самая дорогая ошибка здесь не потраченные деньги, а брошенный канал, который на самом деле приносил больше всех, просто его никто не считал."
+            },
+            {
+              heading: "Что показывает аналитика",
+              body: "Она отвечает на три вопроса. Сколько людей было на сайте. Откуда они пришли: из поиска Google, из Instagram, по прямой ссылке, из рекламы. Что они делали: на какие страницы заходили, сколько времени провели, оставили заявку или ушли с главной. Этого набора хватает, чтобы перестать гадать."
+            },
+            {
+              heading: "Что поставить",
+              body: "Google Analytics — бесплатно, показывает источники и поведение. Google Search Console — тоже бесплатно, и это важнее: она показывает, по каким запросам вас находят в поиске и на каком месте вы стоите. Для Яндекса есть Метрика с записью визитов: можно буквально посмотреть видео, как человек водил мышкой по вашему сайту и где закрыл вкладку. Всё это ставится один раз и дальше собирает данные само."
+            },
+            {
+              heading: "Какие три цифры смотреть",
+              body: "Первая: сколько посетителей в месяц и растёт ли число. Вторая: из какого источника приходит больше всего — именно эту колонку стоит открывать раз в месяц. Третья, самая важная: сколько заявок на сто посетителей. Если на сайт заходит триста человек, а заявок три, проблема не в рекламе, а в самом сайте — люди приходят и не понимают, что делать дальше."
+            },
+            {
+              heading: "Что с этим делать",
+              body: "Канал, который даёт заявки, усиливайте. Канал, который даёт переходы, но не даёт заявок, разбирайте: возможно, вы обещаете в рекламе одно, а на странице другое. Если из поиска приходит мало, смотрите в Search Console, по каким запросам вас уже показывают, и дописывайте под них страницы. Самое ценное свойство этих цифр в том, что они превращают спор «реклама не работает» в конкретную задачу."
+            }
+          ],
+          outro: "Если на вашем сайте ничего не стоит или стоит, но вы туда ни разу не заходили — напишите мне. Настрою аналитику и покажу, как читать отчёты, чтобы вы сами видели, откуда приходят люди и на каком шаге вы их теряете."
+        },
+        en: {
+          title: "How to find out where your clients actually come from",
+          excerpt: "«Instagram, I think» is not an answer. The three numbers a site owner should watch, what to install to see them, and what decisions follow.",
+          readTime: "6 min",
+          ctaLabel: "Set up analytics",
+          intro: "Ask a business owner where their clients come from and you will usually hear «it varies» or «word of mouth, probably». It is an honest answer, but not one you can build a single decision on. The numbers that turn a guess into a fact are free to collect and take about an hour to set up.",
+          sections: [
+            {
+              heading: "Why «word of mouth» is not an answer",
+              body: "Until you know what works, you cannot do more of it. Spending on ads blindly is like watering a garden in the dark: something will grow, but you will not know what or why. The costliest mistake here is not the money spent — it is abandoning a channel that was quietly bringing in the most, simply because nobody counted it."
+            },
+            {
+              heading: "What analytics shows you",
+              body: "It answers three questions. How many people visited the site. Where they came from: Google search, Instagram, a direct link, paid ads. And what they did: which pages they opened, how long they stayed, whether they sent an enquiry or left from the home page. That set is enough to stop guessing."
+            },
+            {
+              heading: "What to install",
+              body: "Google Analytics — free, shows sources and behaviour. Google Search Console — also free and arguably more important: it shows which search queries bring people to you and what position you hold. For the Russian-speaking market, Yandex Metrica records sessions, so you can literally watch a video of someone moving their mouse around your site and see where they closed the tab. All of it is installed once and then collects data on its own."
+            },
+            {
+              heading: "The three numbers to watch",
+              body: "First: visitors per month, and whether the number is growing. Second: which source brings the most — that is the column worth opening once a month. Third, and most important: enquiries per hundred visitors. If three hundred people reach the site and you get three enquiries, the problem is not advertising but the site itself; people arrive and cannot tell what to do next."
+            },
+            {
+              heading: "What to do with it",
+              body: "Put more into the channel that produces enquiries. Take apart the channel that produces visits but no enquiries — often the advert promises one thing and the landing page says another. If little arrives from search, open Search Console, see which queries already show your site and write pages that answer them. The real value of these numbers is that they turn «advertising does not work» into a specific task."
+            }
+          ],
+          outro: "If your site has nothing installed, or has it but you have never opened the reports — write to me. I will set analytics up and show you how to read it, so you can see for yourself where people come from and at which step you lose them."
+        },
+        ro: {
+          title: "Cum aflați de unde vin de fapt clienții",
+          excerpt: "«Cred că de pe Instagram» nu este un răspuns. Cele trei cifre pe care trebuie să le urmărească un proprietar de site, ce să instaleze ca să le vadă și ce decizii urmează.",
+          readTime: "6 min",
+          ctaLabel: "Configurăm analiza",
+          intro: "Întrebați un antreprenor de unde îi vin clienții și de cele mai multe ori veți auzi «depinde» sau «probabil din recomandări». Este un răspuns sincer, dar pe el nu se poate construi nicio decizie. Iar cifrele care transformă presupunerea în fapt se adună gratuit și se instalează într-o oră.",
+          sections: [
+            {
+              heading: "De ce «din recomandări» nu e un răspuns",
+              body: "Până nu știți ce funcționează, nu puteți amplifica. Să investiți în reclamă la nimereală e ca și cum ați uda grădina pe întuneric: ceva va crește, dar nu veți ști ce și de ce. Cea mai scumpă greșeală aici nu sunt banii cheltuiți, ci canalul abandonat care, în realitate, aducea cel mai mult, doar că nimeni nu l-a numărat."
+            },
+            {
+              heading: "Ce arată analiza",
+              body: "Răspunde la trei întrebări. Câți oameni au fost pe site. De unde au venit: din căutarea Google, de pe Instagram, printr-un link direct, din reclamă. Și ce au făcut: ce pagini au deschis, cât au stat, dacă au trimis o cerere sau au plecat de pe prima pagină. Atât este suficient ca să nu mai ghiciți."
+            },
+            {
+              heading: "Ce să instalați",
+              body: "Google Analytics — gratuit, arată sursele și comportamentul. Google Search Console — tot gratuit și, de fapt, mai important: arată după ce căutări sunteți găsit și pe ce poziție vă aflați. Pentru publicul rusofon există Yandex Metrica, care înregistrează vizitele: puteți urmări literalmente un film cu mișcarea mouse-ului pe site și locul unde omul a închis fila. Toate se instalează o singură dată și apoi adună date singure."
+            },
+            {
+              heading: "Cele trei cifre de urmărit",
+              body: "Prima: câți vizitatori pe lună și dacă numărul crește. A doua: din ce sursă vin cei mai mulți — exact această coloană merită deschisă o dată pe lună. A treia, cea mai importantă: câte cereri la o sută de vizitatori. Dacă pe site intră trei sute de oameni și primiți trei cereri, problema nu e reclama, ci site-ul: oamenii ajung și nu înțeleg ce să facă mai departe."
+            },
+            {
+              heading: "Ce faceți cu aceste date",
+              body: "Canalul care aduce cereri merită întărit. Canalul care aduce vizite, dar nu cereri, merită analizat: deseori reclama promite una, iar pagina spune alta. Dacă din căutare vine puțin, deschideți Search Console, vedeți la ce întrebări apăreți deja și scrieți pagini care le răspund. Valoarea reală a acestor cifre este că transformă disputa «reclama nu funcționează» într-o sarcină concretă."
+            }
+          ],
+          outro: "Dacă pe site-ul dumneavoastră nu este instalat nimic, sau este, dar nu ați deschis niciodată rapoartele — scrieți-mi. Configurez analiza și vă arăt cum se citește, ca să vedeți singur de unde vin oamenii și la ce pas îi pierdeți."
+        }
+      }
+    },
+  {
     slug: "mobilnaya-versiya-sayta",
     emoji: "📱",
     date: "2026-10-20",
